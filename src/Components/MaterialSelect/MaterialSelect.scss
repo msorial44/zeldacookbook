@@ -1,0 +1,17 @@
+.MaterialSelect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 100vh;
+    background-color: gray;
+    overflow: scroll;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.MaterialSelect::-webkit-scrollbar {
+    display: none;
+}
