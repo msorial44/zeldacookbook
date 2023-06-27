@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import MaterialSelect from './Components/MaterialSelect/MaterialSelect';
 import MaterialDisplay from './Components/MaterialDisplay/MaterialDisplay';
+import DishSelect from './Components/DishSelect/DishSelect';
 import './App.scss';
 
 type Mats = {
@@ -26,9 +27,6 @@ function App() {
   const [Ingredients, setIngredients] = useState<Mats[]>([]);
 
   function handleAdd(mats: Mats): void {
-    if (Ingredients.includes(mats)) { 
-      return;
-    }
     if (Ingredients.length >= 5) {
       return;
     }
@@ -47,6 +45,7 @@ function App() {
       <MaterialSelect handleClick={handleAdd} />
       <div className="Result" onClick={handleClick}>
         <MaterialDisplay data={Ingredients} handleClick={handleRemove}/>
+        <DishSelect data={Ingredients}/>
       </div>
     </div>
     
