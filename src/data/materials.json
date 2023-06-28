@@ -13,6 +13,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "Apple or Wildberry",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 1
  },
  {
@@ -29,6 +30,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 2
  },
  {
@@ -45,6 +47,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 3
  },
  {
@@ -61,6 +64,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "Apple or Wildberry",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 4
  },
  {
@@ -77,6 +81,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "Apple or Wildberry",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 5
  },
  {
@@ -93,6 +98,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 6
  },
  {
@@ -109,6 +115,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 7
  },
  {
@@ -125,6 +132,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 8
  },
  {
@@ -141,6 +149,7 @@
    "Cooking Tag (Custom)": "Dessert Fruit",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 9
  },
  {
@@ -157,6 +166,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 10
  },
  {
@@ -173,6 +183,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 11
  },
  {
@@ -189,6 +200,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 12
  },
  {
@@ -205,6 +217,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 13
  },
  {
@@ -221,6 +234,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 14
  },
  {
@@ -237,6 +251,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fruit",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 15
  },
  {
@@ -253,6 +268,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Foreign",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 16
  },
  {
@@ -269,6 +285,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Foreign",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 17
  },
  {
@@ -285,6 +302,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Foreign",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 18
  },
  {
@@ -292,6 +310,23 @@
    "Inventory Icon": "/Images/Items/Item_Mushroom_N.png",
    "Caption": "Years of going unpicked have allowed this\nhearty truffle to grow quite large. When\ncooked into a dish, it'll restore all hearts and\ntemporarily increase your maximum hearts.",
    "Hearts Recovered": "3",
+   "Cooking Effect": "LifeMaxUp",
+   "Cooking Effect Level": "16",
+   "Cooking Effect Time Boost Duration (Raw)": 0,
+   "Cooking Tag 1": " CookMushroom",
+   "Cooking Tag 2": "-",
+   "Cooking Tag 3": "-",
+   "Cooking Tag (Custom)": "-",
+   "Cooking Tag (Custom) 2": "-",
+   "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
+   "Inventory Order (By type)": 19
+ },
+ {
+   "Name": "Hearty Truffle",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_F.png",
+   "Caption": "This rare mushroom has a rich scent.\nIt'll restore all your hearts and temporarily\nincrease your maximum hearts when used in\ncooking.",
+   "Hearts Recovered": "2",
    "Cooking Effect": "LifeMaxUp",
    "Cooking Effect Level": "4",
    "Cooking Effect Time Boost Duration (Raw)": 0,
@@ -301,22 +336,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
-   "Inventory Order (By type)": 19
- },
- {
-   "Name": "Hearty Truffle",
-   "Inventory Icon": "/Images/Items/Item_Mushroom_F.png",
-   "Caption": "This rare mushroom has a rich scent.\nIt'll restore all your hearts and temporarily\nincrease your maximum hearts when used in\ncooking.",
-   "Hearts Recovered": "2",
-   "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "1",
-   "Cooking Effect Time Boost Duration (Raw)": 0,
-   "Cooking Tag 1": " CookMushroom",
-   "Cooking Tag 2": "-",
-   "Cooking Tag 3": "-",
-   "Cooking Tag (Custom)": "-",
-   "Cooking Tag (Custom) 2": "-",
-   "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 20
  },
  {
@@ -333,6 +353,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 21
  },
  {
@@ -349,6 +370,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 22
  },
  {
@@ -365,6 +387,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 23
  },
  {
@@ -381,6 +404,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 24
  },
  {
@@ -397,6 +421,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 25
  },
  {
@@ -413,6 +438,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 26
  },
  {
@@ -429,6 +455,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 27
  },
  {
@@ -445,6 +472,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 28
  },
  {
@@ -461,6 +489,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 29
  },
  {
@@ -477,6 +506,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 30
  },
  {
@@ -493,6 +523,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 31
  },
  {
@@ -509,6 +540,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Mushroom",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 32
  },
  {
@@ -517,7 +549,7 @@
    "Caption": "This hearty radish is much larger than the\naverage radish. When cooked into a dish, it\nrestores all your hearts and temporarily\nincreases your maximum hearts.",
    "Hearts Recovered": "4",
    "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "5",
+   "Cooking Effect Level": "20",
    "Cooking Effect Time Boost Duration (Raw)": 0,
    "Cooking Tag 1": " CookPlant",
    "Cooking Tag 2": "-",
@@ -525,6 +557,7 @@
    "Cooking Tag (Custom)": "Radish",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 33
  },
  {
@@ -533,7 +566,7 @@
    "Caption": "A rare radish that grows best in sunny plains.\nCook it before eating to restore all your hearts\nand temporarily increase your maximum\nhearts.",
    "Hearts Recovered": "2.5",
    "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "3",
+   "Cooking Effect Level": "12",
    "Cooking Effect Time Boost Duration (Raw)": 0,
    "Cooking Tag 1": " CookPlant",
    "Cooking Tag 2": "-",
@@ -541,6 +574,7 @@
    "Cooking Tag (Custom)": "Radish",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 34
  },
  {
@@ -557,6 +591,7 @@
    "Cooking Tag (Custom)": "Pumpkin or Carrot",
    "Cooking Tag (Custom) 2": "Carrot",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 35
  },
  {
@@ -573,6 +608,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 36
  },
  {
@@ -589,6 +625,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 37
  },
  {
@@ -605,6 +642,7 @@
    "Cooking Tag (Custom)": "Pumpkin or Carrot",
    "Cooking Tag (Custom) 2": "Pumpkin",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 38
  },
  {
@@ -621,6 +659,7 @@
    "Cooking Tag (Custom)": "Pumpkin or Carrot",
    "Cooking Tag (Custom) 2": "Pumpkin",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 39
  },
  {
@@ -637,6 +676,7 @@
    "Cooking Tag (Custom)": "Pumpkin or Carrot",
    "Cooking Tag (Custom) 2": "Carrot",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 40
  },
  {
@@ -653,6 +693,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 41
  },
  {
@@ -669,6 +710,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 42
  },
  {
@@ -685,6 +727,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 43
  },
  {
@@ -701,6 +744,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 44
  },
  {
@@ -717,6 +761,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 45
  },
  {
@@ -733,6 +778,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 46
  },
  {
@@ -749,6 +795,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 47
  },
  {
@@ -765,6 +812,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 48
  },
  {
@@ -781,6 +829,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 49
  },
  {
@@ -797,6 +846,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Plant",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 50
  },
  {
@@ -813,6 +863,7 @@
    "Cooking Tag (Custom)": "Tier 3 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 51
  },
  {
@@ -829,6 +880,7 @@
    "Cooking Tag (Custom)": "Tier 3 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 52
  },
  {
@@ -845,6 +897,7 @@
    "Cooking Tag (Custom)": "Tier 2 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 53
  },
  {
@@ -861,6 +914,7 @@
    "Cooking Tag (Custom)": "Tier 2 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 54
  },
  {
@@ -877,6 +931,7 @@
    "Cooking Tag (Custom)": "Tier 1 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 55
  },
  {
@@ -893,6 +948,7 @@
    "Cooking Tag (Custom)": "Tier 1 Meat",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Meat",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 56
  },
  {
@@ -909,6 +965,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 57
  },
  {
@@ -925,6 +982,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 58
  },
  {
@@ -941,6 +999,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 59
  },
  {
@@ -957,6 +1016,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 60
  },
  {
@@ -973,6 +1033,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 61
  },
  {
@@ -989,6 +1050,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 62
  },
  {
@@ -1005,6 +1067,7 @@
    "Cooking Tag (Custom)": "Nut",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 2,
    "Inventory Order (By type)": 63
  },
  {
@@ -1021,6 +1084,7 @@
    "Cooking Tag (Custom)": "Nut",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 2,
    "Inventory Order (By type)": 64
  },
  {
@@ -1037,6 +1101,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 65
  },
  {
@@ -1053,6 +1118,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 66
  },
  {
@@ -1069,6 +1135,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 67
  },
  {
@@ -1085,6 +1152,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 68
  },
  {
@@ -1101,6 +1169,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 69
  },
  {
@@ -1117,6 +1186,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 70
  },
  {
@@ -1133,6 +1203,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 71
  },
  {
@@ -1149,6 +1220,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Boost",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 72
  },
  {
@@ -1157,7 +1229,7 @@
    "Caption": "This fish makes its home in cold water, giving\nit extra layers of fat. It'll restore all your hearts\nand temporarily increase your maximum\nhearts when used in cooking.",
    "Hearts Recovered": "4",
    "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "4",
+   "Cooking Effect Level": "16",
    "Cooking Effect Time Boost Duration (Raw)": 0,
    "Cooking Tag 1": " CookFish",
    "Cooking Tag 2": "-",
@@ -1165,6 +1237,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 73
  },
  {
@@ -1173,7 +1246,7 @@
    "Caption": "This large fish lives near the water's edge.\nIts sizable body can store a lot of nutrients.\nWhen used in cooking, it'll restore all your\nhearts and increase your maximum hearts.",
    "Hearts Recovered": "2",
    "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "2",
+   "Cooking Effect Level": "8",
    "Cooking Effect Time Boost Duration (Raw)": 0,
    "Cooking Tag 1": " CookFish",
    "Cooking Tag 2": "-",
@@ -1181,6 +1254,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 74
  },
  {
@@ -1197,6 +1271,7 @@
    "Cooking Tag (Custom)": "Bass",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 75
  },
  {
@@ -1213,6 +1288,7 @@
    "Cooking Tag (Custom)": "Bass",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 76
  },
  {
@@ -1229,6 +1305,7 @@
    "Cooking Tag (Custom)": "Trout",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 77
  },
  {
@@ -1245,6 +1322,7 @@
    "Cooking Tag (Custom)": "Trout",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 78
  },
  {
@@ -1261,6 +1339,7 @@
    "Cooking Tag (Custom)": "Trout",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 79
  },
  {
@@ -1277,6 +1356,7 @@
    "Cooking Tag (Custom)": "Trout",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 80
  },
  {
@@ -1293,6 +1373,7 @@
    "Cooking Tag (Custom)": "Carp",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 81
  },
  {
@@ -1309,6 +1390,7 @@
    "Cooking Tag (Custom)": "Carp",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 82
  },
  {
@@ -1325,6 +1407,7 @@
    "Cooking Tag (Custom)": "Carp",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 83
  },
  {
@@ -1341,6 +1424,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 84
  },
  {
@@ -1357,6 +1441,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 85
  },
  {
@@ -1373,6 +1458,7 @@
    "Cooking Tag (Custom)": "Porgy",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 86
  },
  {
@@ -1389,6 +1475,7 @@
    "Cooking Tag (Custom)": "Porgy",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 87
  },
  {
@@ -1405,6 +1492,7 @@
    "Cooking Tag (Custom)": "Seafood",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 88
  },
  {
@@ -1421,6 +1509,7 @@
    "Cooking Tag (Custom)": "Seafood",
    "Cooking Tag (Custom) 2": "Crab",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 89
  },
  {
@@ -1437,6 +1526,7 @@
    "Cooking Tag (Custom)": "Seafood",
    "Cooking Tag (Custom) 2": "Crab",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 90
  },
  {
@@ -1453,6 +1543,7 @@
    "Cooking Tag (Custom)": "Seafood",
    "Cooking Tag (Custom) 2": "Crab",
    "MaterialCategory": "Fish",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 91
  },
  {
@@ -1469,6 +1560,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Fairy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 92
  },
  {
@@ -1485,6 +1577,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 93
  },
  {
@@ -1501,6 +1594,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 94
  },
  {
@@ -1517,6 +1611,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 95
  },
  {
@@ -1533,6 +1628,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 96
  },
  {
@@ -1549,6 +1645,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 97
  },
  {
@@ -1565,6 +1662,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 98
  },
  {
@@ -1581,6 +1679,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 99
  },
  {
@@ -1597,6 +1696,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 100
  },
  {
@@ -1613,6 +1713,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 101
  },
  {
@@ -1629,6 +1730,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 102
  },
  {
@@ -1645,6 +1747,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 103
  },
  {
@@ -1661,6 +1764,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 104
  },
  {
@@ -1677,6 +1781,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 105
  },
  {
@@ -1693,6 +1798,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 106
  },
  {
@@ -1709,6 +1815,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 107
  },
  {
@@ -1725,15 +1832,16 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 108
  },
  {
    "Name": "Hearty Lizard",
    "Inventory Icon": "/Images/Items/Animal_Insect_M.png",
    "Caption": "This rare lizard lives deep in the forests. It\nfeeds on high-nutrient foods, giving it great\nvitality. When used to make elixirs, they\ntemporarily increase your maximum hearts.",
-   "Hearts Recovered": "4",
+   "Hearts Recovered": "16",
    "Cooking Effect": "LifeMaxUp",
-   "Cooking Effect Level": "4",
+   "Cooking Effect Level": "16",
    "Cooking Effect Time Boost Duration (Raw)": 0,
    "Cooking Tag 1": " CookInsect [Hearty]",
    "Cooking Tag 2": "-",
@@ -1741,6 +1849,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 109
  },
  {
@@ -1757,6 +1866,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 110
  },
  {
@@ -1773,6 +1883,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 111
  },
  {
@@ -1789,6 +1900,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Critter",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 112
  },
  {
@@ -1805,6 +1917,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 121
  },
  {
@@ -1821,6 +1934,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 122
  },
  {
@@ -1837,6 +1951,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 123
  },
  {
@@ -1853,6 +1968,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 124
  },
  {
@@ -1869,6 +1985,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 125
  },
  {
@@ -1885,6 +2002,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 126
  },
  {
@@ -1901,6 +2019,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 127
  },
  {
@@ -1917,6 +2036,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 128
  },
  {
@@ -1933,6 +2053,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 129
  },
  {
@@ -1949,6 +2070,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 130
  },
  {
@@ -1965,6 +2087,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 131
  },
  {
@@ -1981,6 +2104,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 132
  },
  {
@@ -1997,6 +2121,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 133
  },
  {
@@ -2013,6 +2138,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 134
  },
  {
@@ -2029,6 +2155,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 135
  },
  {
@@ -2045,6 +2172,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 136
  },
  {
@@ -2061,6 +2189,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 137
  },
  {
@@ -2077,6 +2206,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 138
  },
  {
@@ -2093,6 +2223,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 139
  },
  {
@@ -2109,6 +2240,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 140
  },
  {
@@ -2125,6 +2257,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 141
  },
  {
@@ -2141,6 +2274,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 142
  },
  {
@@ -2157,6 +2291,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 143
  },
  {
@@ -2173,6 +2308,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 144
  },
  {
@@ -2189,6 +2325,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 145
  },
  {
@@ -2205,6 +2342,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 146
  },
  {
@@ -2221,6 +2359,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 147
  },
  {
@@ -2237,6 +2376,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 148
  },
  {
@@ -2253,6 +2393,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 149
  },
  {
@@ -2269,6 +2410,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 150
  },
  {
@@ -2285,6 +2427,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 151
  },
  {
@@ -2301,6 +2444,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 152
  },
  {
@@ -2317,6 +2461,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 153
  },
  {
@@ -2333,6 +2478,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 154
  },
  {
@@ -2349,6 +2495,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 155
  },
  {
@@ -2365,6 +2512,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 156
  },
  {
@@ -2381,6 +2529,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 157
  },
  {
@@ -2397,6 +2546,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 158
  },
  {
@@ -2413,6 +2563,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 159
  },
  {
@@ -2429,6 +2580,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 160
  },
  {
@@ -2445,6 +2597,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 161
  },
  {
@@ -2461,6 +2614,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 162
  },
  {
@@ -2477,6 +2631,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 163
  },
  {
@@ -2493,6 +2648,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 164
  },
  {
@@ -2509,6 +2665,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 165
  },
  {
@@ -2525,6 +2682,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 166
  },
  {
@@ -2541,6 +2699,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 167
  },
  {
@@ -2557,6 +2716,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 168
  },
  {
@@ -2573,6 +2733,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 177
  },
  {
@@ -2589,6 +2750,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 178
  },
  {
@@ -2605,6 +2767,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 179
  },
  {
@@ -2621,6 +2784,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 180
  },
  {
@@ -2637,6 +2801,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 15,
    "Inventory Order (By type)": 181
  },
  {
@@ -2653,6 +2818,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 15,
    "Inventory Order (By type)": 182
  },
  {
@@ -2669,6 +2835,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 15,
    "Inventory Order (By type)": 183
  },
  {
@@ -2685,6 +2852,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 15,
    "Inventory Order (By type)": 184
  },
  {
@@ -2701,6 +2869,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 185
  },
  {
@@ -2717,6 +2886,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 186
  },
  {
@@ -2733,6 +2903,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 187
  },
  {
@@ -2749,6 +2920,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 188
  },
  {
@@ -2765,6 +2937,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 189
  },
  {
@@ -2781,6 +2954,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 190
  },
  {
@@ -2797,6 +2971,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 191
  },
  {
@@ -2813,6 +2988,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 192
  },
  {
@@ -2829,6 +3005,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 193
  },
  {
@@ -2845,6 +3022,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 194
  },
  {
@@ -2861,6 +3039,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 195
  },
  {
@@ -2877,6 +3056,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 196
  },
  {
@@ -2893,6 +3073,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 197
  },
  {
@@ -2909,6 +3090,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 198
  },
  {
@@ -2925,6 +3107,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 199
  },
  {
@@ -2941,6 +3124,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 200
  },
  {
@@ -2957,6 +3141,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 201
  },
  {
@@ -2973,6 +3158,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 202
  },
  {
@@ -2989,6 +3175,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 203
  },
  {
@@ -3005,6 +3192,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 204
  },
  {
@@ -3021,6 +3209,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 205
  },
  {
@@ -3037,6 +3226,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 206
  },
  {
@@ -3053,6 +3243,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 207
  },
  {
@@ -3069,6 +3260,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 208
  },
  {
@@ -3085,6 +3277,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 209
  },
  {
@@ -3101,6 +3294,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 210
  },
  {
@@ -3117,6 +3311,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 211
  },
  {
@@ -3133,6 +3328,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 212
  },
  {
@@ -3149,6 +3345,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 213
  },
  {
@@ -3165,6 +3362,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 214
  },
  {
@@ -3181,6 +3379,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 215
  },
  {
@@ -3197,6 +3396,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 216
  },
  {
@@ -3213,6 +3413,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 217
  },
  {
@@ -3229,6 +3430,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 218
  },
  {
@@ -3245,6 +3447,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 219
  },
  {
@@ -3261,6 +3464,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 220
  },
  {
@@ -3277,6 +3481,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 221
  },
  {
@@ -3293,6 +3498,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 222
  },
  {
@@ -3309,6 +3515,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 223
  },
  {
@@ -3325,6 +3532,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 224
  },
  {
@@ -3341,6 +3549,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 225
  },
  {
@@ -3357,6 +3566,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 226
  },
  {
@@ -3373,6 +3583,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 227
  },
  {
@@ -3389,6 +3600,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 228
  },
  {
@@ -3405,6 +3617,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Enemy",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 229
  },
  {
@@ -3421,6 +3634,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 5,
    "Inventory Order (By type)": 230
  },
  {
@@ -3437,6 +3651,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 5,
    "Inventory Order (By type)": 231
  },
  {
@@ -3453,6 +3668,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 5,
    "Inventory Order (By type)": 232
  },
  {
@@ -3469,6 +3685,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 5,
    "Inventory Order (By type)": 233
  },
  {
@@ -3485,6 +3702,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 8,
    "Inventory Order (By type)": 234
  },
  {
@@ -3501,6 +3719,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 8,
    "Inventory Order (By type)": 235
  },
  {
@@ -3517,6 +3736,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 8,
    "Inventory Order (By type)": 236
  },
  {
@@ -3533,6 +3753,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 8,
    "Inventory Order (By type)": 237
  },
  {
@@ -3549,6 +3770,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 10,
    "Inventory Order (By type)": 238
  },
  {
@@ -3565,6 +3787,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 10,
    "Inventory Order (By type)": 239
  },
  {
@@ -3581,6 +3804,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 10,
    "Inventory Order (By type)": 240
  },
  {
@@ -3597,6 +3821,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "Dragon",
+   "CookingHitPointBoost": 10,
    "Inventory Order (By type)": 241
  },
  {
@@ -3613,6 +3838,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "FireWoodBundle",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 244
  },
  {
@@ -3629,6 +3855,7 @@
    "Cooking Tag (Custom)": "-",
    "Cooking Tag (Custom) 2": "-",
    "MaterialCategory": "FireWoodBundle",
+   "CookingHitPointBoost": 0,
    "Inventory Order (By type)": 245
  }
 ]

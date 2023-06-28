@@ -19,6 +19,7 @@ type Mats = {
   "Cooking Tag (Custom)": string;
   "Cooking Tag (Custom) 2": string;
   "MaterialCategory": string;
+  "CookingHitPointBoost": string;
   "Inventory Order (By type)": number;
 };
 export type { Mats };

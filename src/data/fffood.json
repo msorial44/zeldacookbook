@@ -192,9 +192,9 @@
    "Euen name": "Steamed Tomatoes",
    "Recipe n°": 10,
    "Recipe": "\"CookPlant\" && \"Hylian Tomato\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -280,9 +280,9 @@
    "Euen name": "Fried Wild Greens",
    "Recipe n°": 16,
    "Recipe": "\"Stambulb\" && \"Goat Butter\" && \"Dark Clump\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 1
  },
  {
@@ -324,9 +324,9 @@
    "Euen name": "Cooked Stambulb",
    "Recipe n°": 18,
    "Recipe": "\"Stambulb\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 1
  },
  {
@@ -335,9 +335,9 @@
    "Euen name": "Buttered Stambulb",
    "Recipe n°": 19,
    "Recipe": "\"Stambulb\" && \"Goat Butter\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -555,9 +555,9 @@
    "Euen name": "Fragrant Seafood Stew",
    "Recipe n°": 39,
    "Recipe": "\"CookFish\" && \"Stambulb\" && \"Oil Jar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -566,9 +566,9 @@
    "Euen name": "Deep-Fried Drumstick",
    "Recipe n°": 40,
    "Recipe": "\"Raw Bird Drumstick\" && \"Oil Jar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -577,9 +577,9 @@
    "Euen name": "Deep-Fried Thigh",
    "Recipe n°": 41,
    "Recipe": "\"Raw Bird Thigh\" && \"Oil Jar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -588,9 +588,9 @@
    "Euen name": "Deep-Fried Bird Roast",
    "Recipe n°": 42,
    "Recipe": "\"Raw Whole Bird\" && \"Oil Jar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -698,9 +698,9 @@
    "Euen name": "Fruity Tomato Stew",
    "Recipe n°": 50,
    "Recipe": "\"Hylian Tomato\" && \"Fresh Milk\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -709,9 +709,9 @@
    "Euen name": "Fruity Tomato Stew",
    "Recipe n°": 50,
    "Recipe": "\"Hylian Tomato\" && \"Fresh Milk\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -720,9 +720,9 @@
    "Euen name": "Tomato Mushroom Stew",
    "Recipe n°": 51,
    "Recipe": "\"CookMushroom\" && \"Hylian Tomato\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -731,9 +731,9 @@
    "Euen name": "Tomato Seafood Soup",
    "Recipe n°": 52,
    "Recipe": "\"CookFish\" && \"Hylian Tomato\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -797,9 +797,9 @@
    "Euen name": "Snail Chowder",
    "Recipe n°": 58,
    "Recipe": "\"Sneaky River Snail\" && \"Tabantha Wheat\" && \"Fresh Milk\" && \"Goat Butter\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -962,9 +962,9 @@
    "Euen name": "Cheesy Curry",
    "Recipe n°": 73,
    "Recipe": "\"Hylian Rice\" && \"Hateno Cheese\" && \"Goron Spice\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1083,9 +1083,9 @@
    "Euen name": "Cheesy Risotto",
    "Recipe n°": 84,
    "Recipe": "(\"CookFish\" || \"CookMushroom\" || \"CookPlant\") && \"Hateno Cheese\" && \"Hylian Rice\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1127,9 +1127,9 @@
    "Euen name": "Seafood Paella",
    "Recipe n°": 88,
    "Recipe": "(\"Mighty Porgy\" || \"Armored Porgy\") && (\"Razorclaw Crab\" || \"Ironshell Crab\") && \"Hylian Rice\" && \"Goat Butter\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 5
  },
  {
@@ -1160,9 +1160,9 @@
    "Euen name": "Crunchy Fried Rice",
    "Recipe n°": 91,
    "Recipe": "\"CookMeat\" && \"Oil Jar\" && \"Hylian Rice\" && \"Bird Egg\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1226,9 +1226,9 @@
    "Euen name": "Cheesy Meat Bowl",
    "Recipe n°": 97,
    "Recipe": "\"Raw Meat\" && \"Hylian Rice\" && \"Hateno Cheese\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1237,9 +1237,9 @@
    "Euen name": "Prime Cheesy Meat Bowl",
    "Recipe n°": 98,
    "Recipe": "\"Raw Prime Meat\" && \"Hylian Rice\" && \"Hateno Cheese\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1248,9 +1248,9 @@
    "Euen name": "Gourmet Cheesy Meat Bowl",
    "Recipe n°": 99,
    "Recipe": "\"Raw Gourmet Meat\" && \"Hylian Rice\" && \"Hateno Cheese\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1303,9 +1303,9 @@
    "Euen name": "Veggie Porridge",
    "Recipe n°": 104,
    "Recipe": "\"CookPlant\" && \"Hylian Rice\" && \"Fresh Milk\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1325,9 +1325,9 @@
    "Euen name": "Melty Cheesy Bread",
    "Recipe n°": 106,
    "Recipe": "\"Tabantha Wheat\" && \"Oil Jar\" && \"Hateno Cheese\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1336,9 +1336,9 @@
    "Euen name": "Hylian Tomato Pizza",
    "Recipe n°": 107,
    "Recipe": "\"Hylian Tomato\" && \"Tabantha Wheat\" && \"Hateno Cheese\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1369,9 +1369,9 @@
    "Euen name": "Cheesy Tomato",
    "Recipe n°": 110,
    "Recipe": "\"Hylian Tomato\" && \"Hateno Cheese\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 2
  },
  {
@@ -1380,9 +1380,9 @@
    "Euen name": "Cheesy Baked Fish",
    "Recipe n°": 111,
    "Recipe": "\"CookFish\" && \"Hateno Cheese\" && \"Oil Jar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1435,9 +1435,9 @@
    "Euen name": "Cheesy Omelette",
    "Recipe n°": 115,
    "Recipe": "(\"CookMushroom\" || \"CookPlant\") && \"Hateno Cheese\" && \"Bird Egg\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1589,9 +1589,9 @@
    "Euen name": "Cheesecake",
    "Recipe n°": 129,
    "Recipe": "\"Hateno Cheese\" && \"Tabantha Wheat\" && \"Cane Sugar\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1644,9 +1644,9 @@
    "Euen name": "Noble Pursuit",
    "Recipe n°": 134,
    "Recipe": "\"Palm Fruit\" && \"Hydromelon\" && \"Voltfruit\" && \"Rock Salt\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1710,9 +1710,9 @@
    "Euen name": "Dark Stew",
    "Recipe n°": 140,
    "Recipe": "\"Dark Clump\" && \"CookMeat\" && \"CookFish\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1721,9 +1721,9 @@
    "Euen name": "Dark Soup",
    "Recipe n°": 141,
    "Recipe": "\"Dark Clump\" && \"Tabantha Wheat\" && \"Goat Butter\" && \"Fresh Milk\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1732,9 +1732,9 @@
    "Euen name": "Dark Curry",
    "Recipe n°": 142,
    "Recipe": "\"Dark Clump\" && \"Goron Spice\" && \"Hylian Rice\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1743,9 +1743,9 @@
    "Euen name": "Dark Rice Ball",
    "Recipe n°": 143,
    "Recipe": "\"Dark Clump\" && \"Rock Salt\" && \"Hylian Rice\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 3
  },
  {
@@ -1754,9 +1754,9 @@
    "Euen name": "Dark Cake",
    "Recipe n°": 144,
    "Recipe": "\"Dark Clump\" && \"Cane Sugar\" && \"Tabantha Wheat\" && \"Goat Butter\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 4
  },
  {
@@ -1765,9 +1765,9 @@
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
    "Recipe": "\"CookForeign\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 1
  },
  {
@@ -1776,9 +1776,9 @@
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
    "Recipe": "\"CookGolem\"",
-   "BonusHeart": null,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusHeart": 0,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 1
  },
  {
@@ -1964,8 +1964,8 @@
    "Recipe n°": 228,
    "Recipe": "\"Fairy\" && (\"CookGolem\" || \"CookForeign\")",
    "BonusHeart": -12,
-   "BonusLevel": null,
-   "BonusTime": null,
+   "BonusLevel": 0,
+   "BonusTime": 0,
    "ReqIngredients": 1
  },
  {

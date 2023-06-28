@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import recipes from '../../data/fffood.json';
 import type { Mats } from '../../App';
+import StatDisplay from '../StatDisplay/StatDisplay';
 import './DishSelect.scss';
 
 export type Recipe = typeof recipes[0];   
@@ -21,6 +22,7 @@ let undefRecipe: Recipe = {
 function DishSelect(props: any) {
     const [Dish, setDish] = useState<Recipe>(undefRecipe);
     const [Effect, setEffect] = useState<string>("");
+    const [EffectVal, setEffectVal] = useState<string>("");
     useEffect(() => {
         findRecipe(props.data);
     }, [props.data]);
@@ -183,15 +185,18 @@ function DishSelect(props: any) {
         let effectList: string[] = [];
         if ((Dish['Euen name'] === "Fairy Tonic") || (Dish['Euen name'] === "Dubious Food")) {
             setEffect("");
+            setEffectVal("None");
             return;
         }
         if (data.length === 0) {
             setEffect("");
+            setEffectVal("None");
             return;
         }
         for (const item of data) {
             if (item["MaterialCategory"] === "Critter") {
                 setEffect("");
+                setEffectVal("None");
                 return;
             }
             if (item["Cooking Effect"] !== "None") {
@@ -206,6 +211,7 @@ function DishSelect(props: any) {
             return;
         } else {
             let currEffect = newEffectList[0].trim();
+            setEffectVal(currEffect);
             switch (currEffect) {
                 case "AllSpeed":
                     setEffect("Hasty ");
@@ -270,6 +276,7 @@ function DishSelect(props: any) {
         <div className="DishSelect">
             <img src={Dish.Icon} alt={Dish["Euen name"]}/>
             <div className='Dish-Text'>{Effect + Dish['Euen name']}</div>
+            <StatDisplay effect={EffectVal} dish={Dish} data={props.data}/>
         </div>
     );
 
