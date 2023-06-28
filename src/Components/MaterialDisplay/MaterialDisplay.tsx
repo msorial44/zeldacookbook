@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Mats } from '../../App';
+import type { Mats } from '../MaterialSelect/MaterialSelect';
 import Material from '../Material/Material';
 import "./MaterialDisplay.scss";
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Material.scss';
-import type { Mats } from '../../App';
+import type { Mats } from '../MaterialSelect/MaterialSelect';
 
 
 function Material(props: any) {

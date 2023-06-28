@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import recipes from '../../data/fffood.json';
-import type { Mats } from '../../App';
+import type { Mats } from '../MaterialSelect/MaterialSelect';
 import StatDisplay from '../StatDisplay/StatDisplay';
 import './DishSelect.scss';
 
