@@ -28,6 +28,8 @@ function DishSelect(props: any) {
 
     function findRecipe(data: Mats[]) {
         if (data.length === 0) {
+            setDish(undefRecipe);
+            setEffect("");
             return;
         }
         const newData = data.filter(function(item, pos, self) {
@@ -55,7 +57,7 @@ function DishSelect(props: any) {
             Ing.push(x);
         }
 
-        const localRecipes: Recipe[] = recipes.filter((x: Recipe) => x["Recipe n°"] === 5 || x["Recipe n°"] === 6);
+        const localRecipes: Recipe[] = recipes;
         console.log(localRecipes);
         let finalRecipes: Recipe[] = [];
 
