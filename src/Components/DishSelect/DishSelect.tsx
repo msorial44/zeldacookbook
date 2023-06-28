@@ -25,6 +25,13 @@ function DishSelect(props: any) {
         findRecipe(props.data);
     }, [props.data]);
 
+    useEffect(() => {
+        const newData: Mats[] = props.data.filter(function(item: Mats, pos: number, self: Mats[]) {
+            return self.indexOf(item) === pos;
+        });
+        findEffect(newData);
+    }, [Dish, props.data]);
+
 
     function findRecipe(data: Mats[]) {
         if (data.length === 0) {
@@ -47,7 +54,6 @@ function DishSelect(props: any) {
         } else { 
             findFood(newData);
         }
-        findEffect(newData);
     }
 
     function findFood(data: Mats[]) { //ignore monster extract
@@ -96,7 +102,6 @@ function DishSelect(props: any) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
                 finalRecipe = x;
-                setEffect("");
             }
         } else {
             let names = finalRecipes.map((x: Recipe) => x["Euen name"]);
@@ -110,7 +115,6 @@ function DishSelect(props: any) {
                 let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
-                    setEffect("");
                 }
             } else if (elixir_count === 1) {
                 let x: any = finalRecipes.pop();
@@ -150,9 +154,6 @@ function DishSelect(props: any) {
                 let x: any = finalRecipes[0];
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
-                    if (finalRecipe["Euen name"] === "Dubious Food") {
-                        setEffect("");
-                    }
                 }
             }
         }
@@ -184,12 +185,13 @@ function DishSelect(props: any) {
             setEffect("");
             return;
         }
-        if ((data[0]["Name"] === "Dark Clump") && (data.length === 1)) {
+        if (data.length === 0) {
             setEffect("");
-            return
+            return;
         }
         for (const item of data) {
             if (item["MaterialCategory"] === "Critter") {
+                setEffect("");
                 return;
             }
             if (item["Cooking Effect"] !== "None") {
@@ -199,7 +201,7 @@ function DishSelect(props: any) {
         const newEffectList = effectList.filter(function(item, pos, self) {
             return self.indexOf(item) === pos;
         });
-        if (newEffectList.length > 1 || newEffectList.length === 0) {
+        if (newEffectList.length !== 1) {
             setEffect("");
             return;
         } else {
