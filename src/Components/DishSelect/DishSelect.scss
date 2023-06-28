@@ -1,0 +1,25 @@
+.DishSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: gray;
+    border-radius: 0.5rem;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.504);
+    width: 25vw;
+    height: 15vw;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+
+    img {
+        max-width: 12vw;
+        max-height: 12vw;
+    }
+
+    .Dish-Text {
+        font-size: 1.5vw;
+        color: white;
+        text-align: center;
+        margin-top: 0.5vw;
+    }
+}

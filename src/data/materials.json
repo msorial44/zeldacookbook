@@ -1,7 +1,7 @@
 [
  {
    "Name": "Golden Apple",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_P.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_P.png",
    "Caption": "A rare, very sweet fruit that seems to have an\nextra sparkle to it. Sometimes found near\nnormal apples.",
    "Hearts Recovered": "1.5",
    "Cooking Effect": "None",
@@ -17,7 +17,7 @@
  },
  {
    "Name": "Palm Fruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_G.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_G.png",
    "Caption": "Fruit from palm trees that grow near the\nocean. It doesn't offer any special effects\nbut will increase your heart recovery\nwhen used as an ingredient.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -33,7 +33,7 @@
  },
  {
    "Name": "Hylian Tomato",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_M.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_M.png",
    "Caption": "A fruit found widely from cold areas to warm\nclimates. Full of nutrition, and kind of trendy\nlately. Use it in cooking to recover more\nhearts.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -49,7 +49,7 @@
  },
  {
    "Name": "Apple",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_A.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_A.png",
    "Caption": "A common fruit eaten by people since ancient\ntimes. Eat it fresh, or cook it to increase\nits effect.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "None",
@@ -65,7 +65,7 @@
  },
  {
    "Name": "Wildberry",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_B.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_B.png",
    "Caption": "A fruit that grows in cold, snowy regions\nknown for its tangy, sweet flavor. It doesn't\noffer any special effects, but it's a popular\ncooking ingredient.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "None",
@@ -81,7 +81,7 @@
  },
  {
    "Name": "Voltfruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_C.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_C.png",
    "Caption": "Cacti found in the Gerudo Desert bear this\nsweet fruit. It's naturally insulated, so when\ncooked into a dish, it provides resistance\nagainst electricity.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistElectric",
@@ -97,7 +97,7 @@
  },
  {
    "Name": "Fleet-Lotus Seeds",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_E.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_E.png",
    "Caption": "The plant that bears these seeds grows near\ndeep water. The roots draw nutrients from the\nwater, which boosts your movement speed\nwhen the seeds are cooked into a dish.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "AllSpeed",
@@ -113,7 +113,7 @@
  },
  {
    "Name": "Hydromelon",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_F.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_F.png",
    "Caption": "This resilient fruit can flourish even in the\nheat of the desert. The hydrating liquid\ninside provides a cooling effect that, when\ncooked, increases your heat resistance.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistHot",
@@ -129,7 +129,7 @@
  },
  {
    "Name": "Mighty Bananas",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_H.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_H.png",
    "Caption": "This fruit grows mainly in tropical forests\nof the Faron region. When it's used as an\ningredient, the resulting dish will temporarily\nincrease your attack power.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "AttackUp",
@@ -145,7 +145,7 @@
  },
  {
    "Name": "Spicy Pepper",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_I.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_I.png",
    "Caption": "This pepper is exploding with spice.\nCook with it to create dishes that\nwill raise your body temperature and\nhelp you withstand the cold.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistCold",
@@ -161,7 +161,7 @@
  },
  {
    "Name": "Fire Fruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/FireFruit.png",
+   "Inventory Icon": "/Images/Items/FireFruit.png",
    "Caption": "A fruit that generates heat when struck.\nCooked correctly, its heating properties\nimprove blood flow and stimulate muscles to\nraise attack power in high temperatures.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "AttackUpHot",
@@ -177,7 +177,7 @@
  },
  {
    "Name": "Ice Fruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/IceFruit.png",
+   "Inventory Icon": "/Images/Items/IceFruit.png",
    "Caption": "A fruit that generates cold when struck.\nCooked correctly, it gives off an effect that\nstrengthens muscles and increases attack\npower in cold temperatures.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "AttackUpCold",
@@ -193,7 +193,7 @@
  },
  {
    "Name": "Shock Fruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/ElectricalFruit.png",
+   "Inventory Icon": "/Images/Items/ElectricalFruit.png",
    "Caption": "When cooked correctly, this shockingly tasty\nfruit stimulates the consumer's muscles and\ngrants increased attack power during\nthunderstorms.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "AttackUpThunderstorm",
@@ -209,7 +209,7 @@
  },
  {
    "Name": "Splash Fruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/WaterFruit.png",
+   "Inventory Icon": "/Images/Items/WaterFruit.png",
    "Caption": "A fruit that contains pressurized water.\nCooking it brings out its ability to enhance\nswim speed when ingested.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "SwimSpeedUp",
@@ -225,7 +225,7 @@
  },
  {
    "Name": "Dazzlefruit",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/LightFruit.png",
+   "Inventory Icon": "/Images/Items/LightFruit.png",
    "Caption": "A fruit charged with powerful light. Break it to\nunleash dazzling sparkles that blind any\nmonsters nearby.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "None",
@@ -241,7 +241,7 @@
  },
  {
    "Name": "Bomb Flower",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/BombFruit.png",
+   "Inventory Icon": "/Images/Items/BombFruit.png",
    "Caption": "A dangerous flower that contains explosive\nelements. Does not mix well with fire or\nelectricity, unless the goal is to blow\nthings up.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -257,7 +257,7 @@
  },
  {
    "Name": "Puffshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SmokeFruit.png",
+   "Inventory Icon": "/Images/Items/SmokeFruit.png",
    "Caption": "A mushroom that spreads a cloud of fine\nspores when a stimulus is applied. The bitter\npowder makes them inedible.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -273,7 +273,7 @@
  },
  {
    "Name": "Muddle Bud",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/ConfusionFruit.png",
+   "Inventory Icon": "/Images/Items/ConfusionFruit.png",
    "Caption": "A wildflower with a powerful odor that can\ndisorient and confuse, making it difficult to\ntell friend from foe.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -289,7 +289,7 @@
  },
  {
    "Name": "Big Hearty Truffle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_N.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_N.png",
    "Caption": "Years of going unpicked have allowed this\nhearty truffle to grow quite large. When\ncooked into a dish, it'll restore all hearts and\ntemporarily increase your maximum hearts.",
    "Hearts Recovered": "3",
    "Cooking Effect": "LifeMaxUp",
@@ -305,7 +305,7 @@
  },
  {
    "Name": "Hearty Truffle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_F.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_F.png",
    "Caption": "This rare mushroom has a rich scent.\nIt'll restore all your hearts and temporarily\nincrease your maximum hearts when used in\ncooking.",
    "Hearts Recovered": "2",
    "Cooking Effect": "LifeMaxUp",
@@ -321,7 +321,7 @@
  },
  {
    "Name": "Endura Shroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_O.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_O.png",
    "Caption": "A rare yellowish-orange mushroom. Cook it\nbefore eating to temporarily increase your\nstamina limit.",
    "Hearts Recovered": "1",
    "Cooking Effect": "StaminaUp",
@@ -337,7 +337,7 @@
  },
  {
    "Name": "Rushroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_MushroomGet_D.png",
+   "Inventory Icon": "/Images/Items/Item_MushroomGet_D.png",
    "Caption": "A mushroom that can grow almost anywhere\nbut prefers ceilings and sheer cliffs. Cook it\nbefore eating to temporarily increase your\nmovement speed.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "AllSpeed",
@@ -353,7 +353,7 @@
  },
  {
    "Name": "Brightcap",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_MushroomGet_K.png",
+   "Inventory Icon": "/Images/Items/Item_MushroomGet_K.png",
    "Caption": "A mushroom that grows in caves and contains\nluminescent enzymes. Cook it into a dish to\ngive a glowing effect to anyone who eats it.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "Glow",
@@ -369,7 +369,7 @@
  },
  {
    "Name": "Stamella Shroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_A.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_A.png",
    "Caption": "A nutritious mushroom chock-full of natural\nenergy. Cook it to release its stamina-\nrestoration properties.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "StaminaRegen",
@@ -385,7 +385,7 @@
  },
  {
    "Name": "Chillshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_B.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_B.png",
    "Caption": "Often found at the base of pine trees in cold\nclimates, these mushrooms are cool to the\ntouch and can be used to cook dishes that\nallow you to stay cool even in arid regions.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistHot",
@@ -401,7 +401,7 @@
  },
  {
    "Name": "Sunshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_C.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_C.png",
    "Caption": "A bright-red mushroom that grows in hot\nclimates. Imbued with the power of heat, \nit can be used to cook dishes that will\nallow you to endure the bitter cold.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistCold",
@@ -417,7 +417,7 @@
  },
  {
    "Name": "Hylian Shroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_E.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_E.png",
    "Caption": "A common mushroom found near trees\naround Hyrule. Eat it to restore half a heart.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "None",
@@ -433,7 +433,7 @@
  },
  {
    "Name": "Zapshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_H.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_H.png",
    "Caption": "This mushroom grows wild in the Gerudo\nregion. The cap is naturally insulated, so\nwhen used in cooking, it will offer protection\nagainst electricity.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "ResistElectric",
@@ -449,7 +449,7 @@
  },
  {
    "Name": "Silent Shroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_J.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_J.png",
    "Caption": "A strange mushroom that glows softly in\nthe forest at night. Cooking it into a dish\nunlocks the nutrients in its cap, resulting in\na meal that will allow you to move stealthily.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "StealthUp",
@@ -465,7 +465,7 @@
  },
  {
    "Name": "Razorshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_L.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_L.png",
    "Caption": "This mushroom is known for the natural slice\nin its cap. Eating it fosters your competitive\nspirit. Use it when cooking to prepare a dish\nthat will increase your strength.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "AttackUp",
@@ -481,7 +481,7 @@
  },
  {
    "Name": "Ironshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_M.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_M.png",
    "Caption": "The cap of this mushroom is very hard.\nUse it when cooking to prepare a dish\nthat increases your defense.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "DefenseUp",
@@ -497,7 +497,7 @@
  },
  {
    "Name": "Skyshroom",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Mushroom_P.png",
+   "Inventory Icon": "/Images/Items/Item_Mushroom_P.png",
    "Caption": "A common mushroom that grows near trees\non sky islands. Eat it to restore health.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "None",
@@ -513,7 +513,7 @@
  },
  {
    "Name": "Big Hearty Radish",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_C.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_C.png",
    "Caption": "This hearty radish is much larger than the\naverage radish. When cooked into a dish, it\nrestores all your hearts and temporarily\nincreases your maximum hearts.",
    "Hearts Recovered": "4",
    "Cooking Effect": "LifeMaxUp",
@@ -529,7 +529,7 @@
  },
  {
    "Name": "Hearty Radish",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_B.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_B.png",
    "Caption": "A rare radish that grows best in sunny plains.\nCook it before eating to restore all your hearts\nand temporarily increase your maximum\nhearts.",
    "Hearts Recovered": "2.5",
    "Cooking Effect": "LifeMaxUp",
@@ -545,7 +545,7 @@
  },
  {
    "Name": "Endura Carrot",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_Q.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_Q.png",
    "Caption": "Highly valued as a medicinal plant, this\ncarrot contains large amounts of nourishing\nenergy. When cooked into a dish, it boosts\nyour stamina beyond its maximum limit.",
    "Hearts Recovered": "2",
    "Cooking Effect": "StaminaUp",
@@ -561,7 +561,7 @@
  },
  {
    "Name": "Hyrule Herb",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_A.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_A.png",
    "Caption": "This healthy herb has not changed since\nancient times. Cook it before eating to\nincrease the number of hearts it restores.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -577,7 +577,7 @@
  },
  {
    "Name": "Silent Princess",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_J.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_J.png",
    "Caption": "This lovely flower was said to have been a\nfavorite of the princess of Hyrule. They were\nonce feared to have gone extinct, but it's not\nuncommon to spot them growing in the wild.",
    "Hearts Recovered": "-",
    "Cooking Effect": "StealthUp",
@@ -593,7 +593,7 @@
  },
  {
    "Name": "Fortified Pumpkin",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_J.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_J.png",
    "Caption": "An extremely tough pumpkin raised for food.\nWhen cooked, that toughness manifests itself\nby considerably upping defense.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "DefenseUp",
@@ -609,7 +609,7 @@
  },
  {
    "Name": "Sun Pumpkin",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_N.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_N.png",
    "Caption": "A new variety of pumpkin that soaks up the\nsunshine in Hateno Village. Baked into a dish,\nit can help heal the effects of exposure\nto gloom.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "GloomHeal",
@@ -625,7 +625,7 @@
  },
  {
    "Name": "Swift Carrot",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_M.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_M.png",
    "Caption": "This carrot is cultivated extensively in villages.\nIt strengthens the legs and hips when cooked\ninto a dish, which helps increase your\nmovement speed.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "AllSpeed",
@@ -641,7 +641,7 @@
  },
  {
    "Name": "Stambulb",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_S.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_S.png",
    "Caption": "A wild plant with bulging roots often found in\ncooler climates. It contains nutrients that\nincrease endurance. Cook it to restore\nstamina.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "StaminaRegen",
@@ -657,7 +657,7 @@
  },
  {
    "Name": "Korok Frond",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_U.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_U.png",
    "Caption": "A mysterious leaf that looks like it might be\nhiding something behind it. It has some\nmedicinal value. Attach it to a stick and it\ncan be used as a fan.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "None",
@@ -673,7 +673,7 @@
  },
  {
    "Name": "Cool Safflina",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_E.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_E.png",
    "Caption": "This medicinal plant grows in high elevations,\nsuch as mountains in the Hebra or Gerudo\nregions. When cooked into a dish, it will\ntemporarily increase your heat resistance.",
    "Hearts Recovered": "0",
    "Cooking Effect": "ResistHot",
@@ -689,7 +689,7 @@
  },
  {
    "Name": "Warm Safflina",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_F.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_F.png",
    "Caption": "This medicinal plant grows in hot regions,\nsuch as the Gerudo Desert. It's warm to the\ntouch and increases your cold resistance\nwhen cooked into a dish.",
    "Hearts Recovered": "0",
    "Cooking Effect": "ResistCold",
@@ -705,7 +705,7 @@
  },
  {
    "Name": "Mighty Thistle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_G.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_G.png",
    "Caption": "This medicinal plant is known for its sharp\nthorns and for the fruit it bears. The fruit\ncontains a compound that increases attack\npower when cooked into a dish.",
    "Hearts Recovered": "0",
    "Cooking Effect": "AttackUp",
@@ -721,7 +721,7 @@
  },
  {
    "Name": "Armoranth",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_H.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_H.png",
    "Caption": "This tough medicinal plant cannot be\nbroken, but it can be cooked. Its\ndurable yet flexible fibers raise your\ndefense when cooked into a dish.",
    "Hearts Recovered": "0",
    "Cooking Effect": "DefenseUp",
@@ -737,7 +737,7 @@
  },
  {
    "Name": "Blue Nightshade",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_I.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_I.png",
    "Caption": "A plant that grows in quieter areas of Hyrule.\nAt night, it gives off a soft glow.\nCook with it to increase your stealth.",
    "Hearts Recovered": "0",
    "Cooking Effect": "StealthUp",
@@ -753,7 +753,7 @@
  },
  {
    "Name": "Electric Safflina",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_L.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_L.png",
    "Caption": "This medicinal plant grows abundantly in the\nGerudo Desert. Its peculiar fibers conduct\nelectricity, which will increase your electricity\nresistance when cooked into a dish.",
    "Hearts Recovered": "0",
    "Cooking Effect": "ResistElectric",
@@ -769,7 +769,7 @@
  },
  {
    "Name": "Swift Violet",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_O.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_O.png",
    "Caption": "This vitality-rich flower blooms mainly on\ncliffsides. When cooked into a dish, the\nnourishing compounds increase your\nmovement speed.",
    "Hearts Recovered": "0",
    "Cooking Effect": "AllSpeed",
@@ -785,7 +785,7 @@
  },
  {
    "Name": "Sundelion",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_PlantGet_R.png",
+   "Inventory Icon": "/Images/Items/Item_PlantGet_R.png",
    "Caption": "A wild plant that grows in the sun at high\naltitudes. Soaked in sunlight, its petals can\nrestore health depleted by gloom when used\nin cooking.",
    "Hearts Recovered": "0",
    "Cooking Effect": "GloomHeal",
@@ -801,7 +801,7 @@
  },
  {
    "Name": "Raw Gourmet Meat",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_11.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_11.png",
    "Caption": "This prized cut of meat is usually from a large\nanimal. Any connoisseur would rank this\ntender, juicy cut of meat \"gourmet.\" Expect\nan exquisite meal when cooking with this.",
    "Hearts Recovered": "3",
    "Cooking Effect": "None",
@@ -817,7 +817,7 @@
  },
  {
    "Name": "Raw Whole Bird",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_12.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_12.png",
    "Caption": "This prized meat can be obtained from\ncertain birds. It gets full points for flavor,\nnutrition, and volume. It pairs perfectly with\nother ingredients or can be enjoyed alone.",
    "Hearts Recovered": "3",
    "Cooking Effect": "None",
@@ -833,7 +833,7 @@
  },
  {
    "Name": "Raw Prime Meat",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_02.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_02.png",
    "Caption": "A fresh, high-quality piece of animal meat.\nThis stuff isn't easy to come by, so savor it.\nCook it to recover more hearts.",
    "Hearts Recovered": "1.5",
    "Cooking Effect": "None",
@@ -849,7 +849,7 @@
  },
  {
    "Name": "Raw Bird Thigh",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_07.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_07.png",
    "Caption": "A high-quality piece of meat that's hard to\ncome by. You can eat it raw, but cooking it\nfirst will recover more hearts.",
    "Hearts Recovered": "1.5",
    "Cooking Effect": "None",
@@ -865,7 +865,7 @@
  },
  {
    "Name": "Raw Meat",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_01.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_01.png",
    "Caption": "Meat obtained from animals in plains and\nforests. You can eat it raw, but cooking it will\nmake it more delicious and nutritious.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -881,7 +881,7 @@
  },
  {
    "Name": "Raw Bird Drumstick",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Meat_06.png",
+   "Inventory Icon": "/Images/Items/Item_Meat_06.png",
    "Caption": "This meat is tougher and chewier than a\nstandard steak. Tastes better cooked.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -897,7 +897,7 @@
  },
  {
    "Name": "Courser Bee Honey",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/BeeHome.png",
+   "Inventory Icon": "/Images/Items/BeeHome.png",
    "Caption": "Honey straight from the hive is chock-full of\nnutrients. Cooking this into a meal unlocks\nthe potential of these nutrients and provides\na stamina-recovery effect.",
    "Hearts Recovered": "2",
    "Cooking Effect": "StaminaRegen",
@@ -913,7 +913,7 @@
  },
  {
    "Name": "Hylian Rice",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_03.png",
+   "Inventory Icon": "/Images/Items/Item_Material_03.png",
    "Caption": "This grain is a favorite among residents of\nKakariko Village. It's grown in regions with a\nlot of water and is quite versatile. Used as an\ningredient in things like risotto and rice balls.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -929,7 +929,7 @@
  },
  {
    "Name": "Bird Egg",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_04.png",
+   "Inventory Icon": "/Images/Items/Item_Material_04.png",
    "Caption": "A fresh bird egg necessary for making dishes\nsuch as omelets and crepes. You can snag\nthem from birds' nests if you're sneaky.\nNutritious and delicious, perfect for cooking.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -945,7 +945,7 @@
  },
  {
    "Name": "Tabantha Wheat",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_07.png",
+   "Inventory Icon": "/Images/Items/Item_Material_07.png",
    "Caption": "This grain is cultivated extensively on the\nTabantha Plains. It's ground finely with a\nmillstone to be used in cooking. Use it to\nmake things such as stews and breads.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -961,7 +961,7 @@
  },
  {
    "Name": "Hateno Cheese",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_10.png",
+   "Inventory Icon": "/Images/Items/Item_Material_10.png",
    "Caption": "A cheese made from Hateno cow's milk.\nAdd it to a warm dish, and enjoy its rich flavor\nand melty texture.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -977,7 +977,7 @@
  },
  {
    "Name": "Fresh Milk",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_05.png",
+   "Inventory Icon": "/Images/Items/Item_Material_05.png",
    "Caption": "This fresh milk comes from Hateno-bred cows\nand white goats from all across Hyrule. It's\ndelicious on its own, but can be used in\nsoups and stews too.",
    "Hearts Recovered": "0.5",
    "Cooking Effect": "None",
@@ -993,7 +993,7 @@
  },
  {
    "Name": "Acorn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_K.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_K.png",
    "Caption": "Often found on the ground near trees.\nSquirrels adore this nut, so you may have\ncompetition while foraging. Add one to a\nmeal for a nutty seasoning.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "None",
@@ -1009,7 +1009,7 @@
  },
  {
    "Name": "Chickaloo Tree Nut",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Fruit_L.png",
+   "Inventory Icon": "/Images/Items/Item_Fruit_L.png",
    "Caption": "Small birds love this nut. You can eat it raw\nfor a minor effect, but it can also be added\nas a spice to other recipes.",
    "Hearts Recovered": "0.25",
    "Cooking Effect": "None",
@@ -1025,7 +1025,7 @@
  },
  {
    "Name": "Cane Sugar",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_01.png",
+   "Inventory Icon": "/Images/Items/Item_Material_01.png",
    "Caption": "When boiled with other ingredients, the cane\nbreaks down into a sweet juice necessary\nfor making cakes and other sweets. It's\ncommonly found in ingredients stores.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -1041,7 +1041,7 @@
  },
  {
    "Name": "Goron Spice",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_02.png",
+   "Inventory Icon": "/Images/Items/Item_Material_02.png",
    "Caption": "Made from several types of spices, this\nsecret Goron seasoning has been handed\ndown for generations. An initial wave of\nspiciness paves the way for the sweetness.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -1057,7 +1057,7 @@
  },
  {
    "Name": "Goat Butter",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_06.png",
+   "Inventory Icon": "/Images/Items/Item_Material_06.png",
    "Caption": "Butter made from the milk of a domesticated\nwhite goat. In addition to being used in\ndishes like stews and meunière, it's often\nused when making cakes and other sweets.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -1073,7 +1073,7 @@
  },
  {
    "Name": "Monster Extract",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_08.png",
+   "Inventory Icon": "/Images/Items/Item_Material_08.png",
    "Caption": "A result of Kilton's research into monsters,\nthis suspicious spice can be used to punch\nup dishes while cooking. Apparently it can be\nused to make a number of monstrous meals.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -1089,7 +1089,7 @@
  },
  {
    "Name": "Oil Jar",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_09.png",
+   "Inventory Icon": "/Images/Items/Item_Material_09.png",
    "Caption": "A mild oil extracted from plant seeds, it's very\nversatile in cooking and can coax flavors from\ningredients used in many dishes. Also good\nfor adding fuel to fire.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -1105,7 +1105,7 @@
  },
  {
    "Name": "Dark Clump",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Material_11.png",
+   "Inventory Icon": "/Images/Items/Item_Material_11.png",
    "Caption": "An unusual substance, it's cold to the touch,\nand it seems as though it's filled with pitch-\nblack darkness. Use it in cooking to get a\ngloom-resistant effect.",
    "Hearts Recovered": "0",
    "Cooking Effect": "ResistGloom",
@@ -1121,7 +1121,7 @@
  },
  {
    "Name": "Rock Salt",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Ore_H.png",
+   "Inventory Icon": "/Images/Items/Item_Ore_H.png",
    "Caption": "Crystallized salt from the ancient sea\ncommonly used to season meals. \nCannot be eaten in this form.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1137,7 +1137,7 @@
  },
  {
    "Name": "Star Fragment",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Ore_J.png",
+   "Inventory Icon": "/Images/Items/Item_Ore_J.png",
    "Caption": "A mysterious stone fragment that fell from the\nsky. Its gem-like quality makes it highly\nvaluable. One theory is that it has the power\nto light up its environment.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1153,7 +1153,7 @@
  },
  {
    "Name": "Hearty Salmon",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_I.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_I.png",
    "Caption": "This fish makes its home in cold water, giving\nit extra layers of fat. It'll restore all your hearts\nand temporarily increase your maximum\nhearts when used in cooking.",
    "Hearts Recovered": "4",
    "Cooking Effect": "LifeMaxUp",
@@ -1169,7 +1169,7 @@
  },
  {
    "Name": "Hearty Bass",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_B.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_B.png",
    "Caption": "This large fish lives near the water's edge.\nIts sizable body can store a lot of nutrients.\nWhen used in cooking, it'll restore all your\nhearts and increase your maximum hearts.",
    "Hearts Recovered": "2",
    "Cooking Effect": "LifeMaxUp",
@@ -1185,7 +1185,7 @@
  },
  {
    "Name": "Hyrule Bass",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_A.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_A.png",
    "Caption": "An ordinary fish that hasn't changed for\nages. It can be eaten raw, but cooking\nit amplifies its healing benefits.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -1201,7 +1201,7 @@
  },
  {
    "Name": "Staminoka Bass",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_L.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_L.png",
    "Caption": "This Hyrule bass got to be the biggest fish\nby never getting caught (until now). Its long\nlife results in a cooked dish that will restore\na lot of stamina.",
    "Hearts Recovered": "1",
    "Cooking Effect": "StaminaRegen",
@@ -1217,7 +1217,7 @@
  },
  {
    "Name": "Chillfin Trout",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_C.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_C.png",
    "Caption": "This blue trout prefers cold bodies of water.\nIts skin contains enzymes that keep its body\ncool, and when cooked into a dish, it will\ntemporarily boost your heat resistance.",
    "Hearts Recovered": "1",
    "Cooking Effect": "ResistHot",
@@ -1233,7 +1233,7 @@
  },
  {
    "Name": "Sizzlefin Trout",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_J.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_J.png",
    "Caption": "This red trout prefers warm bodies of water.\nIt has a special organ specifically for storing\nheat. When cooked into a dish, it temporarily\nboosts your resistance to the cold.",
    "Hearts Recovered": "1",
    "Cooking Effect": "ResistCold",
@@ -1249,7 +1249,7 @@
  },
  {
    "Name": "Voltfin Trout",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_D.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_D.png",
    "Caption": "This trout makes its home in the freshwater\nlakes. Its scales have an insulating\ncompound that, when cooked into a dish,\noffers resistance to electricity.",
    "Hearts Recovered": "1",
    "Cooking Effect": "ResistElectric",
@@ -1265,7 +1265,7 @@
  },
  {
    "Name": "Stealthfin Trout",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_X.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_X.png",
    "Caption": "Consuming the bioluminescent compound\nthat makes this fish glow in the dark will\nincrease concentration. Dishes cooked\nwith it will suppress noise when consumed.",
    "Hearts Recovered": "1",
    "Cooking Effect": "StealthUp",
@@ -1281,7 +1281,7 @@
  },
  {
    "Name": "Mighty Carp",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_E.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_E.png",
    "Caption": "This freshwater fish lives alongside its less\nmighty carp ilk. A compound in its liver\npromotes muscle growth. Dishes cooked with\nit will temporarily increase your attack power.",
    "Hearts Recovered": "1",
    "Cooking Effect": "AttackUp",
@@ -1297,7 +1297,7 @@
  },
  {
    "Name": "Armored Carp",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_H.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_H.png",
    "Caption": "Calcium deposits in the scales of this ancient\nfish make them as hard as armor. Cooking it\ninto a dish will fortify your bones, temporarily\nincreasing your defense.",
    "Hearts Recovered": "1",
    "Cooking Effect": "DefenseUp",
@@ -1313,7 +1313,7 @@
  },
  {
    "Name": "Sanke Carp",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_Z.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_Z.png",
    "Caption": "This wild armored carp has been bred into\na prizewinning fish. Its beautifully colored\nmarkings do not occur in nature. It offers\nno special effects when cooked.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -1329,7 +1329,7 @@
  },
  {
    "Name": "Ancient Arowana",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_AA.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_AA.png",
    "Caption": "A lively fish that hasn't changed much since\nancient times. Its nutritious meat can restore\na bit of health.",
    "Hearts Recovered": "1",
    "Cooking Effect": "None",
@@ -1345,7 +1345,7 @@
  },
  {
    "Name": "Glowing Cave Fish",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_AC.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_AC.png",
    "Caption": "A luminous fish that lives in dark caves. When\nconsumed, its light enzyme can make one's\nbody glow.",
    "Hearts Recovered": "1",
    "Cooking Effect": "Glow",
@@ -1361,7 +1361,7 @@
  },
  {
    "Name": "Mighty Porgy",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_F.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_F.png",
    "Caption": "This ocean-dwelling fish comes with one rude\nattitude. The compounds in its flesh elevate\nyour competitive spirit when it's cooked into\na dish, thus increasing your attack power.",
    "Hearts Recovered": "1",
    "Cooking Effect": "AttackUp",
@@ -1377,7 +1377,7 @@
  },
  {
    "Name": "Armored Porgy",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_G.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_G.png",
    "Caption": "This porgy's body is covered in armor-hard\nscales. The compounds in its scales, when\ncooked into a dish, fortify your bones and\ntemporarily boost your defense.",
    "Hearts Recovered": "1",
    "Cooking Effect": "DefenseUp",
@@ -1393,7 +1393,7 @@
  },
  {
    "Name": "Sneaky River Snail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_FishGet_M.png",
+   "Inventory Icon": "/Images/Items/Item_FishGet_M.png",
    "Caption": "This large, glow-in-the-dark snail lives in\nfresh water. When cooked into a dish, it\nheightens your senses so you can move\nabout silently.",
    "Hearts Recovered": "1",
    "Cooking Effect": "StealthUp",
@@ -1409,7 +1409,7 @@
  },
  {
    "Name": "Razorclaw Crab",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_InsectGet_K.png",
+   "Inventory Icon": "/Images/Items/Item_InsectGet_K.png",
    "Caption": "This crab is well known for its exceptionally\nsharp pincers. When cooked, the strength\ncompound in its claws will increase your\nattack power.",
    "Hearts Recovered": "1",
    "Cooking Effect": "AttackUp",
@@ -1425,7 +1425,7 @@
  },
  {
    "Name": "Ironshell Crab",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_InsectGet_O.png",
+   "Inventory Icon": "/Images/Items/Item_InsectGet_O.png",
    "Caption": "This crab's shell is particularly hard. When\ncooked into a dish, its fat and meat bolster\nthe body to increase your defense.",
    "Hearts Recovered": "1",
    "Cooking Effect": "DefenseUp",
@@ -1441,7 +1441,7 @@
  },
  {
    "Name": "Bright-Eyed Crab",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_InsectGet_Z.png",
+   "Inventory Icon": "/Images/Items/Item_InsectGet_Z.png",
    "Caption": "This crab appears in large numbers when it\nrains. One bite of its delectable meat, and\nyou'll forget all your exhaustion. Replenishes\nyour stamina when cooked into a dish.",
    "Hearts Recovered": "1",
    "Cooking Effect": "StaminaRegen",
@@ -1457,7 +1457,7 @@
  },
  {
    "Name": "Fairy",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_F.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_F.png",
    "Caption": "This fairy will fly from your pouch and heal\nyou the moment you lose your last heart.\nIt's easily mistaken for a firefly at first, but\nit glows in the daylight as well as night.",
    "Hearts Recovered": "5",
    "Cooking Effect": "None",
@@ -1473,7 +1473,7 @@
  },
  {
    "Name": "Winterwing Butterfly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_N.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_N.png",
    "Caption": "The powdery scales of this butterfly's wings\ncool the air near it. Watching it flutter around\nsnowflakes is a thing of beauty. Cook it with\nmonster parts for a heat-resistance elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistHot",
@@ -1489,7 +1489,7 @@
  },
  {
    "Name": "Summerwing Butterfly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_Q.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_Q.png",
    "Caption": "A butterfly found in the woods and plains of\nwarm regions. Its wings absorb the warmth of\nthe sun. Cook it with monster parts to create\nan elixir that makes you feel warm and fuzzy.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistCold",
@@ -1505,7 +1505,7 @@
  },
  {
    "Name": "Thunderwing Butterfly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_R.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_R.png",
    "Caption": "This rare butterfly only shows itself when it\nrains. The organs in its body produce an\ninsulating compound. When made into\nan elixir, it offers electrical resistance.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistElectric",
@@ -1521,7 +1521,7 @@
  },
  {
    "Name": "Smotherwing Butterfly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_AB.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_AB.png",
    "Caption": "This rare butterfly lives in volcanic regions.\nIts body contains a heat-resistant liquid,\nwhich can be turned into a topical elixir\nthat offers resistance to flames.",
    "Hearts Recovered": "-",
    "Cooking Effect": "FlameGuard",
@@ -1537,7 +1537,7 @@
  },
  {
    "Name": "Cold Darner",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_C.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_C.png",
    "Caption": "This dragonfly prefers the cool shade of\ntrees to the warmth of the sun. Its wings\ndisperse heat from its body, which can be\ncooked into a heat-resistance elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistHot",
@@ -1553,7 +1553,7 @@
  },
  {
    "Name": "Warm Darner",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_T.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_T.png",
    "Caption": "This dragonfly has a special organ that\ncauses it to sweat profusely. Cook it with\nmonster parts for an elixir that will raise your\ncore temperature so you can resist the cold.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistCold",
@@ -1569,7 +1569,7 @@
  },
  {
    "Name": "Electric Darner",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_I.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_I.png",
    "Caption": "This rare dragonfly only appears in the rain.\nIts wings direct electricity away from its body.\nCook it with monster parts for an electricity-\nresistance elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "ResistElectric",
@@ -1585,7 +1585,7 @@
  },
  {
    "Name": "Energetic Rhino Beetle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_AA.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_AA.png",
    "Caption": "This valuable beetle can live up to 10\nyears. When cooked with monster parts,\nits impressive vitality translates into an\nelixir that will greatly restore your stamina.",
    "Hearts Recovered": "-",
    "Cooking Effect": "StaminaRegen",
@@ -1601,7 +1601,7 @@
  },
  {
    "Name": "Bladed Rhino Beetle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_G.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_G.png",
    "Caption": "This beetle's razor-sharp horns demand that\nyou handle it with care. Boil the horns\nalongside monster parts to concoct an elixir\nthat will raise your attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "AttackUp",
@@ -1617,7 +1617,7 @@
  },
  {
    "Name": "Rugged Rhino Beetle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_P.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_P.png",
    "Caption": "This beetle's hard body resembles armor.\nWhen the shell is cooked with monster parts,\nthe resulting elixir boosts your defense.",
    "Hearts Recovered": "-",
    "Cooking Effect": "DefenseUp",
@@ -1633,7 +1633,7 @@
  },
  {
    "Name": "Sunset Firefly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_E.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_E.png",
    "Caption": "This firefly glows gently in the dark. When\ncooked with monster parts, the compound\nthat causes it to glow results in an elixir that\nwill allow you to move more quietly.",
    "Hearts Recovered": "-",
    "Cooking Effect": "StealthUp",
@@ -1649,7 +1649,7 @@
  },
  {
    "Name": "Deep Firefly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_AI.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_AI.png",
    "Caption": "A multi-winged insect that lives in the Depths.\nIt excretes luminescent elements that can be\ncooked into an elixir, which will add a faint\nglow to anyone who consumes it.",
    "Hearts Recovered": "-",
    "Cooking Effect": "Glow",
@@ -1665,7 +1665,7 @@
  },
  {
    "Name": "Restless Cricket",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_H.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_H.png",
    "Caption": "A very energetic cricket. Cook it\nwith monster parts to create a\nstamina-recovery elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "StaminaRegen",
@@ -1681,7 +1681,7 @@
  },
  {
    "Name": "Tireless Frog",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_B.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_B.png",
    "Caption": "This rare frog prefers dark and moist places.\nWhen cooked with monster parts, the elixir\nit produces will temporarily increase your\nmaximum stamina.",
    "Hearts Recovered": "2",
    "Cooking Effect": "StaminaUp",
@@ -1697,7 +1697,7 @@
  },
  {
    "Name": "Hot-Footed Frog",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_A.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_A.png",
    "Caption": "A quick frog that can be found\nhopping around near water. Cook it with\nmonster parts to draw out its speed-boost\neffect.",
    "Hearts Recovered": "-",
    "Cooking Effect": "AllSpeed",
@@ -1713,7 +1713,7 @@
  },
  {
    "Name": "Sticky Frog",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_AG.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_AG.png",
    "Caption": "This frog likes to cling to walls and hang out.\nIt oozes a substance that climbers can use\nto cling to wet surfaces.",
    "Hearts Recovered": "-",
    "Cooking Effect": "NotSlippy",
@@ -1729,7 +1729,7 @@
  },
  {
    "Name": "Hearty Lizard",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_M.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_M.png",
    "Caption": "This rare lizard lives deep in the forests. It\nfeeds on high-nutrient foods, giving it great\nvitality. When used to make elixirs, they\ntemporarily increase your maximum hearts.",
    "Hearts Recovered": "4",
    "Cooking Effect": "LifeMaxUp",
@@ -1745,7 +1745,7 @@
  },
  {
    "Name": "Hightail Lizard",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_S.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_S.png",
    "Caption": "A lizard found throughout Hyrule. It's a bit\nslow to react at times, but if given a chance\nto escape, it will dart off quickly. Cook it with\nmonster parts for a speed-boosting elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "AllSpeed",
@@ -1761,7 +1761,7 @@
  },
  {
    "Name": "Fireproof Lizard",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_X.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_X.png",
    "Caption": "This rare lizard can only be found in the\nEldin region. Its scales have heat-resistant\nproperties, so when cooked with monster\nparts, it produces a fire-resistance elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "FlameGuard",
@@ -1777,7 +1777,7 @@
  },
  {
    "Name": "Sticky Lizard",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Animal_Insect_AH.png",
+   "Inventory Icon": "/Images/Items/Animal_Insect_AH.png",
    "Caption": "The suction of its toes allows this lizard to\neasily cling to walls. It could be an asset\nfor a climber on wet surfaces if it were mixed\ninto an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "NotSlippy",
@@ -1793,7 +1793,7 @@
  },
  {
    "Name": "Bokoblin Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_02.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_02.png",
    "Caption": "A rare material obtained by defeating a\nBokoblin. It convulses on its own every now\nand then, which is really creepy, but perhaps\nit has a use.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1809,7 +1809,7 @@
  },
  {
    "Name": "Moblin Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_08.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_08.png",
    "Caption": "This prized ingredient can be obtained from\nMoblins. Its odor is too pungent for normal\nfood preparation, but stew it with some\ncritters to make elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1825,7 +1825,7 @@
  },
  {
    "Name": "Horriblin Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_105.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_105.png",
    "Caption": "Rare material dropped by a Horriblin. It's very\nbitter and unsuitable for cooking, but it makes\nan effective elixir when cooked with a critter.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1841,7 +1841,7 @@
  },
  {
    "Name": "Gibdo Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_121.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_121.png",
    "Caption": "The dried guts of a defeated Gibdo. It's said\nthey're effective, vitality-rich ingredients that\nare useful in elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1857,7 +1857,7 @@
  },
  {
    "Name": "Boss Bokoblin Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_136.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_136.png",
    "Caption": "A rare material dropped by a Boss Bokoblin.\nIt moves constantly and looks grotesque.\nToss into a stew with some critters to create\nelixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1873,7 +1873,7 @@
  },
  {
    "Name": "Lynel Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_14.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_14.png",
    "Caption": "This highly sought-after ingredient can only\nbe obtained from a Lynel. It pulses with the\nvitality of a Lynel, a strength that makes it\ninvaluable as an ingredient for elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1889,7 +1889,7 @@
  },
  {
    "Name": "Gleeok Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_157.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_157.png",
    "Caption": "A rare and precious, albeit creepy, material\nthat pulses even after its former owner has\nbeen vanquished. Cook it with a critter to\nmake a powerful elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1905,7 +1905,7 @@
  },
  {
    "Name": "Frox Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_190.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_190.png",
    "Caption": "Frox guts, still pulsing—possibly a vain\nattempt to circulate fluids through its former\nowner's large body. Cook it with a critter to\nmake a powerful elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1921,7 +1921,7 @@
  },
  {
    "Name": "Molduga Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_25.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_25.png",
    "Caption": "A giant organ obtained from a Molduga. This\ninvaluable ingredient is hard to come by,\nand its use is shrouded in mystery.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1937,7 +1937,7 @@
  },
  {
    "Name": "Hinox Guts",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_34.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_34.png",
    "Caption": "A giant, smelly Hinox organ of unknown\nfunction. Upon close inspection, it appears to\nbe quivering. It can be used to make an\nelixir, but some say it has other uses as well.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1953,7 +1953,7 @@
  },
  {
    "Name": "Red Chuchu Jelly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_15.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_15.png",
    "Caption": "A jiggly substance that normally comes from\na Fire Chuchu. It consistently gives off heat.\nIf struck, it will explode in a ball of flame.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1969,7 +1969,7 @@
  },
  {
    "Name": "White Chuchu Jelly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_17.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_17.png",
    "Caption": "A jiggly substance that came from an Ice\nChuchu. It's cool to the touch, and squeezing\nit seems to relieve stress. If struck, it will\nexplode in a cold mist.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -1985,7 +1985,7 @@
  },
  {
    "Name": "Yellow Chuchu Jelly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_16.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_16.png",
    "Caption": "A jiggly substance that came from an\nElectric Chuchu. Electricity pulses through\nits gelatinous mass. If struck, it will explode\nin a burst of electric current.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2001,7 +2001,7 @@
  },
  {
    "Name": "Chuchu Jelly",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_40.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_40.png",
    "Caption": "A gelatinous substance that came from a\nChuchu. It's unusable in this state, but\napplying a bit of elemental stimulation will\nchange its form.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2017,7 +2017,7 @@
  },
  {
    "Name": "Octo Balloon",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_57.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_57.png",
    "Caption": "This inflatable Octorok organ has a lot of lift,\nso attach it to items you want to see float.\nAn arrow can serve as a good way to stick\none to a distant object.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2033,7 +2033,7 @@
  },
  {
    "Name": "Keese Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_19.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_19.png",
    "Caption": "These mysterious orbs scan their\nsurroundings. Take advantage of their glaring\nawareness, and attach one to an arrow to\ngrant a homing quality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2049,7 +2049,7 @@
  },
  {
    "Name": "Fire Keese Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_117.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_117.png",
    "Caption": "Fire Keese eyeballs are imbued with heat and\nare useful in making elixirs. Attach one to an\narrow to grant a homing quality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2065,7 +2065,7 @@
  },
  {
    "Name": "Ice Keese Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_119.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_119.png",
    "Caption": "Ice Keese eyeballs are imbued with freezing\npower and are useful in making elixirs.\nAttach one to an arrow to grant a homing\nquality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2081,7 +2081,7 @@
  },
  {
    "Name": "Electric Keese Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_118.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_118.png",
    "Caption": "Electric Keese eyeballs are imbued with\nelectric power and are useful in making\nelixirs. Attach one to an arrow to grant a\nhoming quality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2097,7 +2097,7 @@
  },
  {
    "Name": "Octorok Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_21.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_21.png",
    "Caption": "This can only be obtained from an Octorok-\ntype enemy. Its nature is to focus on\na moving object. Attach one to an arrow to\ngrant a homing quality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2113,7 +2113,7 @@
  },
  {
    "Name": "Aerocuda Eyeball",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_66.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_66.png",
    "Caption": "This eyeball is constantly trying to focus on its\ntargets. Cook it with a critter to make an\nelixir, or attach it to an arrow to grant a\nhoming quality to the arrow.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2129,7 +2129,7 @@
  },
  {
    "Name": "Keese Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_18.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_18.png",
    "Caption": "An aerodynamic material dropped by a\ndefeated Keese. Arrows and thrown weapons\nfly farther with this item attached.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2145,7 +2145,7 @@
  },
  {
    "Name": "Fire Keese Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_44.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_44.png",
    "Caption": "A rare Fire Keese wing. It's not usually on fire,\nbut it does produce a powerful blaze when\nstimulated.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2161,7 +2161,7 @@
  },
  {
    "Name": "Ice Keese Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_46.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_46.png",
    "Caption": "A rare Ice Keese wing. Don't let its pretty,\nfrozen surface fool you. It blasts out a\ndangerous, freezing frost when stimulated.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2177,7 +2177,7 @@
  },
  {
    "Name": "Electric Keese Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_45.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_45.png",
    "Caption": "A rare Electric Keese wing. It's electrically\ncharged and will shock everything around it\nwhen stimulated.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2193,7 +2193,7 @@
  },
  {
    "Name": "Aerocuda Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_124.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_124.png",
    "Caption": "A large, wide Aerocuda wing. Arrows and\nthrown weapons fly farther with this item\nattached, even in a slight wind.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2209,7 +2209,7 @@
  },
  {
    "Name": "Gibdo Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_123.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_123.png",
    "Caption": "A wing that catches the light. Arrows and\nthrown weapons fly farther with this item\nattached. Cook it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2225,7 +2225,7 @@
  },
  {
    "Name": "Gleeok Wing",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_156.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_156.png",
    "Caption": "This aerodynamic wing segment from a\nGleeok is thin and light but extremely sturdy.\nArrows and thrown weapons fly farther with\nthis item attached.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2241,7 +2241,7 @@
  },
  {
    "Name": "Molduga Fin",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_24.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_24.png",
    "Caption": "A sturdy, wing-like dorsal fin with a thick\nmembrane that regulates wind resistance.\nArrows and thrown weapons fly farther with\nthis item attached. It also works well in elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2257,7 +2257,7 @@
  },
  {
    "Name": "Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_77.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_77.png",
    "Caption": "A sharp horn with multiple barbs. Attach it to\na weapon to increase its attack power, or\ncook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2273,7 +2273,7 @@
  },
  {
    "Name": "Blue Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_78.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_78.png",
    "Caption": "A two-pronged horn with sharp edges and\ntips. Attach it to a weapon to moderately\nincrease its attack power, or brew it into an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2289,7 +2289,7 @@
  },
  {
    "Name": "Black Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_79.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_79.png",
    "Caption": "A vicious, three-pronged horn. Attach it to a\nweapon to greatly increase its attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2305,7 +2305,7 @@
  },
  {
    "Name": "Silver Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_80.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_80.png",
    "Caption": "A large, blade-like horn with a unique flourish\non the tip. It's sharper than it looks. Attach it\nto a weapon to vastly increase attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2321,7 +2321,7 @@
  },
  {
    "Name": "Boss Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_64.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_64.png",
    "Caption": "The band on this sword-shaped horn shows\nthat it belonged to a leader. Attach it to a\nweapon to increase its attack power, or cook\nit with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2337,7 +2337,7 @@
  },
  {
    "Name": "Blue Boss Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_132.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_132.png",
    "Caption": "An axe-shaped horn with a band to identify it\nas belonging to a leader. Attach it to a\nweapon to moderately increase attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2353,7 +2353,7 @@
  },
  {
    "Name": "Black Boss Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_133.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_133.png",
    "Caption": "A double-edged, axe-shaped horn with two\nleader bands. Attach it to a weapon to greatly\nincrease attack power, or cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2369,7 +2369,7 @@
  },
  {
    "Name": "Silver Boss Bokoblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_134.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_134.png",
    "Caption": "A circular, serrated horn. The neatly tied strap\ncontains arcane power. Attach it to a weapon\nto vastly increase attack power, or cook it\nwith a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2385,7 +2385,7 @@
  },
  {
    "Name": "Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_106.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_106.png",
    "Caption": "A thin, sharp, knife-like horn. Attach it to a\nweapon to increase its attack power, or cook\nit with a critter to brew an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2401,7 +2401,7 @@
  },
  {
    "Name": "Blue Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_107.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_107.png",
    "Caption": "A very long, sword-like horn. Attach it to a\nweapon to moderately increase its attack\npower, or cook it with a critter to brew an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2417,7 +2417,7 @@
  },
  {
    "Name": "Black Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_108.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_108.png",
    "Caption": "A blade-like, serrated horn. Attach it to a\nweapon to greatly increase its attack power,\nor cook it with a critter to brew an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2433,7 +2433,7 @@
  },
  {
    "Name": "Silver Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_109.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_109.png",
    "Caption": "A sickle-shaped horn that looks like it could\nslice anything it touches. Attach it to a\nweapon to vastly increase its attack power, or\ncook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2449,7 +2449,7 @@
  },
  {
    "Name": "Fire-Breath Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_58.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_58.png",
    "Caption": "A horn that glows red with the power of fire.\nCook it with a critter to make an elixir. The\nright combination could draw out the blazing\npower contained within.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2465,7 +2465,7 @@
  },
  {
    "Name": "Ice-Breath Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_59.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_59.png",
    "Caption": "The freezing power embedded in this horn's\ncrystal tip can be used to your advantage if\nyou know how. Otherwise, cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2481,7 +2481,7 @@
  },
  {
    "Name": "Electric Lizalfos Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_60.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_60.png",
    "Caption": "A horn charged with as much electricity as a\nbolt of lightning. Cook it with a critter to\nmake an elixir. It will discharge electricity\nwhen stimulated.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2497,7 +2497,7 @@
  },
  {
    "Name": "Lynel Saber Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_148.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_148.png",
    "Caption": "This blade-like Lynel horn is extremely sharp.\nIt increases a weapon's attack power when\nattached. Cook it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2513,7 +2513,7 @@
  },
  {
    "Name": "Blue-Maned Lynel Saber Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_149.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_149.png",
    "Caption": "The sharp, blade-like horn of a Blue-Maned\nLynel. Attach it to a weapon to moderately\nincrease its attack power. Cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2529,7 +2529,7 @@
  },
  {
    "Name": "White-Maned Lynel Saber Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_150.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_150.png",
    "Caption": "This blade-like horn of a White-Maned Lynel\ncan slash through just about anything. Attach\nit to a weapon to greatly increase attack\npower. Cook with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2545,7 +2545,7 @@
  },
  {
    "Name": "Silver Lynel Saber Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_151.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_151.png",
    "Caption": "This piercing horn is sharpened to a point for\nmaximum poking. Attach it to a weapon to\nvastly increase its attack power. Cook it with\na critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2561,7 +2561,7 @@
  },
  {
    "Name": "Hinox Toenail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_32.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_32.png",
    "Caption": "As tough as plate armor, this item increases\nan arrow's attack power when attached to it.\nCook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2577,7 +2577,7 @@
  },
  {
    "Name": "Gleeok Flame Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_153.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_153.png",
    "Caption": "A crown-like, fire-imbued horn of a Gleeok.\nAttach it to a weapon to vastly increase its\nattack power. Cook it with a critter to make\nan elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2593,7 +2593,7 @@
  },
  {
    "Name": "Gleeok Frost Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_154.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_154.png",
    "Caption": "A crown-like, frost-imbued horn of a Gleeok.\nAttach it to a weapon to vastly increase its\nattack power. Cook it with a critter to make\nan elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2609,7 +2609,7 @@
  },
  {
    "Name": "Gleeok Thunder Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_155.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_155.png",
    "Caption": "A crown-like, lightning-imbued horn of a\nGleeok. Attach it to a weapon to vastly\nincrease its attack power. Cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2625,7 +2625,7 @@
  },
  {
    "Name": "Dinraal's Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_211.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_211.png",
    "Caption": "A sharp horn of the red spirit, Dinraal. It is\nsaid to be the crystallized power of fire itself.\nAttach the blade-shaped horn to a weapon to\nvastly increase attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2641,7 +2641,7 @@
  },
  {
    "Name": "Naydra's Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_212.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_212.png",
    "Caption": "A sharp horn of the blue spirit, Naydra. It is\nsaid to be the crystallized power of ice itself.\nAttach the blade-shaped horn to a weapon to\nvastly increase attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2657,7 +2657,7 @@
  },
  {
    "Name": "Farosh's Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_213.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_213.png",
    "Caption": "A sharp horn of the golden spirit, Farosh. It is\nsaid to be the crystallized power of electricity\nitself. Attach the blade-shaped horn to a\nweapon to vastly increase attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2673,7 +2673,7 @@
  },
  {
    "Name": "Light Dragon's Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_214.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_214.png",
    "Caption": "A horn chipped off the Light Dragon. Its\ngentle glow has a calming effect, and it has a\nmysterious healing power when attached to\na weapon.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2689,7 +2689,7 @@
  },
  {
    "Name": "Like Like Stone",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_181.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_181.png",
    "Caption": "A strange round stone from a Like Like,\nmade of crystallized inner fluids. It's a good\ningredient for elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2705,7 +2705,7 @@
  },
  {
    "Name": "Fire Like Stone",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_182.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_182.png",
    "Caption": "A stomach stone that persists even at high\ntemperatures. It retains heat even outside the\nbody of the creature that contained it, which\nmakes it a useful elixir ingredient.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2721,7 +2721,7 @@
  },
  {
    "Name": "Ice Like Stone",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_184.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_184.png",
    "Caption": "A stomach stone kept cold inside a very low-\ntemperature body. It stays cold, even outside\nthe body of the creature that contained it.\nCook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2737,7 +2737,7 @@
  },
  {
    "Name": "Shock Like Stone",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_183.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_183.png",
    "Caption": "A stomach stone exposed to high voltage\ninside the body of a Shock Like. It maintains\nsome charge even outside the creature. Cook\nit with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2753,7 +2753,7 @@
  },
  {
    "Name": "Moblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_89.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_89.png",
    "Caption": "A hard horn that resulted from a skull\nmutation. Attach it to a weapon to increase\nits attack power, or cook it with a critter to\nmake an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2769,7 +2769,7 @@
  },
  {
    "Name": "Blue Moblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_90.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_90.png",
    "Caption": "A large, curved horn with two extremely hard\ntips. Attach it to a weapon to moderately\nincrease its attack power, or cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2785,7 +2785,7 @@
  },
  {
    "Name": "Black Moblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_91.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_91.png",
    "Caption": "A hefty horn with multiple tough barbs. \nAttach it to a weapon to greatly increase its\nattack power, or cook it with a critter to make\nan elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2801,7 +2801,7 @@
  },
  {
    "Name": "Silver Moblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_92.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_92.png",
    "Caption": "A nasty-looking, rock-hard horn. Attach it to\na weapon to vastly increase its attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2817,7 +2817,7 @@
  },
  {
    "Name": "Horriblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_100.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_100.png",
    "Caption": "An elongated hammer-shaped horn with a\nhard, flat front. Attach to a weapon to\nincrease attack power, or cook it with a critter\nto make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2833,7 +2833,7 @@
  },
  {
    "Name": "Blue Horriblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_101.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_101.png",
    "Caption": "A hammer-shaped horn with spiky bumps.\nAttach it to a weapon to moderately increase\nits attack power, or cook it with a critter to\nmake an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2849,7 +2849,7 @@
  },
  {
    "Name": "Black Horriblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_102.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_102.png",
    "Caption": "This large, heavy horn has slowly grown into\nits present hammer-like shape. Attach it to a\nweapon to greatly increase its attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2865,7 +2865,7 @@
  },
  {
    "Name": "Silver Horriblin Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_103.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_103.png",
    "Caption": "A curved horn with an extremely hard tip.\nAttach it to a weapon to vastly increase its\nattack power, or cook it with a critter to\nmake an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2881,7 +2881,7 @@
  },
  {
    "Name": "Lynel Hoof",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_13.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_13.png",
    "Caption": "This rare ingredient can be obtained only from\na Lynel. It's very heavy and can be brewed\nwith a critter for an elixir. Attached to an\narrow, it increases the arrow's attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2897,7 +2897,7 @@
  },
  {
    "Name": "Lynel Mace Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_215.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_215.png",
    "Caption": "A hard, curved Lynel horn. It isn't fully grown,\nbut it can be attached to a weapon to\nincrease its attack power, or cooked with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2913,7 +2913,7 @@
  },
  {
    "Name": "Blue-Maned Lynel Mace Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_216.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_216.png",
    "Caption": "Its ends are split apart, but this horn from\na Blue-Maned Lynel is solid. Attach it to a\nweapon to moderately increase its attack\npower, or brew it into an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2929,7 +2929,7 @@
  },
  {
    "Name": "White-Maned Lynel Mace Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_217.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_217.png",
    "Caption": "The claw-like ends of this White-Maned Lynel\nhorn are all extremely hard. Attach to a\nweapon to greatly increase its attack power,\nor cook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2945,7 +2945,7 @@
  },
  {
    "Name": "Silver Lynel Mace Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_218.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_218.png",
    "Caption": "This wickedly barbed Silver Lynel horn is as\nhard as a diamond. Attach to a weapon to\nvastly increase its attack power. It's also a\nprecious elixir ingredient.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2961,7 +2961,7 @@
  },
  {
    "Name": "Hinox Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_142.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_142.png",
    "Caption": "A horn wrapped in spiked wood. Attach it to\na weapon to increase attack power, or cook\nit with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2977,7 +2977,7 @@
  },
  {
    "Name": "Blue Hinox Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_143.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_143.png",
    "Caption": "This mean-looking horn is wrapped in hard\nchains. Attach it to a weapon to moderately\nincrease attack power, or cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -2993,7 +2993,7 @@
  },
  {
    "Name": "Black Hinox Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_144.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_144.png",
    "Caption": "A horn wrapped in dangerous debris. It's easy\nto work with and greatly increases the attack\npower of a weapon when attached. Cook it\nwith a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3009,7 +3009,7 @@
  },
  {
    "Name": "Stalnox Horn",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_208.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_208.png",
    "Caption": "The impaled skulls should serve as a warning.\nBut if you do obtain one, attach it to a\nweapon to vastly increase its attack power, or\ncook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3025,7 +3025,7 @@
  },
  {
    "Name": "Molduga Jaw",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_210.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_210.png",
    "Caption": "A hard jawbone. Its shape allows a Molduga\nsome maneuverability in the sand. Attach it to\na weapon to greatly increase its attack power.\nCook it with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3041,7 +3041,7 @@
  },
  {
    "Name": "Frox Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_186.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_186.png",
    "Caption": "A giant, ore-crunching Frox fang. Attach it to\na weapon to moderately increase its attack\npower, or cook it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3057,7 +3057,7 @@
  },
  {
    "Name": "Obsidian Frox Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_187.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_187.png",
    "Caption": "A giant fang for excavating and crushing ores.\nAttach it to a weapon to greatly increase its\nattack power, or cook it with a critter to make\nan elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3073,7 +3073,7 @@
  },
  {
    "Name": "Blue-White Frox Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_188.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_188.png",
    "Caption": "A giant fang that can easily dig through solid\nbedrock. Attach it to a weapon to vastly\nincrease its attack power, or cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3089,7 +3089,7 @@
  },
  {
    "Name": "Shard of Dinraal's Spike",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_228.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_228.png",
    "Caption": "An incredibly hard stone mined from a spike\non Dinraal's back. It is very destructive when\nfused to a weapon, and it also imbues that\nweapon with the power of flame.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3105,7 +3105,7 @@
  },
  {
    "Name": "Shard of Naydra's Spike",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_229.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_229.png",
    "Caption": "An incredibly hard stone mined from a spike\non Naydra's back. It is very destructive when\nfused to a weapon, and it also imbues that\nweapon with the power of ice.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3121,7 +3121,7 @@
  },
  {
    "Name": "Shard of Farosh's Spike",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_230.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_230.png",
    "Caption": "An incredibly hard stone mined from a spike\non Farosh's back. It is very destructive when\nfused to a weapon, and it also imbues that\nweapon with the power to shock.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3137,7 +3137,7 @@
  },
  {
    "Name": "Shard of Light Dragon's Spike",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_231.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_231.png",
    "Caption": "An incredibly hard stone mined from a spike\non the Light Dragon's back. It is very\ndestructive when fused to a weapon, and it\nalso imbues that weapon with healing power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3153,7 +3153,7 @@
  },
  {
    "Name": "Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_05.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_05.png",
    "Caption": "A highly flexible, stretchable tail. Fuse it with a\nweapon to add a lashing, whiplike quality to\nattacks.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3169,7 +3169,7 @@
  },
  {
    "Name": "Blue Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_114.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_114.png",
    "Caption": "A highly flexible, stretchable tail. Fuse it with a\nweapon to add a lashing, whiplike quality to\nattacks, or cook it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3185,7 +3185,7 @@
  },
  {
    "Name": "Black Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_115.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_115.png",
    "Caption": "A highly flexible, stretchable tail. Fuse it with a\nweapon to add a lashing, whiplike quality to\nattacks, or cook it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3201,7 +3201,7 @@
  },
  {
    "Name": "Silver Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_116.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_116.png",
    "Caption": "A tough, flexible, stretchable tail. Fuse it with\na weapon to add a lashing, whiplike quality to\nattacks.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3217,7 +3217,7 @@
  },
  {
    "Name": "Fire-Breath Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_41.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_41.png",
    "Caption": "A tail that has stored up some heat from a\nscorching-hot environment. Fuse it with a\nweapon to add a lashing, whiplike quality to\nattacks, or cook it into an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3233,7 +3233,7 @@
  },
  {
    "Name": "Ice-Breath Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_42.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_42.png",
    "Caption": "A tail that's been exposed to the cold in an\nextremely frigid environment. Fuse it with a\nweapon to add a lashing, whiplike quality to\nattacks, or cook it into an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3249,7 +3249,7 @@
  },
  {
    "Name": "Electric Lizalfos Tail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_43.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_43.png",
    "Caption": "A tail that's been exposed to electricity.\nFuse it with a weapon to add a lashing,\nwhiplike quality to attacks, or cook it with\na critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3265,7 +3265,7 @@
  },
  {
    "Name": "Gibdo Bone",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_69.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_69.png",
    "Caption": "A creepy bone with multiple sharp tips. Attach\nit to a weapon to greatly increase its attack\npower. It tends to break easily due to its odd\nshape.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3281,7 +3281,7 @@
  },
  {
    "Name": "Octorok Tentacle",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_20.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_20.png",
    "Caption": "This can only be obtained from an Octorok-\ntype enemy. It's too acidic for cooking, but\nit's highly valued as an ingredient for elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3297,7 +3297,7 @@
  },
  {
    "Name": "Bokoblin Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_01.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_01.png",
    "Caption": "It's worn down and not very sharp, but it's\nstill pretty hard. Cook it with a critter to make\nan elixir, or attach it to an arrow to increase\nits attack power.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3313,7 +3313,7 @@
  },
  {
    "Name": "Moblin Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_07.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_07.png",
    "Caption": "A hard, sharp fang obtained from a Moblin.\nStew it with a critter to make an elixir, or\nattach it to an arrow to increase its attack\npower.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3329,7 +3329,7 @@
  },
  {
    "Name": "Boss Bokoblin Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_135.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_135.png",
    "Caption": "A large fang dropped by a Boss Bokoblin.\nAttach it to an arrow to increase attack\npower, or stew it with a critter to make an\nelixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3345,7 +3345,7 @@
  },
  {
    "Name": "Hinox Tooth",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_33.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_33.png",
    "Caption": "This Hinox tooth is almost unbelievably big.\nAttach it to an arrowhead to increase its\nattack power, or brew it into an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3361,7 +3361,7 @@
  },
  {
    "Name": "Horriblin Claw",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_104.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_104.png",
    "Caption": "A talon obtained from a Horriblin. Attach it to\nan arrow to increase its attack power, or stew\nit with a critter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3377,7 +3377,7 @@
  },
  {
    "Name": "Lizalfos Talon",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_04.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_04.png",
    "Caption": "This talon once grew from the elbow of a\nLizalfos. Its aerodynamic shape increases\nattack power when attached to arrows. Stew\nit with critters to make elixirs.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3393,7 +3393,7 @@
  },
  {
    "Name": "Frox Fingernail",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_189.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_189.png",
    "Caption": "A flat, cracked fingernail. Attach it to an arrow\nto increase its attack power, or cook it with a\ncritter to make an elixir.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3409,7 +3409,7 @@
  },
  {
    "Name": "Dinraal's Scale",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_38.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_38.png",
    "Caption": "This precious scale contains a massive\namount of heat. Attach it to a weapon to\ngreatly increase its attack power. It can be\ncooked, but eating it seems like a waste.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3425,7 +3425,7 @@
  },
  {
    "Name": "Naydra's Scale",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_49.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_49.png",
    "Caption": "This precious scale contains supercooled air\ninside. Attach it to a weapon to greatly\nincrease its attack power. It can be cooked,\nbut just eating it seems like a waste.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3441,7 +3441,7 @@
  },
  {
    "Name": "Farosh's Scale",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_53.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_53.png",
    "Caption": "This precious scale is constantly charged with\npowerful electricity. Attach it to a weapon to\ngreatly increase its attack power. Cooking it is\npossible but probably wasteful.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3457,7 +3457,7 @@
  },
  {
    "Name": "Light Dragon's Scale",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_158.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_158.png",
    "Caption": "A precious scale that fell from the Light\nDragon. It's faintly warm and has an oddly\nfamiliar, mysterious power that heals when\nattached to a weapon.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3473,7 +3473,7 @@
  },
  {
    "Name": "Dinraal's Claw",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_39.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_39.png",
    "Caption": "This valuable claw is said to have once been\ncovered in flames. Attach it to a weapon to\ngreatly increase its attack power. It can also\nbe cooked or sold.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3489,7 +3489,7 @@
  },
  {
    "Name": "Naydra's Claw",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_50.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_50.png",
    "Caption": "This valuable claw was once nearly frozen.\nAttach it to a weapon to greatly increase its\nattack power. It can be cooked or sold for\nsome rupees.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3505,7 +3505,7 @@
  },
  {
    "Name": "Farosh's Claw",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_54.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_54.png",
    "Caption": "A valuable claw that once produced lightning.\nAttach it to a weapon to greatly increase its\nattack power. It can also be cooked or sold\nfor rupees.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3521,7 +3521,7 @@
  },
  {
    "Name": "Light Dragon's Talon",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_159.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_159.png",
    "Caption": "A precious talon that fell from the Light\nDragon. It may look dangerous, but its real\npower is to heal when attached to a weapon.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3537,7 +3537,7 @@
  },
  {
    "Name": "Shard of Dinraal's Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_47.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_47.png",
    "Caption": "An incredibly hard piece of a fang from\nDinraal. Attach it to a weapon to greatly\nincrease its attack power. It can also be\ncooked into a meal.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3553,7 +3553,7 @@
  },
  {
    "Name": "Shard of Naydra's Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_51.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_51.png",
    "Caption": "A piece that chipped off one of Naydra's \nfangs. It's much harder than any metal.\nAttach it to a weapon to greatly increase its\nattack power, or cook it into a meal.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3569,7 +3569,7 @@
  },
  {
    "Name": "Shard of Farosh's Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_55.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_55.png",
    "Caption": "An extremely hard chip of one of Farosh's\nfangs. Attach it to a weapon to greatly\nincrease its attack power. It can also be used\nin cooking.",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3585,7 +3585,7 @@
  },
  {
    "Name": "Shard of Light Dragon's Fang",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Enemy_160.png",
+   "Inventory Icon": "/Images/Items/Item_Enemy_160.png",
    "Caption": "A shard that fell off from the Light Dragon's\nfang. It's smooth rather than rough, and it has\na mysterious power to heal when attached to\na weapon. ",
    "Hearts Recovered": "-",
    "Cooking Effect": "None",
@@ -3601,7 +3601,7 @@
  },
  {
    "Name": "Brightbloom Seed",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/LightBall_Small.png",
+   "Inventory Icon": "/Images/Items/LightBall_Small.png",
    "Caption": "A seed that's often found in caves or wells.\nWhen struck, it will take root and bloom,\ngiving off faint light from a small flower.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",
@@ -3617,7 +3617,7 @@
  },
  {
    "Name": "Giant Brightbloom Seed",
-   "Inventory Icon": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/LightBall_Large.png",
+   "Inventory Icon": "/Images/Items/LightBall_Large.png",
    "Caption": "A seed that's found underground. When\nstruck, it will take root and bloom, radiating\na large amount of light from a big flower.",
    "Hearts Recovered": "0",
    "Cooking Effect": "None",

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import recipes from '../../data/fffood.json';
 import type { Mats } from '../../App';
+import './DishSelect.scss';
 
 export type Recipe = typeof recipes[0];   
 
@@ -29,7 +30,11 @@ function DishSelect(props: any) {
         if (data.length === 0) {
             return;
         }
-        const MatCat = data.map((x: Mats) => x.MaterialCategory);
+        const newData = data.filter(function(item, pos, self) {
+            return self.indexOf(item) === pos;
+        });
+
+        const MatCat = newData.map((x: Mats) => x.MaterialCategory);
         
         if ((MatCat.includes("Enemy") && !MatCat.includes("Critter")) || (MatCat.includes("Critter") && !MatCat.includes("Enemy"))) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
@@ -37,20 +42,14 @@ function DishSelect(props: any) {
                 setDish(x);
             }
         } else { 
-            findFood(data);
+            findFood(newData);
         }
+        findEffect(newData);
     }
 
     function findFood(data: Mats[]) { //ignore monster extract
-        if (data.length === 0) {
-            return;
-        }
-        const newData = data.filter(function(item, pos, self) {
-            return self.indexOf(item) === pos;
-        });
-
         let Ing: string[][] = [];
-        for (const item of newData) {
+        for (const item of data) {
             let x = [item["Name"], item["Cooking Tag 1"].trim()];
             Ing.push(x);
         }
@@ -133,10 +132,87 @@ function DishSelect(props: any) {
         return finalList;
     }
 
+    function findEffect(data: Mats[]) {
+        let effectList: string[] = [];
+        data.forEach((item: Mats) => {
+            if (item["Cooking Effect"] !== "None" && item["MaterialCategory"] !== "Critter") {
+                effectList.push(item["Cooking Effect"]);
+            }
+        });
+        const newEffectList = effectList.filter(function(item, pos, self) {
+            return self.indexOf(item) === pos;
+        });
+        if (newEffectList.length > 1 || newEffectList.length === 0) {
+            setEffect("");
+            return;
+        } else {
+            let currEffect = newEffectList[0].trim();
+            switch (currEffect) {
+                case "AllSpeed":
+                    setEffect("Hasty ");
+                    break;
+                case "AttackUp":
+                    setEffect("Mighty ");
+                    break;
+                case "AttackUpCold":
+                    setEffect("Biting ");
+                    break;
+                case "AttackUpHot":
+                    setEffect("Scorching ");
+                    break;
+                case "AttackUpThunderstorm":
+                    setEffect("Stormy ");
+                    break;
+                case "DefenseUp":
+                    setEffect("Tough ");
+                    break;
+                case "GloomHeal":
+                    setEffect("Sunny ");
+                    break;
+                case "Glow":
+                    setEffect("Bright ");
+                    break;
+                case "LifeMaxUp":
+                    setEffect("Hearty ");
+                    break;
+                case "ResistCold":
+                    setEffect("Spicy ");
+                    break;
+                case "ResistElectric":
+                    setEffect("Electro ");
+                    break;
+                case "ResistGloom":
+                    setEffect("Warding ");
+                    break;
+                case "ResistHot":
+                    setEffect("Chilly ");
+                    break;
+                case "StaminaRegen":
+                    setEffect("Enduring ");
+                    break;
+                case "StaminaUp":
+                    setEffect("Energizing ");
+                    break;
+                case "StealthUp":
+                    setEffect("Sneaky ");
+                    break;
+                case "SwimSpeedUp":
+                    setEffect("Rapid ");
+                    break;
+                default:
+                    setEffect("");
+            }
+
+
+        }
+        
+    }
+
 
     return (
         <div className="DishSelect">
-            <h1>{Dish['Euen name']}</h1>
+            <img src={Dish.Icon} alt={Dish["Euen name"]}/>
+            <div className='Dish-Text'>{Effect + Dish['Euen name']}</div>
         </div>
     );
 

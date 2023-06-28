@@ -10,7 +10,7 @@ function Material(props: {data: Mats, handleClick: (mats: Mats) => void}) {
 
     return (
       <div className="Material" onClick={handleClickLocal}>
-        <img src={props.data["Inventory Icon"] } alt="Icon"></img>
+        <img src={process.env.PUBLIC_URL + props.data["Inventory Icon"] } alt="Icon"></img>
       </div>
     );
   }
