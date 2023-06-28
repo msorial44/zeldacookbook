@@ -5,7 +5,7 @@ import './MaterialSelect.scss';
 
 function MaterialSelect(props: any) {
   const materialList = materials.map((material) => {
-    return <Material data={material} {...props}/>
+    return <Material key={material['Inventory Order (By type)']} data={material} {...props}/>
   });
 
   return (

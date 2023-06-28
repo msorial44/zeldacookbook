@@ -26,15 +26,18 @@ export type { Mats };
 function App() {
   const [Ingredients, setIngredients] = useState<Mats[]>([]);
 
-  function handleAdd(mats: Mats): void {
+  function handleAdd(mats: Mats, index: number): void {
     if (Ingredients.length >= 5) {
       return;
     }
     setIngredients(Ingredients => [...Ingredients, mats]);
   }
 
-  function handleRemove(mats: Mats): void {
-    setIngredients(Ingredients => Ingredients.filter(item => item !== mats));
+  function handleRemove(mats: Mats, index: number): void {
+    setIngredients([
+      ...Ingredients.slice(0, index),
+      ...Ingredients.slice(index + 1)
+    ]);
   }
 
   function handleClick() {
@@ -44,7 +47,7 @@ function App() {
     <div className="App">
       <MaterialSelect handleClick={handleAdd} />
       <div className="Result" onClick={handleClick}>
-        <MaterialDisplay data={Ingredients} handleClick={handleRemove}/>
+        <MaterialDisplay key={Ingredients} data={Ingredients} handleClick={handleRemove}/>
         <DishSelect data={Ingredients}/>
       </div>
     </div>

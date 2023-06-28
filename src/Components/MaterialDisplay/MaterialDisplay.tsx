@@ -5,8 +5,8 @@ import "./MaterialDisplay.scss";
 
 
 function MaterialDisplay(props: any) {
-    const materiaDisplay = props.data.map((x: Mats) => {
-        return <Material data={x} handleClick={props.handleClick}/>
+    const materiaDisplay = props.data.map((x: Mats, pos: number, self: Mats[]) => {
+        return <Material key={pos} id={pos} data={x} handleClick={props.handleClick}/>
     });
 
     return (

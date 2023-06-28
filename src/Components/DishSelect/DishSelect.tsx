@@ -26,7 +26,7 @@ function DishSelect(props: any) {
     }, [props.data]);
 
 
-   function findRecipe(data: Mats[]) {
+    function findRecipe(data: Mats[]) {
         if (data.length === 0) {
             return;
         }
@@ -40,6 +40,7 @@ function DishSelect(props: any) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
                 setDish(x);
+                setEffect("");
             }
         } else { 
             findFood(newData);
@@ -54,36 +55,34 @@ function DishSelect(props: any) {
             Ing.push(x);
         }
 
-        const localRecipes: Recipe[] = recipes;
+        const localRecipes: Recipe[] = recipes.filter((x: Recipe) => x["Recipe n°"] === 5 || x["Recipe n°"] === 6);
         console.log(localRecipes);
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
+            console.log("-------------------");
             let localRecipe = recipeCleanup(recipe);
             let localIng = Ing;
-            for (let i = localRecipe.length - 1; i >= 0; i--) {
-                if (Array.isArray(localRecipe[i])) {
-                    let temp = localRecipe[i];
-                    loop2:
-                        for (let j = 0; j < temp.length; j++) {
-                            for (let k = 0; k < localIng.length; k++) {
-                                if (localIng[k].includes(temp[j])) {
-                                    localIng = localIng.filter(x => !x.includes(temp[j]));
-                                    localRecipe.splice(i, 1);
+            for (let i = localIng.length -1; i >= 0; i--) {
+                loop2:
+                    for (let j = 0; j < localRecipe.length; j++) {
+                        if (Array.isArray(localRecipe[j])) {
+                            let temp = localRecipe[j];
+                            for (let k = temp.length-1; k >= 0; k--) {
+                                if (localIng[i].includes(temp[k])) {
+                                    localRecipe.splice(j, 1);
+                                    j--;
                                     break loop2;
                                 }
                             }
+                        } else {
+                            if (localIng[i].includes(localRecipe[j])) {
+                                localRecipe.splice(j, 1);
+                                j--;
+                                break;
+                            }
                         }
-                } else {
-                    for (let j = localIng.length-1; j >= 0; j--) {
-                        if (localIng[j].includes(localRecipe[i])) {
-                            // eslint-disable-next-line no-loop-func
-                            localIng = localIng.filter(x => !x.includes(localRecipe[i]));
-                            localRecipe.splice(i, 1);
-                            break;
-                        } 
                     }
-                }
             }
             if (localRecipe.length === 0) {
                 finalRecipes.push(recipe);
@@ -95,19 +94,64 @@ function DishSelect(props: any) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
                 finalRecipe = x;
+                setEffect("");
             }
         } else {
-            let max = 0;
-            for (let i = 0; i < finalRecipes.length; i++) {
-                if (recipeCleanup(finalRecipes[i]).length > max) {
-                    max = recipeCleanup(finalRecipes[i]).length;
+            let names = finalRecipes.map((x: Recipe) => x["Euen name"]);
+            let elixir_count = 0;
+            names.forEach((name: string) => {
+                if (name.includes("Elixir")) {
+                    elixir_count++;
                 }
-            }
-            finalRecipes = finalRecipes.filter(x => recipeCleanup(x).length === max);
-            console.log(finalRecipes);
-            let x: any = finalRecipes[0];
-            if ((x !== undefined) && (x !== null)) { //Null Guard
-                finalRecipe = x;
+            });
+            if (elixir_count > 1) {
+                let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
+                if ((x !== undefined) && (x !== null)) { //Null Guard
+                    finalRecipe = x;
+                    setEffect("");
+                }
+            } else if (elixir_count === 1) {
+                let x: any = finalRecipes.pop();
+                if ((x !== undefined) && (x !== null)) { //Null Guard
+                    finalRecipe = x;
+                }
+            } else {
+                let max = 0;
+                for (let i = 0; i < finalRecipes.length; i++) {
+                    if (recipeCleanup(finalRecipes[i]).length > max) {
+                        max = recipeCleanup(finalRecipes[i]).length;
+                    }
+                }
+                finalRecipes = finalRecipes.filter(x => recipeCleanup(x).length === max);
+                let optional_count = 0;
+                finalRecipes.forEach((rep: Recipe) => {
+                    let locRec = recipeCleanup(rep);
+                    for (const item of locRec) {
+                        if (Array.isArray(item)) {
+                            optional_count += 1;
+                        } 
+                    }
+                });
+                if (optional_count > 0) {
+                    let temp = finalRecipes;
+                    finalRecipes = [];
+                    for (let i = 0; i < temp.length; i++) {
+                        let locRec = recipeCleanup(temp[i]);
+                        for (const item of locRec) {
+                            if (Array.isArray(item)) {
+                                finalRecipes.push(temp[i]);
+                                break;
+                            } 
+                        }
+                    }
+                }
+                let x: any = finalRecipes[0];
+                if ((x !== undefined) && (x !== null)) { //Null Guard
+                    finalRecipe = x;
+                    if (finalRecipe["Euen name"] === "Dubious Food") {
+                        setEffect("");
+                    }
+                }
             }
         }
         setDish(finalRecipe);
@@ -134,11 +178,22 @@ function DishSelect(props: any) {
 
     function findEffect(data: Mats[]) {
         let effectList: string[] = [];
-        data.forEach((item: Mats) => {
-            if (item["Cooking Effect"] !== "None" && item["MaterialCategory"] !== "Critter") {
+        if ((Dish['Euen name'] === "Fairy Tonic") || (Dish['Euen name'] === "Dubious Food")) {
+            setEffect("");
+            return;
+        }
+        if ((data[0]["Name"] === "Dark Clump") && (data.length === 1)) {
+            setEffect("");
+            return
+        }
+        for (const item of data) {
+            if (item["MaterialCategory"] === "Critter") {
+                return;
+            }
+            if (item["Cooking Effect"] !== "None") {
                 effectList.push(item["Cooking Effect"]);
             }
-        });
+        }
         const newEffectList = effectList.filter(function(item, pos, self) {
             return self.indexOf(item) === pos;
         });
@@ -202,8 +257,6 @@ function DishSelect(props: any) {
                 default:
                     setEffect("");
             }
-
-
         }
         
     }

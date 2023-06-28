@@ -3,9 +3,9 @@ import './Material.scss';
 import type { Mats } from '../../App';
 
 
-function Material(props: {data: Mats, handleClick: (mats: Mats) => void}) {
+function Material(props: any) {
     function handleClickLocal() {
-      props.handleClick(props.data);
+      props.handleClick(props.data, props.id);
     }
 
     return (
