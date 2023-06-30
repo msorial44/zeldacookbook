@@ -14,12 +14,8 @@ function StatDisplay(props: any) {
 
     useEffect(() => {
         findStats(props.data, Effect, props.dish);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.data, Effect, props.dish, props.effect]);
-
-
-    
-
-
 
     function findEffectType(data: Mats[], effect: string, dish: Recipe, ) {
         if (data.length === 0) {
@@ -95,7 +91,7 @@ function StatDisplay(props: any) {
         let tierLevel = 0;
         if (effect !== "None") {
             data.forEach((x: Mats) => {
-                if (x["Cooking Effect"] == Effect) {
+                if (x["Cooking Effect"] === Effect) {
                     tierLevel += parseInt(x["Cooking Effect Level"]);
                 }
             });
@@ -230,37 +226,44 @@ function StatDisplay(props: any) {
         //HP
         let hp = 0; //whole hearts
         let maxHp = 0; //quarter hearts
-        if (effect === "LifeMaxUp" && dish["Euen name"] !== "Dubious Food") {
-            console.log("how??")
-            hp = 30;
-            maxHp += tierLevel;
-        } else {
+        if (dish["Euen name"] === "Dubious Food") {
+            //hp min is 1
+            //hp can only be added by non boost food
+            //hp is not doubled
             data.forEach((x: Mats) => {
-                if (x["Hearts Recovered"] !== "-") {
+                if (x["Hearts Recovered"] !== "-" && x["MaterialCategory"] !== "Boost") {
                     hp += parseFloat(x["Hearts Recovered"]);
                 }
             });
-            if(dish["Euen name"] !== "Dubious Food") {
+            if (hp < 1) {
+                hp = 1
+            }
+
+        } else {
+            if (effect === "LifeMaxUp") {
+                hp = 30;
+                maxHp += tierLevel;
+            } else {
+                data.forEach((x: Mats) => {
+                    if (x["Hearts Recovered"] !== "-") {
+                        hp += parseFloat(x["Hearts Recovered"]);
+                    }
+                });
                 hp *= 2;
                 if (dish["BonusHeart"] !== 0) {
-                    hp += dish["BonusHeart"];
+                    hp += dish["BonusHeart"]/4;
                 }
                 if (data.length > 1) {
                     data.forEach((x: Mats) => {
-                        console.log(x["CookingHitPointBoost"])
                         if (x["CookingHitPointBoost"] !== 0) {
                             hp += x["CookingHitPointBoost"]/4;
                         }
                     });
                 }
-            } else {
-                if (hp < 1) {
-                    hp = 1;
+                if (hp > 30) {
+                    hp = 30;
                 }
-            }
-            if (hp > 30) {
-                hp = 30;
-            }
+            }    
         }
         //Stamina
         let stamina = 0; //fifth wheels

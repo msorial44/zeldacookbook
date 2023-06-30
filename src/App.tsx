@@ -23,13 +23,10 @@ function App() {
     ]);
   }
 
-  function handleClick() {
-    console.log(Ingredients);
-  }
   return (
     <div className="App">
       <MaterialSelect handleClick={handleAdd} />
-      <div className="Result" onClick={handleClick}>
+      <div className="Result">
         <MaterialDisplay key={Ingredients} data={Ingredients} handleClick={handleRemove}/>
         <DishSelect data={Ingredients}/>
       </div>

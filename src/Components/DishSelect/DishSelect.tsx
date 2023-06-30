@@ -27,6 +27,7 @@ function DishSelect(props: any) {
     const [EffectVal, setEffectVal] = useState<string>("");
     useEffect(() => {
         findRecipe(props.data);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.data]);
 
     useEffect(() => {
@@ -34,6 +35,7 @@ function DishSelect(props: any) {
             return self.indexOf(item) === pos;
         });
         findEffect(newData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [Dish, props.data]);
 
 
@@ -66,9 +68,13 @@ function DishSelect(props: any) {
             let x = [item["Name"], item["Cooking Tag 1"].trim()];
             Ing.push(x);
         }
-
-        const localRecipes: Recipe[] = recipes;
-        //console.log(localRecipes);
+        let localRecipes: Recipe[] = recipes;
+        const singleRecipeCheck: Mats[] = data.filter(function(item: Mats, pos: number, self: Mats[]) {
+            return self.indexOf(item) === pos;
+        });
+        if (singleRecipeCheck.length !== 1) {   
+            localRecipes = localRecipes.filter((recipe: Recipe) => recipe['priority'] !== 999);
+        }
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
@@ -101,7 +107,6 @@ function DishSelect(props: any) {
             }
         });
         let finalRecipe: Recipe = undefRecipe;
-        //console.log(finalRecipes);
         if (finalRecipes.length === 0) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
