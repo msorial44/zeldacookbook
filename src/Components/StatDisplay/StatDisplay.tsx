@@ -236,17 +236,23 @@ function StatDisplay(props: any) {
                     hp += parseFloat(x["Hearts Recovered"]);
                 }
             });
-            hp *= 2;
-            if (dish["BonusHeart"] !== 0) {
-                hp += dish["BonusHeart"];
-            }
-            if (data.length > 1) {
-                data.forEach((x: Mats) => {
-                    console.log(x["CookingHitPointBoost"])
-                    if (x["CookingHitPointBoost"] !== 0) {
-                        hp += x["CookingHitPointBoost"]/4;
-                    }
-                });
+            if(dish["Euen name"] !== "Dubious Food") {
+                hp *= 2;
+                if (dish["BonusHeart"] !== 0) {
+                    hp += dish["BonusHeart"];
+                }
+                if (data.length > 1) {
+                    data.forEach((x: Mats) => {
+                        console.log(x["CookingHitPointBoost"])
+                        if (x["CookingHitPointBoost"] !== 0) {
+                            hp += x["CookingHitPointBoost"]/4;
+                        }
+                    });
+                }
+            } else {
+                if (hp < 1) {
+                    hp = 1;
+                }
             }
             if (hp > 30) {
                 hp = 30;
