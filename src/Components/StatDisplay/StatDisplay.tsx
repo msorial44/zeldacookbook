@@ -221,6 +221,9 @@ function StatDisplay(props: any) {
                 duration += x["Cooking Effect Time Boost Duration (Raw)"]
             });
         }
+        if (duration > 1800) {
+            duration = 1800;
+        }
         //HP
         let hp = 0; //whole hearts
         let maxHp = 0; //quarter hearts
