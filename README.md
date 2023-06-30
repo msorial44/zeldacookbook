@@ -12,6 +12,8 @@ phil_macrocheira - Raw Data
 
 risograph - Icons
 
+shozutko - Bug Finding
+
 
 ## Local Deployment
 
