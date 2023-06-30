@@ -12,6 +12,8 @@ phil_macrocheira - Raw Data
 
 risograph - Icons
 
+Aeon - Priority List for recipes
+
 shozutko - Bug Finding
 
 
