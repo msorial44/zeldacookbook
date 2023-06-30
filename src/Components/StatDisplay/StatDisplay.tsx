@@ -357,7 +357,7 @@ function StatDisplay(props: any) {
             if (Stats["Effect"] === "LifeMaxUp") {
                 return (
                     <div className="EffectDisplay LifeMaxUp">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/Heart Extra.svg"} alt={"Heart Extra"}/>
+                        <img src={process.env.PUBLIC_URL + "/Images/icons/LifeMaxUp.svg"} alt={"Heart Extra"}/>
                         <p>+{Stats["Max HP"]/4}</p>
                     </div>
                 )
