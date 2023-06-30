@@ -242,8 +242,9 @@ function StatDisplay(props: any) {
             }
             if (data.length > 1) {
                 data.forEach((x: Mats) => {
+                    console.log(x["CookingHitPointBoost"])
                     if (x["CookingHitPointBoost"] !== 0) {
-                        hp += x["CookingHitPointBoost"];
+                        hp += x["CookingHitPointBoost"]/4;
                     }
                 });
             }
