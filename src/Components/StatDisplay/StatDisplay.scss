@@ -1,103 +1,116 @@
 .StatDisplay {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-top: 0.5rem;
-    //margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
-
-    .HPDisplay {
-        background-color: gray;
-        border-radius: 0.2rem;
-        border-color: gray;
-        border-style: solid;
-        border-width: 0.15rem;
-        background-color: rgba(0, 0, 0, 0.504);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-right: 0.5vw;
-        height: 2rem;
-        
-
-        img {
-            width: 1.5rem;
-            margin: 0.5rem;
-        }
-
-        p {
-            color: white;
-            font-size: 1rem;
-            margin-right: 0.5rem;
-        }
+    .CritChance {
+        color: gold;
+        margin-top: 0.2rem;
+        margin-bottom: 0;
     }
 
-    .EffectDisplay {
-        background-color: gray;
-        border-radius: 0.2rem;
-        border-color: gray;
-        border-style: solid;
-        border-width: 0.15rem;
-        background-color: rgba(0, 0, 0, 0.504);
+    .StatDisplayContainer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 2rem;
+        //margin-bottom: 2rem;
 
-        img {
-            width: 1.5rem;
-            margin: 0.5rem;
-            margin-right: 0rem;
-        }
 
-        &.StaminaRegen {
+        .HPDisplay {
+            background-color: gray;
+            border-radius: 0.2rem;
+            border-color: gray;
+            border-style: solid;
+            border-width: 0.15rem;
+            background-color: rgba(0, 0, 0, 0.504);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 0.5vw;
+            height: 2rem;
+            
+
             img {
                 width: 1.5rem;
                 margin: 0.5rem;
             }
-            
+
+            p {
+                color: white;
+                font-size: 1rem;
+                margin-right: 0.5rem;
+            }
         }
 
-        &.StaminaUp {
+        .EffectDisplay {
+            background-color: gray;
+            border-radius: 0.2rem;
+            border-color: gray;
+            border-style: solid;
+            border-width: 0.15rem;
+            background-color: rgba(0, 0, 0, 0.504);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 2rem;
+
             img {
                 width: 1.5rem;
                 margin: 0.5rem;
+                margin-right: 0rem;
             }
-            
-        }
 
-        &.GloomHeal {
-            img {
-                width: 2rem;
-                margin-top: 0.3rem;
+            &.StaminaRegen {
+                img {
+                    width: 1.5rem;
+                    margin: 0.5rem;
+                }
                 
             }
-        }
 
-        &.Default {
-
-            img {
-                margin-left: 0.5rem;
-                margin-top: 0.4rem;
-                margin-bottom: 0.4rem;
-                margin-right: 0;
+            &.StaminaUp {
+                img {
+                    width: 1.5rem;
+                    margin: 0.5rem;
+                }
+                
             }
 
+            &.GloomHeal {
+                img {
+                    width: 2rem;
+                    margin-top: 0.3rem;
+                    
+                }
+            }
+
+            &.Default {
+
+                img {
+                    margin-left: 0.5rem;
+                    margin-top: 0.4rem;
+                    margin-bottom: 0.4rem;
+                    margin-right: 0;
+                }
+
+            }
+
+            p {
+                color: white;
+                font-size: 1rem;
+                margin-right: 0.5rem;
+                margin-left: 0.5rem;
+            }
+
+            .effect-duration {
+                margin-left: 0;
+            }
+
+
         }
-
-        p {
-            color: white;
-            font-size: 1rem;
-            margin-right: 0.5rem;
-            margin-left: 0.5rem;
-        }
-
-        .effect-duration {
-            margin-left: 0;
-        }
-
-
     }
-
 
 }

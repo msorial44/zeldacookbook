@@ -246,7 +246,7 @@
    "ActorName": "Item_Cook_B_22",
    "Euen name": "Sautéed Nuts",
    "Recipe n°": 15,
-   "Recipe": "\"Acorn\" && \"Chickaloo Tree Nut\"",
+   "Recipe": "(\"Acorn\" || \"Chickaloo Tree Nut\")",
    "BonusHeart": 0,
    "BonusLevel": 0,
    "BonusTime": 0,

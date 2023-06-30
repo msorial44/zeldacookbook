@@ -110,6 +110,9 @@ function StatDisplay(props: any) {
         if (critChance > 100) {
             critChance = 100;
         }
+        if (critChance < 0) {
+            critChance = 10;
+        }
         //Effect Tier (Low, Mid, High)
         let tier = 1;
         if (effect !== "None") {
@@ -228,6 +231,7 @@ function StatDisplay(props: any) {
         let hp = 0; //whole hearts
         let maxHp = 0; //quarter hearts
         if (effect === "LifeMaxUp" && dish["Euen name"] !== "Dubious Food") {
+            console.log("how??")
             hp = 30;
             maxHp += tierLevel;
         } else {
@@ -474,8 +478,11 @@ function StatDisplay(props: any) {
     
     return (
         <div className="StatDisplay">
-            {hpDisplay(Stats)}
-            {effectDisplay(Stats)}
+            <div className="StatDisplayContainer">
+                {hpDisplay(Stats)}
+                {effectDisplay(Stats)}
+            </div>
+            {Stats["Crit Chance"] > 10 && <p className='CritChance'>Crit Chance: {Stats["Crit Chance"]}%</p>}
         </div>
     );
 }
