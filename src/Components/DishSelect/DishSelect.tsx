@@ -66,11 +66,11 @@ function DishSelect(props: any) {
         }
 
         const localRecipes: Recipe[] = recipes;
-        console.log(localRecipes);
+        //console.log(localRecipes);
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
-            console.log("-------------------");
+            //.log("-------------------");
             let localRecipe = recipeCleanup(recipe);
             let localIng = Ing;
             for (let i = localIng.length -1; i >= 0; i--) {
@@ -99,7 +99,7 @@ function DishSelect(props: any) {
             }
         });
         let finalRecipe: Recipe = undefRecipe;
-        console.log(finalRecipes);
+        //console.log(finalRecipes);
         if (finalRecipes.length === 0) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
@@ -208,6 +208,7 @@ function DishSelect(props: any) {
         });
         if (newEffectList.length !== 1) {
             setEffect("");
+            setEffectVal("None");
             return;
         } else {
             let currEffect = newEffectList[0].trim();
@@ -253,10 +254,10 @@ function DishSelect(props: any) {
                     setEffect("Chilly ");
                     break;
                 case "StaminaRegen":
-                    setEffect("Enduring ");
+                    setEffect("Energizing ");
                     break;
                 case "StaminaUp":
-                    setEffect("Energizing ");
+                    setEffect("Enduring ");
                     break;
                 case "StealthUp":
                     setEffect("Sneaky ");
@@ -270,7 +271,6 @@ function DishSelect(props: any) {
         }
         
     }
-
 
     return (
         <div className="DishSelect">

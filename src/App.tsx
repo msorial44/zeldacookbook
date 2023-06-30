@@ -33,6 +33,9 @@ function App() {
         <MaterialDisplay key={Ingredients} data={Ingredients} handleClick={handleRemove}/>
         <DishSelect data={Ingredients}/>
       </div>
+      <div className="background-image">
+
+      </div>
     </div>
     
   );

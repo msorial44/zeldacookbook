@@ -1,13 +1,49 @@
+@font-face {
+  font-family: "FOT-Rodin-M";
+  src: url("./fonts/FOT-Rodin Pro M.otf");
+}
+
+@font-face {
+  font-family: "FOT-Rodin-DB";
+  src: url("./fonts/FOT-Rodin Pro DB.otf");
+}
+
+@font-face {
+  font-family: "FOT-Rodin-B";
+  src: url("./fonts/FOT-Rodin Pro B.otf");
+}
 .App {
+  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: row;
+  background-color: rgba(12, 11, 11, 0.047);
+  overflow: hidden;
+  font-family: "FOT-Rodin-B";
+}
+
+.background-image {
+  height: 105%;
+  width: 105%;
+  position: fixed;
+  z-index: -1;
+  overflow: hidden;
+
+  background-image: url(../public/Images/background.jpeg);
+  filter: saturate(1.5) blur(0.6rem);
+  
+
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 102%;
+
+  margin-left: -1%;
+  margin-top: -1%;
 }
 
 .Result {
   width: 50vw;
   height: 100vh;
-  background-color: greenyellow;
   overflow: scroll;
   display: flex;
   flex-direction: column;
