@@ -1,6 +1,6 @@
 [
  {
-   "Icon": "/Images/Items/Item_Cook_A_01.png",
+   "Icon": "/Images/Items/Item_Cook_A_01.webp",
    "ActorName": "Item_Cook_A_01",
    "Euen name": "Mushroom Skewers",
    "Recipe n°": 1,
@@ -11,7 +11,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_01.png",
+   "Icon": "/Images/Items/Item_Cook_A_01.webp",
    "ActorName": "Item_Cook_A_01",
    "Euen name": "Mushroom Skewer",
    "Recipe n°": 1,
@@ -22,7 +22,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_01.png",
+   "Icon": "/Images/Items/Item_Cook_A_01.webp",
    "ActorName": "Item_Cook_A_01",
    "Euen name": "Mushroom Skewer",
    "Recipe n°": 1,
@@ -33,7 +33,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_09.png",
+   "Icon": "/Images/Items/Item_Cook_A_09.webp",
    "ActorName": "Item_Cook_A_09",
    "Euen name": "Meat and Mushroom Skewer",
    "Recipe n°": 2,
@@ -44,7 +44,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_08.png",
+   "Icon": "/Images/Items/Item_Cook_A_08.webp",
    "ActorName": "Item_Cook_A_08",
    "Euen name": "Fish and Mushroom Skewer",
    "Recipe n°": 3,
@@ -55,7 +55,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_06.png",
+   "Icon": "/Images/Items/Item_Cook_B_06.webp",
    "ActorName": "Item_Cook_B_06",
    "Euen name": "Meat Skewer",
    "Recipe n°": 4,
@@ -66,7 +66,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_06.png",
+   "Icon": "/Images/Items/Item_Cook_B_06.webp",
    "ActorName": "Item_Cook_B_06",
    "Euen name": "Meat Skewer",
    "Recipe n°": 4,
@@ -77,7 +77,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_06.png",
+   "Icon": "/Images/Items/Item_Cook_B_06.webp",
    "ActorName": "Item_Cook_B_06",
    "Euen name": "Meat Skewer",
    "Recipe n°": 4,
@@ -88,7 +88,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_05.png",
+   "Icon": "/Images/Items/Item_Cook_B_05.webp",
    "ActorName": "Item_Cook_B_05",
    "Euen name": "Fish Skewer",
    "Recipe n°": 5,
@@ -99,7 +99,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_05.png",
+   "Icon": "/Images/Items/Item_Cook_B_05.webp",
    "ActorName": "Item_Cook_B_05",
    "Euen name": "Fish Skewer",
    "Recipe n°": 5,
@@ -110,7 +110,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_05.png",
+   "Icon": "/Images/Items/Item_Cook_B_05.webp",
    "ActorName": "Item_Cook_B_05",
    "Euen name": "Fish Skewer",
    "Recipe n°": 5,
@@ -121,7 +121,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_23.png",
+   "Icon": "/Images/Items/Item_Cook_B_23.webp",
    "ActorName": "Item_Cook_B_23",
    "Euen name": "Seafood Skewer",
    "Recipe n°": 6,
@@ -132,7 +132,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_23.png",
+   "Icon": "/Images/Items/Item_Cook_B_23.webp",
    "ActorName": "Item_Cook_B_23",
    "Euen name": "Seafood Skewer",
    "Recipe n°": 6,
@@ -143,7 +143,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_23.png",
+   "Icon": "/Images/Items/Item_Cook_B_23.webp",
    "ActorName": "Item_Cook_B_23",
    "Euen name": "Seafood Skewer",
    "Recipe n°": 6,
@@ -154,7 +154,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_16.png",
+   "Icon": "/Images/Items/Item_Cook_B_16.webp",
    "ActorName": "Item_Cook_B_16",
    "Euen name": "Copious Meat Skewers",
    "Recipe n°": 7,
@@ -165,7 +165,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_15.png",
+   "Icon": "/Images/Items/Item_Cook_B_15.webp",
    "ActorName": "Item_Cook_B_15",
    "Euen name": "Copious Seafood Skewers",
    "Recipe n°": 8,
@@ -176,7 +176,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_03.png",
+   "Icon": "/Images/Items/Item_Cook_A_03.webp",
    "ActorName": "Item_Cook_A_03",
    "Euen name": "Steamed Fruit",
    "Recipe n°": 9,
@@ -187,7 +187,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_03.png",
+   "Icon": "/Images/Items/Item_Cook_Q_03.webp",
    "ActorName": "Item_Cook_Q_03",
    "Euen name": "Steamed Tomatoes",
    "Recipe n°": 10,
@@ -198,7 +198,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_02.png",
+   "Icon": "/Images/Items/Item_Cook_A_02.webp",
    "ActorName": "Item_Cook_A_02",
    "Euen name": "Steamed Mushrooms",
    "Recipe n°": 11,
@@ -209,7 +209,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_05.png",
+   "Icon": "/Images/Items/Item_Cook_A_05.webp",
    "ActorName": "Item_Cook_A_05",
    "Euen name": "Steamed Meat",
    "Recipe n°": 12,
@@ -220,7 +220,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_04.png",
+   "Icon": "/Images/Items/Item_Cook_A_04.webp",
    "ActorName": "Item_Cook_A_04",
    "Euen name": "Steamed Fish",
    "Recipe n°": 13,
@@ -231,7 +231,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_21.png",
+   "Icon": "/Images/Items/Item_Cook_B_21.webp",
    "ActorName": "Item_Cook_B_21",
    "Euen name": "Sautéed Peppers",
    "Recipe n°": 14,
@@ -242,7 +242,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_22.png",
+   "Icon": "/Images/Items/Item_Cook_B_22.webp",
    "ActorName": "Item_Cook_B_22",
    "Euen name": "Sautéed Nuts",
    "Recipe n°": 15,
@@ -253,7 +253,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_22.png",
+   "Icon": "/Images/Items/Item_Cook_B_22.webp",
    "ActorName": "Item_Cook_B_22",
    "Euen name": "Sautéed Nuts",
    "Recipe n°": 15,
@@ -264,7 +264,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_01.png",
+   "Icon": "/Images/Items/Item_Cook_B_01.webp",
    "ActorName": "Item_Cook_B_01",
    "Euen name": "Fried Wild Greens",
    "Recipe n°": 16,
@@ -275,7 +275,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_01.png",
+   "Icon": "/Images/Items/Item_Cook_B_01.webp",
    "ActorName": "Item_Cook_B_01",
    "Euen name": "Fried Wild Greens",
    "Recipe n°": 16,
@@ -286,7 +286,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_01.png",
+   "Icon": "/Images/Items/Item_Cook_B_01.webp",
    "ActorName": "Item_Cook_B_01",
    "Euen name": "Fried Wild Greens",
    "Recipe n°": 16,
@@ -297,7 +297,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_01.png",
+   "Icon": "/Images/Items/Item_Cook_B_01.webp",
    "ActorName": "Item_Cook_B_01",
    "Euen name": "Fried Wild Greens",
    "Recipe n°": 16,
@@ -308,7 +308,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_11.png",
+   "Icon": "/Images/Items/Item_Cook_B_11.webp",
    "ActorName": "Item_Cook_B_11",
    "Euen name": "Copious Fried Wild Greens",
    "Recipe n°": 17,
@@ -319,7 +319,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_06.png",
+   "Icon": "/Images/Items/Item_Cook_Q_06.webp",
    "ActorName": "Item_Cook_Q_06",
    "Euen name": "Cooked Stambulb",
    "Recipe n°": 18,
@@ -330,7 +330,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_07.png",
+   "Icon": "/Images/Items/Item_Cook_Q_07.webp",
    "ActorName": "Item_Cook_Q_07",
    "Euen name": "Buttered Stambulb",
    "Recipe n°": 19,
@@ -341,7 +341,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_13.png",
+   "Icon": "/Images/Items/Item_Cook_B_13.webp",
    "ActorName": "Item_Cook_B_13",
    "Euen name": "Copious Mushroom Skewers",
    "Recipe n°": 20,
@@ -352,7 +352,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_P_03.png",
+   "Icon": "/Images/Items/Item_Cook_P_03.webp",
    "ActorName": "Item_Cook_P_03",
    "Euen name": "Spiced Meat Skewer",
    "Recipe n°": 21,
@@ -363,7 +363,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_P_04.png",
+   "Icon": "/Images/Items/Item_Cook_P_04.webp",
    "ActorName": "Item_Cook_P_04",
    "Euen name": "Prime Spiced Meat Skewer",
    "Recipe n°": 22,
@@ -374,7 +374,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_P_05.png",
+   "Icon": "/Images/Items/Item_Cook_P_05.webp",
    "ActorName": "Item_Cook_P_05",
    "Euen name": "Gourmet Spiced Meat Skewer",
    "Recipe n°": 23,
@@ -385,7 +385,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_10.png",
+   "Icon": "/Images/Items/Item_Cook_D_10.webp",
    "ActorName": "Item_Cook_D_10",
    "Euen name": "Crab Stir-Fry",
    "Recipe n°": 24,
@@ -396,7 +396,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_17.png",
+   "Icon": "/Images/Items/Item_Cook_B_17.webp",
    "ActorName": "Item_Cook_B_17",
    "Euen name": "Meat and Seafood Fry",
    "Recipe n°": 25,
@@ -407,7 +407,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_18.png",
+   "Icon": "/Images/Items/Item_Cook_B_18.webp",
    "ActorName": "Item_Cook_B_18",
    "Euen name": "Prime Meat and Seafood Fry",
    "Recipe n°": 26,
@@ -418,7 +418,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_19.png",
+   "Icon": "/Images/Items/Item_Cook_B_19.webp",
    "ActorName": "Item_Cook_B_19",
    "Euen name": "Gourmet Meat and Seafood Fry",
    "Recipe n°": 27,
@@ -429,7 +429,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_02.png",
+   "Icon": "/Images/Items/Item_Cook_D_02.webp",
    "ActorName": "Item_Cook_D_02",
    "Euen name": "Salt-Grilled Greens",
    "Recipe n°": 28,
@@ -440,7 +440,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_01.png",
+   "Icon": "/Images/Items/Item_Cook_D_01.webp",
    "ActorName": "Item_Cook_D_01",
    "Euen name": "Salt-Grilled Mushrooms",
    "Recipe n°": 29,
@@ -451,7 +451,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_04.png",
+   "Icon": "/Images/Items/Item_Cook_D_04.webp",
    "ActorName": "Item_Cook_D_04",
    "Euen name": "Salt-Grilled Meat",
    "Recipe n°": 30,
@@ -462,7 +462,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_05.png",
+   "Icon": "/Images/Items/Item_Cook_D_05.webp",
    "ActorName": "Item_Cook_D_05",
    "Euen name": "Salt-Grilled Prime Meat",
    "Recipe n°": 31,
@@ -473,7 +473,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_06.png",
+   "Icon": "/Images/Items/Item_Cook_D_06.webp",
    "ActorName": "Item_Cook_D_06",
    "Euen name": "Salt-Grilled Gourmet Meat",
    "Recipe n°": 32,
@@ -484,7 +484,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_03.png",
+   "Icon": "/Images/Items/Item_Cook_D_03.webp",
    "ActorName": "Item_Cook_D_03",
    "Euen name": "Salt-Grilled Fish",
    "Recipe n°": 33,
@@ -495,7 +495,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_09.png",
+   "Icon": "/Images/Items/Item_Cook_D_09.webp",
    "ActorName": "Item_Cook_D_09",
    "Euen name": "Salt-Grilled Crab",
    "Recipe n°": 34,
@@ -506,7 +506,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_P_02.png",
+   "Icon": "/Images/Items/Item_Cook_P_02.webp",
    "ActorName": "Item_Cook_P_02",
    "Euen name": "Herb Sauté",
    "Recipe n°": 35,
@@ -517,7 +517,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_P_01.png",
+   "Icon": "/Images/Items/Item_Cook_P_01.webp",
    "ActorName": "Item_Cook_P_01",
    "Euen name": "Fragrant Mushroom Sauté",
    "Recipe n°": 36,
@@ -528,7 +528,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_07.png",
+   "Icon": "/Images/Items/Item_Cook_D_07.webp",
    "ActorName": "Item_Cook_D_07",
    "Euen name": "Pepper Steak",
    "Recipe n°": 37,
@@ -539,7 +539,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_D_08.png",
+   "Icon": "/Images/Items/Item_Cook_D_08.webp",
    "ActorName": "Item_Cook_D_08",
    "Euen name": "Pepper Seafood",
    "Recipe n°": 38,
@@ -550,7 +550,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_05.png",
+   "Icon": "/Images/Items/Item_Cook_R_05.webp",
    "ActorName": "Item_Cook_R_05",
    "Euen name": "Fragrant Seafood Stew",
    "Recipe n°": 39,
@@ -561,7 +561,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_06.png",
+   "Icon": "/Images/Items/Item_Cook_R_06.webp",
    "ActorName": "Item_Cook_R_06",
    "Euen name": "Deep-Fried Drumstick",
    "Recipe n°": 40,
@@ -572,7 +572,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_07.png",
+   "Icon": "/Images/Items/Item_Cook_R_07.webp",
    "ActorName": "Item_Cook_R_07",
    "Euen name": "Deep-Fried Thigh",
    "Recipe n°": 41,
@@ -583,7 +583,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_08.png",
+   "Icon": "/Images/Items/Item_Cook_R_08.webp",
    "ActorName": "Item_Cook_R_08",
    "Euen name": "Deep-Fried Bird Roast",
    "Recipe n°": 42,
@@ -594,7 +594,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_H_01.png",
+   "Icon": "/Images/Items/Item_Cook_H_01.webp",
    "ActorName": "Item_Cook_H_01",
    "Euen name": "Seafood Meunière",
    "Recipe n°": 43,
@@ -605,7 +605,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_H_02.png",
+   "Icon": "/Images/Items/Item_Cook_H_02.webp",
    "ActorName": "Item_Cook_H_02",
    "Euen name": "Porgy Meunière",
    "Recipe n°": 44,
@@ -616,7 +616,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_H_03.png",
+   "Icon": "/Images/Items/Item_Cook_H_03.webp",
    "ActorName": "Item_Cook_H_03",
    "Euen name": "Salmon Meunière",
    "Recipe n°": 45,
@@ -627,7 +627,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_07.png",
+   "Icon": "/Images/Items/Item_Cook_A_07.webp",
    "ActorName": "Item_Cook_A_07",
    "Euen name": "Fruit and Mushroom Mix",
    "Recipe n°": 46,
@@ -638,7 +638,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_02.png",
+   "Icon": "/Images/Items/Item_Cook_B_02.webp",
    "ActorName": "Item_Cook_B_02",
    "Euen name": "Simmered Fruits",
    "Recipe n°": 47,
@@ -649,7 +649,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_02.png",
+   "Icon": "/Images/Items/Item_Cook_B_02.webp",
    "ActorName": "Item_Cook_B_02",
    "Euen name": "Simmered Fruits",
    "Recipe n°": 47,
@@ -660,7 +660,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_02.png",
+   "Icon": "/Images/Items/Item_Cook_B_02.webp",
    "ActorName": "Item_Cook_B_02",
    "Euen name": "Simmered Fruits",
    "Recipe n°": 47,
@@ -671,7 +671,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_12.png",
+   "Icon": "/Images/Items/Item_Cook_B_12.webp",
    "ActorName": "Item_Cook_B_12",
    "Euen name": "Copious Simmered Fruits",
    "Recipe n°": 48,
@@ -682,7 +682,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_01.png",
+   "Icon": "/Images/Items/Item_Cook_Q_01.webp",
    "ActorName": "Item_Cook_Q_01",
    "Euen name": "Simmered Tomato",
    "Recipe n°": 49,
@@ -693,7 +693,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_02.png",
+   "Icon": "/Images/Items/Item_Cook_Q_02.webp",
    "ActorName": "Item_Cook_Q_02",
    "Euen name": "Fruity Tomato Stew",
    "Recipe n°": 50,
@@ -704,7 +704,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_02.png",
+   "Icon": "/Images/Items/Item_Cook_Q_02.webp",
    "ActorName": "Item_Cook_Q_02",
    "Euen name": "Fruity Tomato Stew",
    "Recipe n°": 50,
@@ -715,7 +715,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_04.png",
+   "Icon": "/Images/Items/Item_Cook_Q_04.webp",
    "ActorName": "Item_Cook_Q_04",
    "Euen name": "Tomato Mushroom Stew",
    "Recipe n°": 51,
@@ -726,7 +726,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_05.png",
+   "Icon": "/Images/Items/Item_Cook_Q_05.webp",
    "ActorName": "Item_Cook_Q_05",
    "Euen name": "Tomato Seafood Soup",
    "Recipe n°": 52,
@@ -737,7 +737,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_07.png",
+   "Icon": "/Images/Items/Item_Cook_K_07.webp",
    "ActorName": "Item_Cook_K_07",
    "Euen name": "Cream of Vegetable Soup",
    "Recipe n°": 53,
@@ -748,7 +748,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_F_03.png",
+   "Icon": "/Images/Items/Item_Cook_F_03.webp",
    "ActorName": "Item_Cook_F_03",
    "Euen name": "Veggie Cream Soup",
    "Recipe n°": 54,
@@ -759,7 +759,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_06.png",
+   "Icon": "/Images/Items/Item_Cook_K_06.webp",
    "ActorName": "Item_Cook_K_06",
    "Euen name": "Cream of Mushroom Soup",
    "Recipe n°": 55,
@@ -770,7 +770,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_F_01.png",
+   "Icon": "/Images/Items/Item_Cook_F_01.webp",
    "ActorName": "Item_Cook_F_01",
    "Euen name": "Creamy Meat Soup",
    "Recipe n°": 56,
@@ -781,7 +781,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_F_02.png",
+   "Icon": "/Images/Items/Item_Cook_F_02.webp",
    "ActorName": "Item_Cook_F_02",
    "Euen name": "Creamy Seefood Soup",
    "Recipe n°": 57,
@@ -792,7 +792,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_04.png",
+   "Icon": "/Images/Items/Item_Cook_K_04.webp",
    "ActorName": "Item_Cook_K_04",
    "Euen name": "Snail Chowder",
    "Recipe n°": 58,
@@ -803,7 +803,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_F_04.png",
+   "Icon": "/Images/Items/Item_Cook_F_04.webp",
    "ActorName": "Item_Cook_F_04",
    "Euen name": "Creamy Heart Soup",
    "Recipe n°": 59,
@@ -814,7 +814,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_14.png",
+   "Icon": "/Images/Items/Item_Cook_A_14.webp",
    "ActorName": "Item_Cook_A_14",
    "Euen name": "Glazed Veggies",
    "Recipe n°": 60,
@@ -825,7 +825,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_11.png",
+   "Icon": "/Images/Items/Item_Cook_A_11.webp",
    "ActorName": "Item_Cook_A_11",
    "Euen name": "Glazed Mushrooms",
    "Recipe n°": 61,
@@ -836,7 +836,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_12.png",
+   "Icon": "/Images/Items/Item_Cook_A_12.webp",
    "ActorName": "Item_Cook_A_12",
    "Euen name": "Glazed Meat",
    "Recipe n°": 62,
@@ -847,7 +847,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_13.png",
+   "Icon": "/Images/Items/Item_Cook_A_13.webp",
    "ActorName": "Item_Cook_A_13",
    "Euen name": "Glazed Seefood",
    "Recipe n°": 63,
@@ -858,7 +858,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_01.png",
+   "Icon": "/Images/Items/Item_Cook_J_01.webp",
    "ActorName": "Item_Cook_J_01",
    "Euen name": "Curry Rice",
    "Recipe n°": 64,
@@ -869,7 +869,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_02.png",
+   "Icon": "/Images/Items/Item_Cook_J_02.webp",
    "ActorName": "Item_Cook_J_02",
    "Euen name": "Vegetable Curry",
    "Recipe n°": 65,
@@ -880,7 +880,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_06.png",
+   "Icon": "/Images/Items/Item_Cook_J_06.webp",
    "ActorName": "Item_Cook_J_06",
    "Euen name": "Meat Curry",
    "Recipe n°": 66,
@@ -891,7 +891,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_07.png",
+   "Icon": "/Images/Items/Item_Cook_J_07.webp",
    "ActorName": "Item_Cook_J_07",
    "Euen name": "Prime Meat Curry",
    "Recipe n°": 67,
@@ -902,7 +902,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_09.png",
+   "Icon": "/Images/Items/Item_Cook_J_09.webp",
    "ActorName": "Item_Cook_J_09",
    "Euen name": "Gourmet Meat Curry",
    "Recipe n°": 68,
@@ -913,7 +913,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_04.png",
+   "Icon": "/Images/Items/Item_Cook_J_04.webp",
    "ActorName": "Item_Cook_J_04",
    "Euen name": "Poultry Curry",
    "Recipe n°": 69,
@@ -924,7 +924,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_05.png",
+   "Icon": "/Images/Items/Item_Cook_J_05.webp",
    "ActorName": "Item_Cook_J_05",
    "Euen name": "Prime Poultry Curry",
    "Recipe n°": 70,
@@ -935,7 +935,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_08.png",
+   "Icon": "/Images/Items/Item_Cook_J_08.webp",
    "ActorName": "Item_Cook_J_08",
    "Euen name": "Gourmet Poultry Curry",
    "Recipe n°": 71,
@@ -946,7 +946,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_J_03.png",
+   "Icon": "/Images/Items/Item_Cook_J_03.webp",
    "ActorName": "Item_Cook_J_03",
    "Euen name": "Seafood Curry",
    "Recipe n°": 72,
@@ -957,7 +957,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_01.png",
+   "Icon": "/Images/Items/Item_Cook_S_01.webp",
    "ActorName": "Item_Cook_S_01",
    "Euen name": "Cheesy Curry",
    "Recipe n°": 73,
@@ -968,7 +968,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_08.png",
+   "Icon": "/Images/Items/Item_Cook_K_08.webp",
    "ActorName": "Item_Cook_K_08",
    "Euen name": "Carrot Stew",
    "Recipe n°": 74,
@@ -979,7 +979,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_03.png",
+   "Icon": "/Images/Items/Item_Cook_K_03.webp",
    "ActorName": "Item_Cook_K_03",
    "Euen name": "Pumpkin Stew",
    "Recipe n°": 75,
@@ -990,7 +990,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_01.png",
+   "Icon": "/Images/Items/Item_Cook_K_01.webp",
    "ActorName": "Item_Cook_K_01",
    "Euen name": "Meat Stew",
    "Recipe n°": 76,
@@ -1001,7 +1001,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_02.png",
+   "Icon": "/Images/Items/Item_Cook_K_02.webp",
    "ActorName": "Item_Cook_K_02",
    "Euen name": "Prime Meat Stew",
    "Recipe n°": 77,
@@ -1012,7 +1012,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_05.png",
+   "Icon": "/Images/Items/Item_Cook_K_05.webp",
    "ActorName": "Item_Cook_K_05",
    "Euen name": "Gourmet Meat Stew",
    "Recipe n°": 78,
@@ -1023,7 +1023,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_B_20.png",
+   "Icon": "/Images/Items/Item_Cook_B_20.webp",
    "ActorName": "Item_Cook_B_20",
    "Euen name": "Meat-Stuffed Pumpkin",
    "Recipe n°": 79,
@@ -1034,7 +1034,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_13.png",
+   "Icon": "/Images/Items/Item_Cook_G_13.webp",
    "ActorName": "Item_Cook_G_13",
    "Euen name": "Vegetable Risotto",
    "Recipe n°": 80,
@@ -1045,7 +1045,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_12.png",
+   "Icon": "/Images/Items/Item_Cook_G_12.webp",
    "ActorName": "Item_Cook_G_12",
    "Euen name": "Mushroom Risotto",
    "Recipe n°": 81,
@@ -1056,7 +1056,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_14.png",
+   "Icon": "/Images/Items/Item_Cook_G_14.webp",
    "ActorName": "Item_Cook_G_14",
    "Euen name": "Salmon Risotto",
    "Recipe n°": 82,
@@ -1067,7 +1067,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_17.png",
+   "Icon": "/Images/Items/Item_Cook_G_17.webp",
    "ActorName": "Item_Cook_G_17",
    "Euen name": "Crab Risotto",
    "Recipe n°": 83,
@@ -1078,7 +1078,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_10.png",
+   "Icon": "/Images/Items/Item_Cook_Q_10.webp",
    "ActorName": "Item_Cook_Q_10",
    "Euen name": "Cheesy Risotto",
    "Recipe n°": 84,
@@ -1089,7 +1089,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_E_01.png",
+   "Icon": "/Images/Items/Item_Cook_E_01.webp",
    "ActorName": "Item_Cook_E_01",
    "Euen name": "Poultry Pilaf",
    "Recipe n°": 85,
@@ -1100,7 +1100,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_E_02.png",
+   "Icon": "/Images/Items/Item_Cook_E_02.webp",
    "ActorName": "Item_Cook_E_02",
    "Euen name": "Prime Poultry Pilaf",
    "Recipe n°": 86,
@@ -1111,7 +1111,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_E_03.png",
+   "Icon": "/Images/Items/Item_Cook_E_03.webp",
    "ActorName": "Item_Cook_E_03",
    "Euen name": "Gourmet Poultry Pilaf",
    "Recipe n°": 87,
@@ -1122,7 +1122,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_N_01.png",
+   "Icon": "/Images/Items/Item_Cook_N_01.webp",
    "ActorName": "Item_Cook_N_01",
    "Euen name": "Seafood Paella",
    "Recipe n°": 88,
@@ -1133,7 +1133,7 @@
    "ReqIngredients": 5
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_11.png",
+   "Icon": "/Images/Items/Item_Cook_G_11.webp",
    "ActorName": "Item_Cook_G_11",
    "Euen name": "Curry Pilaf",
    "Recipe n°": 89,
@@ -1144,7 +1144,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_E_04.png",
+   "Icon": "/Images/Items/Item_Cook_E_04.webp",
    "ActorName": "Item_Cook_E_04",
    "Euen name": "Fried Egg and Rice",
    "Recipe n°": 90,
@@ -1155,7 +1155,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_08.png",
+   "Icon": "/Images/Items/Item_Cook_Q_08.webp",
    "ActorName": "Item_Cook_Q_08",
    "Euen name": "Crunchy Fried Rice",
    "Recipe n°": 91,
@@ -1166,7 +1166,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_10.png",
+   "Icon": "/Images/Items/Item_Cook_G_10.webp",
    "ActorName": "Item_Cook_G_10",
    "Euen name": "Seafood Fried Rice",
    "Recipe n°": 92,
@@ -1177,7 +1177,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_16.png",
+   "Icon": "/Images/Items/Item_Cook_G_16.webp",
    "ActorName": "Item_Cook_G_16",
    "Euen name": "Crab Omelet with Rice",
    "Recipe n°": 93,
@@ -1188,7 +1188,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_05.png",
+   "Icon": "/Images/Items/Item_Cook_G_05.webp",
    "ActorName": "Item_Cook_G_05",
    "Euen name": "Meat and Rice Bowl",
    "Recipe n°": 94,
@@ -1199,7 +1199,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_06.png",
+   "Icon": "/Images/Items/Item_Cook_G_06.webp",
    "ActorName": "Item_Cook_G_06",
    "Euen name": "Prime Meat and Rice Bowl",
    "Recipe n°": 95,
@@ -1210,7 +1210,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_09.png",
+   "Icon": "/Images/Items/Item_Cook_G_09.webp",
    "ActorName": "Item_Cook_G_09",
    "Euen name": "Gourmet Meat and Rice Bowl",
    "Recipe n°": 96,
@@ -1221,7 +1221,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_02.png",
+   "Icon": "/Images/Items/Item_Cook_S_02.webp",
    "ActorName": "Item_Cook_S_02",
    "Euen name": "Cheesy Meat Bowl",
    "Recipe n°": 97,
@@ -1232,7 +1232,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_03.png",
+   "Icon": "/Images/Items/Item_Cook_S_03.webp",
    "ActorName": "Item_Cook_S_03",
    "Euen name": "Prime Cheesy Meat Bowl",
    "Recipe n°": 98,
@@ -1243,7 +1243,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_04.png",
+   "Icon": "/Images/Items/Item_Cook_S_04.webp",
    "ActorName": "Item_Cook_S_04",
    "Euen name": "Gourmet Cheesy Meat Bowl",
    "Recipe n°": 99,
@@ -1254,7 +1254,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_03.png",
+   "Icon": "/Images/Items/Item_Cook_G_03.webp",
    "ActorName": "Item_Cook_G_03",
    "Euen name": "Veggie Rice Balls",
    "Recipe n°": 100,
@@ -1265,7 +1265,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_04.png",
+   "Icon": "/Images/Items/Item_Cook_G_04.webp",
    "ActorName": "Item_Cook_G_04",
    "Euen name": "Mushroom Rice Balls",
    "Recipe n°": 101,
@@ -1276,7 +1276,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_15.png",
+   "Icon": "/Images/Items/Item_Cook_G_15.webp",
    "ActorName": "Item_Cook_G_15",
    "Euen name": "Meaty Rice Balls",
    "Recipe n°": 102,
@@ -1287,7 +1287,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_G_02.png",
+   "Icon": "/Images/Items/Item_Cook_G_02.webp",
    "ActorName": "Item_Cook_G_02",
    "Euen name": "Seafood Rice Balls",
    "Recipe n°": 103,
@@ -1298,7 +1298,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_02.png",
+   "Icon": "/Images/Items/Item_Cook_R_02.webp",
    "ActorName": "Item_Cook_R_02",
    "Euen name": "Veggie Porridge",
    "Recipe n°": 104,
@@ -1309,7 +1309,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_M_01.png",
+   "Icon": "/Images/Items/Item_Cook_M_01.webp",
    "ActorName": "Item_Cook_M_01",
    "Euen name": "Wheat Bread",
    "Recipe n°": 105,
@@ -1320,7 +1320,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_09.png",
+   "Icon": "/Images/Items/Item_Cook_R_09.webp",
    "ActorName": "Item_Cook_R_09",
    "Euen name": "Melty Cheesy Bread",
    "Recipe n°": 106,
@@ -1331,7 +1331,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_04.png",
+   "Icon": "/Images/Items/Item_Cook_R_04.webp",
    "ActorName": "Item_Cook_R_04",
    "Euen name": "Hylian Tomato Pizza",
    "Recipe n°": 107,
@@ -1342,7 +1342,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_04.png",
+   "Icon": "/Images/Items/Item_Cook_I_04.webp",
    "ActorName": "Item_Cook_I_04",
    "Euen name": "Meat Pie",
    "Recipe n°": 108,
@@ -1353,7 +1353,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_15.png",
+   "Icon": "/Images/Items/Item_Cook_I_15.webp",
    "ActorName": "Item_Cook_I_15",
    "Euen name": "Fish Pie",
    "Recipe n°": 109,
@@ -1364,7 +1364,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_10.png",
+   "Icon": "/Images/Items/Item_Cook_S_10.webp",
    "ActorName": "Item_Cook_S_10",
    "Euen name": "Cheesy Tomato",
    "Recipe n°": 110,
@@ -1375,7 +1375,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_10.png",
+   "Icon": "/Images/Items/Item_Cook_R_10.webp",
    "ActorName": "Item_Cook_R_10",
    "Euen name": "Cheesy Baked Fish",
    "Recipe n°": 111,
@@ -1386,7 +1386,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_10.png",
+   "Icon": "/Images/Items/Item_Cook_A_10.webp",
    "ActorName": "Item_Cook_A_10",
    "Euen name": "Omelet",
    "Recipe n°": 112,
@@ -1397,7 +1397,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_A_10.png",
+   "Icon": "/Images/Items/Item_Cook_A_10.webp",
    "ActorName": "Item_Cook_A_10",
    "Euen name": "Omelet",
    "Recipe n°": 112,
@@ -1408,7 +1408,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_N_03.png",
+   "Icon": "/Images/Items/Item_Cook_N_03.webp",
    "ActorName": "Item_Cook_N_03",
    "Euen name": "Vegetable Omelet",
    "Recipe n°": 113,
@@ -1419,7 +1419,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_N_04.png",
+   "Icon": "/Images/Items/Item_Cook_N_04.webp",
    "ActorName": "Item_Cook_N_04",
    "Euen name": "Mushroom Omelet",
    "Recipe n°": 114,
@@ -1430,7 +1430,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_01.png",
+   "Icon": "/Images/Items/Item_Cook_R_01.webp",
    "ActorName": "Item_Cook_R_01",
    "Euen name": "Cheesy Omelette",
    "Recipe n°": 115,
@@ -1441,7 +1441,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_07.png",
+   "Icon": "/Images/Items/Item_Cook_I_07.webp",
    "ActorName": "Item_Cook_I_07",
    "Euen name": "Hot Buttered Apple",
    "Recipe n°": 116,
@@ -1452,7 +1452,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_09.png",
+   "Icon": "/Images/Items/Item_Cook_I_09.webp",
    "ActorName": "Item_Cook_I_09",
    "Euen name": "Honeyed Fruits",
    "Recipe n°": 117,
@@ -1463,7 +1463,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_08.png",
+   "Icon": "/Images/Items/Item_Cook_I_08.webp",
    "ActorName": "Item_Cook_I_08",
    "Euen name": "Honeyed Apple",
    "Recipe n°": 118,
@@ -1474,7 +1474,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_16.png",
+   "Icon": "/Images/Items/Item_Cook_I_16.webp",
    "ActorName": "Item_Cook_I_16",
    "Euen name": "Honey Candy",
    "Recipe n°": 119,
@@ -1485,7 +1485,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_13.png",
+   "Icon": "/Images/Items/Item_Cook_I_13.webp",
    "ActorName": "Item_Cook_I_13",
    "Euen name": "Fried Bananas",
    "Recipe n°": 120,
@@ -1496,7 +1496,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_14.png",
+   "Icon": "/Images/Items/Item_Cook_I_14.webp",
    "ActorName": "Item_Cook_I_14",
    "Euen name": "Egg Pudding",
    "Recipe n°": 121,
@@ -1507,7 +1507,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_10.png",
+   "Icon": "/Images/Items/Item_Cook_I_10.webp",
    "ActorName": "Item_Cook_I_10",
    "Euen name": "Plain Crepe",
    "Recipe n°": 122,
@@ -1518,7 +1518,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_11.png",
+   "Icon": "/Images/Items/Item_Cook_I_11.webp",
    "ActorName": "Item_Cook_I_11",
    "Euen name": "Wildberry Crepe",
    "Recipe n°": 123,
@@ -1529,7 +1529,7 @@
    "ReqIngredients": 5
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_17.png",
+   "Icon": "/Images/Items/Item_Cook_I_17.webp",
    "ActorName": "Item_Cook_I_17",
    "Euen name": "Honey Crepe",
    "Recipe n°": 124,
@@ -1540,7 +1540,7 @@
    "ReqIngredients": 5
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_12.png",
+   "Icon": "/Images/Items/Item_Cook_I_12.webp",
    "ActorName": "Item_Cook_I_12",
    "Euen name": "Nutcake",
    "Recipe n°": 125,
@@ -1551,7 +1551,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_N_02.png",
+   "Icon": "/Images/Items/Item_Cook_N_02.webp",
    "ActorName": "Item_Cook_N_02",
    "Euen name": "Fruitcake",
    "Recipe n°": 126,
@@ -1562,7 +1562,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_05.png",
+   "Icon": "/Images/Items/Item_Cook_I_05.webp",
    "ActorName": "Item_Cook_I_05",
    "Euen name": "Carrot Cake",
    "Recipe n°": 127,
@@ -1573,7 +1573,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_06.png",
+   "Icon": "/Images/Items/Item_Cook_I_06.webp",
    "ActorName": "Item_Cook_I_06",
    "Euen name": "Pumpkin Pie",
    "Recipe n°": 128,
@@ -1584,7 +1584,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_Q_09.png",
+   "Icon": "/Images/Items/Item_Cook_Q_09.webp",
    "ActorName": "Item_Cook_Q_09",
    "Euen name": "Cheesecake",
    "Recipe n°": 129,
@@ -1595,7 +1595,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_01.png",
+   "Icon": "/Images/Items/Item_Cook_I_01.webp",
    "ActorName": "Item_Cook_I_01",
    "Euen name": "Fruit Pie",
    "Recipe n°": 130,
@@ -1606,7 +1606,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_02.png",
+   "Icon": "/Images/Items/Item_Cook_I_02.webp",
    "ActorName": "Item_Cook_I_02",
    "Euen name": "Apple Pie",
    "Recipe n°": 131,
@@ -1617,7 +1617,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_I_03.png",
+   "Icon": "/Images/Items/Item_Cook_I_03.webp",
    "ActorName": "Item_Cook_I_03",
    "Euen name": "Egg Tart",
    "Recipe n°": 132,
@@ -1628,7 +1628,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_K_09.png",
+   "Icon": "/Images/Items/Item_Cook_K_09.webp",
    "ActorName": "Item_Cook_K_09",
    "Euen name": "Milk",
    "Recipe n°": 133,
@@ -1639,7 +1639,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_R_03.png",
+   "Icon": "/Images/Items/Item_Cook_R_03.webp",
    "ActorName": "Item_Cook_R_03",
    "Euen name": "Noble Pursuit",
    "Recipe n°": 134,
@@ -1650,7 +1650,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_L_01.png",
+   "Icon": "/Images/Items/Item_Cook_L_01.webp",
    "ActorName": "Item_Cook_L_01",
    "Euen name": "Monster Stew",
    "Recipe n°": 135,
@@ -1661,7 +1661,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_L_02.png",
+   "Icon": "/Images/Items/Item_Cook_L_02.webp",
    "ActorName": "Item_Cook_L_02",
    "Euen name": "Monster Soup",
    "Recipe n°": 136,
@@ -1672,7 +1672,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_L_05.png",
+   "Icon": "/Images/Items/Item_Cook_L_05.webp",
    "ActorName": "Item_Cook_L_05",
    "Euen name": "Monster Curry",
    "Recipe n°": 137,
@@ -1683,7 +1683,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_L_04.png",
+   "Icon": "/Images/Items/Item_Cook_L_04.webp",
    "ActorName": "Item_Cook_L_04",
    "Euen name": "Monster Rice Ball",
    "Recipe n°": 138,
@@ -1694,7 +1694,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_L_03.png",
+   "Icon": "/Images/Items/Item_Cook_L_03.webp",
    "ActorName": "Item_Cook_L_03",
    "Euen name": "Monster Cake",
    "Recipe n°": 139,
@@ -1705,7 +1705,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_05.png",
+   "Icon": "/Images/Items/Item_Cook_S_05.webp",
    "ActorName": "Item_Cook_S_05",
    "Euen name": "Dark Stew",
    "Recipe n°": 140,
@@ -1716,7 +1716,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_07.png",
+   "Icon": "/Images/Items/Item_Cook_S_07.webp",
    "ActorName": "Item_Cook_S_07",
    "Euen name": "Dark Soup",
    "Recipe n°": 141,
@@ -1727,7 +1727,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_08.png",
+   "Icon": "/Images/Items/Item_Cook_S_08.webp",
    "ActorName": "Item_Cook_S_08",
    "Euen name": "Dark Curry",
    "Recipe n°": 142,
@@ -1738,7 +1738,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_06.png",
+   "Icon": "/Images/Items/Item_Cook_S_06.webp",
    "ActorName": "Item_Cook_S_06",
    "Euen name": "Dark Rice Ball",
    "Recipe n°": 143,
@@ -1749,7 +1749,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_S_09.png",
+   "Icon": "/Images/Items/Item_Cook_S_09.webp",
    "ActorName": "Item_Cook_S_09",
    "Euen name": "Dark Cake",
    "Recipe n°": 144,
@@ -1760,7 +1760,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_O_01.png",
+   "Icon": "/Images/Items/Item_Cook_O_01.webp",
    "ActorName": "Item_Cook_O_01",
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
@@ -1771,7 +1771,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_O_01.png",
+   "Icon": "/Images/Items/Item_Cook_O_01.webp",
    "ActorName": "Item_Cook_O_01",
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
@@ -1782,7 +1782,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_O_01.png",
+   "Icon": "/Images/Items/Item_Cook_O_01.webp",
    "ActorName": "Item_Cook_O_01",
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
@@ -1793,7 +1793,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_O_01.png",
+   "Icon": "/Images/Items/Item_Cook_O_01.webp",
    "ActorName": "Item_Cook_O_01",
    "Euen name": "Dubious Food",
    "Recipe n°": 145,
@@ -1804,7 +1804,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_O_02.png",
+   "Icon": "/Images/Items/Item_Cook_O_02.webp",
    "ActorName": "Item_Cook_O_02",
    "Euen name": "Rock-Hard Food",
    "Recipe n°": 146,
@@ -1815,7 +1815,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_StaminaRecover.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_StaminaRecover.webp",
    "ActorName": "Item_Cook_C_17_StaminaRecover",
    "Euen name": "Energizing Elixir",
    "Recipe n°": 215,
@@ -1826,7 +1826,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_AllSpeed.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_AllSpeed.webp",
    "ActorName": "Item_Cook_C_17_AllSpeed",
    "Euen name": "Hasty Elixir",
    "Recipe n°": 216,
@@ -1837,7 +1837,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_ResistCold.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_ResistCold.webp",
    "ActorName": "Item_Cook_C_17_ResistCold",
    "Euen name": "Spicy Elixir",
    "Recipe n°": 217,
@@ -1848,7 +1848,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_ResistHot.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_ResistHot.webp",
    "ActorName": "Item_Cook_C_17_ResistHot",
    "Euen name": "Chilly Elixir",
    "Recipe n°": 218,
@@ -1859,7 +1859,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_ResistElectric.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_ResistElectric.webp",
    "ActorName": "Item_Cook_C_17_ResistElectric",
    "Euen name": "Electro Elixir",
    "Recipe n°": 219,
@@ -1870,7 +1870,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_ResistBurn.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_ResistBurn.webp",
    "ActorName": "Item_Cook_C_17_ResistBurn",
    "Euen name": "Fireproof Elixir",
    "Recipe n°": 220,
@@ -1881,7 +1881,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_AttackUp.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_AttackUp.webp",
    "ActorName": "Item_Cook_C_17_AttackUp",
    "Euen name": "Mighty Elixir",
    "Recipe n°": 221,
@@ -1892,7 +1892,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_DefenseUp.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_DefenseUp.webp",
    "ActorName": "Item_Cook_C_17_DefenseUp",
    "Euen name": "Tough Elixir",
    "Recipe n°": 222,
@@ -1903,7 +1903,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_QuietnessUp.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_QuietnessUp.webp",
    "ActorName": "Item_Cook_C_17_QuietnessUp",
    "Euen name": "Sneaky Elixir",
    "Recipe n°": 223,
@@ -1914,7 +1914,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_NotSlippy.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_NotSlippy.webp",
    "ActorName": "Item_Cook_C_17_NotSlippy",
    "Euen name": "Sticky Elixir",
    "Recipe n°": 224,
@@ -1925,7 +1925,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_LightEmission.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_LightEmission.webp",
    "ActorName": "Item_Cook_C_17_LightEmission",
    "Euen name": "Bright Elixir",
    "Recipe n°": 225,
@@ -1936,7 +1936,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_ExStaminaMaxUp.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_ExStaminaMaxUp.webp",
    "ActorName": "Item_Cook_C_17_ExStaminaMaxUp",
    "Euen name": "Enduring Elixir",
    "Recipe n°": 226,
@@ -1947,7 +1947,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_17_LifeMaxUp.png",
+   "Icon": "/Images/Items/Item_Cook_C_17_LifeMaxUp.webp",
    "ActorName": "Item_Cook_C_17_LifeMaxUp",
    "Euen name": "Hearty Elixir",
    "Recipe n°": 227,
@@ -1958,7 +1958,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_16.png",
+   "Icon": "/Images/Items/Item_Cook_C_16.webp",
    "ActorName": "Item_Cook_C_16",
    "Euen name": "Fairy Tonic",
    "Recipe n°": 228,
@@ -1969,7 +1969,7 @@
    "ReqIngredients": 1
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_16.png",
+   "Icon": "/Images/Items/Item_Cook_C_16.webp",
    "ActorName": "Item_Cook_C_16",
    "Euen name": "Fairy Tonic",
    "Recipe n°": 228,
@@ -1980,7 +1980,7 @@
    "ReqIngredients": 3
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_16.png",
+   "Icon": "/Images/Items/Item_Cook_C_16.webp",
    "ActorName": "Item_Cook_C_16",
    "Euen name": "Fairy Tonic",
    "Recipe n°": 228,
@@ -1991,7 +1991,7 @@
    "ReqIngredients": 4
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_16.png",
+   "Icon": "/Images/Items/Item_Cook_C_16.webp",
    "ActorName": "Item_Cook_C_16",
    "Euen name": "Fairy Tonic",
    "Recipe n°": 228,
@@ -2002,7 +2002,7 @@
    "ReqIngredients": 2
  },
  {
-   "Icon": "/Images/Items/Item_Cook_C_16.png ",
+   "Icon": "/Images/Items/Item_Cook_C_16.webp ",
    "ActorName": "Item_Cook_C_16",
    "Euen name": "Fairy Tonic",
    "Recipe n°": 228,
