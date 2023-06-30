@@ -1,9 +1,12 @@
 import React from 'react';
+import { lazy } from 'react';
 import materials from '../../data/materials.json';
-import Material from '../Material/Material';
 import { Input } from 'antd';
 import { useState } from 'react';
 import './MaterialSelect.scss';
+
+const Material = lazy(() => import('../Material/Material'));
+
 
 export type Mats = typeof materials[0];
 
