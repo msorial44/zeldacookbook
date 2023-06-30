@@ -227,7 +227,7 @@ function StatDisplay(props: any) {
         //HP
         let hp = 0; //whole hearts
         let maxHp = 0; //quarter hearts
-        if (effect === "LifeMaxUp") {
+        if (effect === "LifeMaxUp" && dish["Euen name"] !== "Dubious Food") {
             hp = 30;
             maxHp += tierLevel;
         } else {
