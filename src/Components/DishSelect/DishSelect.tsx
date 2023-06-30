@@ -8,6 +8,7 @@ import './DishSelect.scss';
 export type Recipe = typeof recipes[0];   
 
 let undefRecipe: Recipe = {
+    "FIELD1": 0,
     "Icon": "",
    "ActorName": "",
    "Euen name": "",
@@ -16,7 +17,8 @@ let undefRecipe: Recipe = {
    "BonusHeart": 0,
    "BonusLevel": 0,
    "BonusTime": 0,
-   "ReqIngredients": 0
+   "ReqIngredients": 0,
+   "priority": 0
 }
 
 function DishSelect(props: any) {
@@ -124,35 +126,9 @@ function DishSelect(props: any) {
                     finalRecipe = x;
                 }
             } else {
-                let max = 0;
-                for (let i = 0; i < finalRecipes.length; i++) {
-                    if (recipeCleanup(finalRecipes[i]).length > max) {
-                        max = recipeCleanup(finalRecipes[i]).length;
-                    }
-                }
-                finalRecipes = finalRecipes.filter(x => recipeCleanup(x).length === max);
-                let optional_count = 0;
-                finalRecipes.forEach((rep: Recipe) => {
-                    let locRec = recipeCleanup(rep);
-                    for (const item of locRec) {
-                        if (Array.isArray(item)) {
-                            optional_count += 1;
-                        } 
-                    }
+                finalRecipes.sort((a, b) => {
+                    return a["priority"] - b["priority"];
                 });
-                if (optional_count > 0) {
-                    let temp = finalRecipes;
-                    finalRecipes = [];
-                    for (let i = 0; i < temp.length; i++) {
-                        let locRec = recipeCleanup(temp[i]);
-                        for (const item of locRec) {
-                            if (Array.isArray(item)) {
-                                finalRecipes.push(temp[i]);
-                                break;
-                            } 
-                        }
-                    }
-                }
                 let x: any = finalRecipes[0];
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
