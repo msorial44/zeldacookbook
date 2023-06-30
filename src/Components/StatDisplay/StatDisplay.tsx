@@ -476,13 +476,14 @@ function StatDisplay(props: any) {
         }
     }
     
+    const critShow = Stats["Crit Chance"] > 10 && !props.dish["Euen name"].includes("Dubious Food");
     return (
         <div className="StatDisplay">
             <div className="StatDisplayContainer">
                 {hpDisplay(Stats)}
                 {effectDisplay(Stats)}
             </div>
-            {Stats["Crit Chance"] > 10 && <p className='CritChance'>Crit Chance: {Stats["Crit Chance"]}%</p>}
+            {critShow && <p className='CritChance'>Crit Chance: {Stats["Crit Chance"]}%</p>}
         </div>
     );
 }
