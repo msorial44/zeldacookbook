@@ -29,7 +29,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin-right: 0.5vw;
+            margin-right: 0.5rem;
             height: 2rem;
             
 
@@ -55,6 +55,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
+            margin-right: 0.5rem;
             height: 2rem;
 
             img {
@@ -110,6 +111,33 @@
             }
 
 
+        }
+
+        .price {
+            background-color: gray;
+            border-radius: 0.2rem;
+            border-color: gray;
+            border-style: solid;
+            border-width: 0.15rem;
+            background-color: rgba(0, 0, 0, 0.504);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 0.5vw;
+            height: 2rem;
+            color: white;
+
+            img {
+                width: 1rem;
+                margin: 0.5rem;
+            }
+
+            p {
+                color: white;
+                font-size: 1rem;
+                margin-right: 0.5rem;
+                
+            }
         }
     }
 

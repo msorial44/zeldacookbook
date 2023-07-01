@@ -324,6 +324,26 @@ function StatDisplay(props: any) {
                 stamina = 0;
             }
         }
+        //Price Calculations
+        let price = 0;
+        const constantDishes = ["Fairy Tonic", "Dubious Food", "Rock-Hard Food"];
+        const priceMultiplier = [1.2, 1.3, 1.4, 1.6, 1.8];
+        if (constantDishes.includes(dish["Euen name"])) {
+            price = 2;
+        } else {
+            data.forEach((x: Mats) => {
+                if (x["Cooking Tag 1"] === "CookLowPrice") {
+                    price += 1;
+                } else {
+                    price += x["Sell Price"];
+                }
+            });
+            price *= priceMultiplier[data.length-1];
+        }
+        price = Math.floor(price);
+        
+        
+        
         let stats = {
             "Effect": effect,
             "Effect Tier": tier,
@@ -333,7 +353,8 @@ function StatDisplay(props: any) {
             "HP": hp,
             "Max HP": maxHp,
             "Stamina": stamina,
-            "Max Stamina": maxStamina
+            "Max Stamina": maxStamina,
+            "Price": price
         }
         setStats(stats);
     }
@@ -488,8 +509,13 @@ function StatDisplay(props: any) {
             <div className="StatDisplayContainer">
                 {hpDisplay(Stats)}
                 {effectDisplay(Stats)}
+                {Stats['Price'] > 0 && <div className='price'> 
+                    <img src={process.env.PUBLIC_URL + "/Images/icons/Rupee.svg"} alt={"Rupee"}/>
+                    <p>{Stats["Price"]}</p>
+                </div>}
             </div>
             {critShow && <p className='CritChance'>Crit Chance: {Stats["Crit Chance"]}%</p>}
+            
         </div>
     );
 }
