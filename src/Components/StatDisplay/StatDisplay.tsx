@@ -254,7 +254,10 @@ function StatDisplay(props: any) {
                     hp += dish["BonusHeart"]/4;
                 }
                 if (data.length > 1) {
-                    data.forEach((x: Mats) => {
+                    const newData = data.filter(function(item, pos, self) {
+                        return self.indexOf(item) === pos;
+                    });
+                    newData.forEach((x: Mats) => {
                         if (x["CookingHitPointBoost"] !== 0) {
                             hp += x["CookingHitPointBoost"]/4;
                         }
