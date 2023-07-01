@@ -438,7 +438,7 @@ function StatDisplay(props: any) {
                     <div className="EffectDisplay Default">
                         {icons(Stats["Effect Tier"])}
                         <p>{effectToName(Stats["Effect"])}</p>
-                        <p className='effect-duration'>{Math.floor(Stats["Effect Duration"]/60)}:{Stats["Effect Duration"]%60}{Stats["Effect Duration"]%60===0 && 0}</p>
+                        <p className='effect-duration'>{Math.floor(Stats["Effect Duration"]/60)===0 && 0}{Math.floor(Stats["Effect Duration"]/60)}:{Stats["Effect Duration"]%60}{Stats["Effect Duration"]%60===0 && 0}</p>
                     </div>
                 )
             }      
