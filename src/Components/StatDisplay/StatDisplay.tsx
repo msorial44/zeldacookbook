@@ -57,7 +57,7 @@ function StatDisplay(props: any) {
                     setEffect("FlameGuard");
                     break;
                 case "Mighty":
-                    setEffect("AttackUo");
+                    setEffect("AttackUp");
                     break;
                 case "Tough":
                     setEffect("DefenseUp");
