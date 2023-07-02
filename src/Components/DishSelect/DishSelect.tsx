@@ -78,7 +78,7 @@ function DishSelect(props: any) {
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
-            //.log("-------------------");
+            //console.log("-------------------");
             let localRecipe = recipeCleanup(recipe);
             let localIng = Ing;
             for (let i = localIng.length -1; i >= 0; i--) {
@@ -107,6 +107,9 @@ function DishSelect(props: any) {
             }
         });
         let finalRecipe: Recipe = undefRecipe;
+        finalRecipes.sort((a, b) => {
+            return a["priority"] - b["priority"];
+        });
         if (finalRecipes.length === 0) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
@@ -126,14 +129,11 @@ function DishSelect(props: any) {
                     finalRecipe = x;
                 }
             } else if (elixir_count === 1) {
-                let x: any = finalRecipes.pop();
+                let x: any = recipes.find((x: Recipe) => x["Euen name"].includes("Elixir"));
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
                 }
             } else {
-                finalRecipes.sort((a, b) => {
-                    return a["priority"] - b["priority"];
-                });
                 let x: any = finalRecipes[0];
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
