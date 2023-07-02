@@ -129,7 +129,7 @@ function DishSelect(props: any) {
                     finalRecipe = x;
                 }
             } else if (elixir_count === 1) {
-                let x: any = recipes.find((x: Recipe) => x["Euen name"].includes("Elixir"));
+                let x: any = finalRecipes[0];
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
                 }
