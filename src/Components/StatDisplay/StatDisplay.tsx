@@ -257,11 +257,17 @@ function StatDisplay(props: any) {
                     const newData = data.filter(function(item, pos, self) {
                         return self.indexOf(item) === pos;
                     });
-                    newData.forEach((x: Mats) => {
-                        if (x["CookingHitPointBoost"] !== 0) {
-                            hp += x["CookingHitPointBoost"]/4;
-                        }
+                    const MatCat = newData.map((x: Mats) => x.MaterialCategory);
+                    const newMatCats = MatCat.filter(function(item, pos, self) {
+                        return self.indexOf(item) === pos;
                     });
+                    if (!(newMatCats.length === 1 && newMatCats[0] === "Boost")) {
+                        newData.forEach((x: Mats) => {
+                            if (x["CookingHitPointBoost"] !== 0) {
+                                hp += x["CookingHitPointBoost"]/4;
+                            }
+                        });
+                    }     
                 }
                 if (hp > 30) {
                     hp = 30;
