@@ -8,22 +8,17 @@
     border-width: 0.15rem;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.300);
-    width: 25rem;
-    height: 18rem;
-    margin-bottom: 2rem;
     padding: 1rem;
     
 
     img {
-        max-width: 13rem;
-        max-height: 13rem;
+        height: 90%;
         margin: -2rem;
     }
 
     .Dish-Text {
-        font-size: 1.5vw;
         color: white;
         text-align: center;
-        margin-top: 0.5vw;
+        margin-top: 1rem;
     }
 }

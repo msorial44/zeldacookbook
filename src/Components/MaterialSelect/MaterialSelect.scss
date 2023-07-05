@@ -1,11 +1,7 @@
 .MaterialSelect {
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    height: 100vh;
     overflow: scroll;
-    margin-left: 5vw;
-    margin-right: 5vw;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     border-color: gray;
@@ -27,8 +23,10 @@
         justify-content: center;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
+        padding: 0.3rem;
         padding-top: 1rem;
         padding-bottom: 2rem;
+        
     }
 
     Input {

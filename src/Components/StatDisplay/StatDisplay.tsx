@@ -520,7 +520,7 @@ function StatDisplay(props: any) {
                     <p>{Stats["Price"]}</p>
                 </div>}
             </div>
-            {critShow && <p className='CritChance'>Crit Chance: {Stats["Crit Chance"]}%</p>}
+            {critShow && <p className='CritChance' style={{ marginTop: "0.5rem" }}>Crit Chance: {Stats["Crit Chance"]}%</p>}
             
         </div>
     );

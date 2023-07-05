@@ -6,10 +6,207 @@
   height: 100vh;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  
   background-color: rgba(12, 11, 11, 0.047);
   overflow: hidden;
   font-family: "FOT-Rodin-B";
+
+  &.isLaptop {
+    flex-direction: row;
+
+    .MaterialSelect {
+      width: 45%;
+      height: 100%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+
+    .Result {
+      width: 50vw;
+      height: 100vh;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .DishSelect {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        width: 75%;
+        height: 40%;
+        margin-bottom: 2rem;
+
+        .StatDisplay {
+          font-size: 1.1rem;
+          line-height: 1.2rem;
+          
+          .StatDisplayContainer {
+            height: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  &.isTablet {
+    flex-direction: row;
+
+    .MaterialSelect {
+      width: 45%;
+      height: 100%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+
+    .Result {
+      width: 50vw;
+      height: 100vh;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .DishSelect {
+        width: 75%;
+        height: 40%;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+
+        .StatDisplay {
+          font-size: 0.8rem;
+          line-height: 1rem;
+          .StatDisplayContainer {
+            height: 2.2rem;
+            .HPDisplay {
+              margin-right: 0.25rem;
+            }
+            .EffectDisplay {
+              margin-right: 0.25rem;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  &.isMobile {
+    flex-direction: column-reverse;
+    
+    .MaterialSelect {
+      width: 100%;
+      height: 50%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0.5rem;
+
+      Input {
+        display: none !important;
+      }
+    }
+
+    .Result {
+      width: 100%;
+      height: 50%;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .MaterialDisplay {
+        margin-top: 0.5rem !important;
+      }
+
+      .DishSelect {
+        
+        font-size: 1.2rem !important;
+        width: 80%;
+        height: 60%;
+        margin-bottom: 0;
+        line-height: 1.5rem;
+        padding-bottom: 0.5rem !important;
+
+        img {
+          margin-top: -1.5rem ;
+        }
+
+        .Dish-Text {
+          margin-top: 1rem !important;
+        }
+
+        .StatDisplay {
+          margin-top: 0.5rem !important;
+          font-size: 1rem;
+
+          .StatDisplayContainer {
+            height: 2rem;
+
+            img {
+              width: 1rem !important;
+              margin: 0.2rem;
+            }
+
+            .price {
+              img {
+                width: 0.7rem !important;
+                margin: 0.3rem;
+              }
+
+              p {
+                margin: 0rem !important;
+                margin-right: 0.2rem !important;
+              }
+            }
+
+            .EffectDisplay {
+
+
+              p {
+                margin: 0rem !important;
+                margin-right: 0.2rem !important;
+              }
+            }
+
+            .HPDisplay {
+
+              p {
+                margin: 0rem !important;
+                margin-right: 0.2rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  &.isMobileLarge {
+    .Result {
+      .DishSelect {
+        .StatDisplay {
+          font-size: 0.9rem;
+          line-height: 1rem;
+        }
+      }
+    }
+  }
+
+  &.isMobileSmall {
+
+    .Result {
+      .DishSelect {
+        .StatDisplay {
+          font-size: 0.8rem;
+          line-height: 0.9rem;
+        }
+      }
+    }
+  }
 }
 
 .background-image {
@@ -31,15 +228,7 @@
   margin-top: -1%;
 }
 
-.Result {
-  width: 50vw;
-  height: 100vh;
-  overflow: scroll;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 
 
