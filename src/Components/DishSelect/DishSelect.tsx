@@ -72,13 +72,16 @@ function DishSelect(props: any) {
         const singleRecipeCheck: Mats[] = data.filter(function(item: Mats, pos: number, self: Mats[]) {
             return self.indexOf(item) === pos;
         });
+        const singleRecipesList = ["Hylian Tomato", "Spicy Pepper", "Stambulb", "Courser Bee Honey"];
         if (singleRecipeCheck.length !== 1) {   
             localRecipes = localRecipes.filter((recipe: Recipe) => recipe['priority'] !== 999);
+        } else if (singleRecipesList.includes(singleRecipeCheck[0]["Name"])) {
+            localRecipes = localRecipes.filter((recipe: Recipe) => recipe['priority'] === 999);
         }
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
-            //console.log("-------------------");
+            console.log("-------------------");
             let localRecipe = recipeCleanup(recipe);
             let localIng = Ing;
             for (let i = localIng.length -1; i >= 0; i--) {
@@ -107,9 +110,11 @@ function DishSelect(props: any) {
             }
         });
         let finalRecipe: Recipe = undefRecipe;
+        console.log(finalRecipes)
         finalRecipes.sort((a, b) => {
             return a["priority"] - b["priority"];
         });
+        console.log(finalRecipes);
         if (finalRecipes.length === 0) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
@@ -123,13 +128,9 @@ function DishSelect(props: any) {
                     elixir_count++;
                 }
             });
+            console.log(elixir_count)
             if (elixir_count > 1) {
                 let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
-                if ((x !== undefined) && (x !== null)) { //Null Guard
-                    finalRecipe = x;
-                }
-            } else if (elixir_count === 1) {
-                let x: any = finalRecipes[0];
                 if ((x !== undefined) && (x !== null)) { //Null Guard
                     finalRecipe = x;
                 }
