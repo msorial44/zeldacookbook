@@ -213,12 +213,25 @@ function StatDisplay(props: any) {
             duration = 0;
         } else {
             duration += data.length*30;
-            const newData = data.filter(function(item, pos, self) {
-                return self.indexOf(item) === pos;
-            });
-            newData.forEach((x: Mats) => {
-                duration += x["Cooking Effect Time Boost Duration (Raw)"]
-            });
+            const MatCat = data.map((x: Mats) => x["Cooking Tag 1"]);
+            if (MatCat.includes("CookLowPrice")) {
+                let dataLow = data.filter((x: Mats) => x["Cooking Tag 1"] === "CookLowPrice");
+                let dataNorm = data.filter((x: Mats) => x["Cooking Tag 1"] !== "CookLowPrice");
+                const newData = dataLow.filter(function(item, pos, self) {
+                    return self.indexOf(item) === pos;
+                });
+                newData.forEach((x: Mats) => { 
+                    duration += x["Cooking Effect Time Boost Duration (Raw)"];
+                });
+                dataNorm.forEach((x: Mats) => {
+                    duration += x["Cooking Effect Time Boost Duration (Raw)"];
+                });
+            } else {
+                
+                data.forEach((x: Mats) => {
+                    duration += x["Cooking Effect Time Boost Duration (Raw)"]
+                });
+            }
         }
         if (duration > 1800) {
             duration = 1800;
