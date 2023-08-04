@@ -523,6 +523,7 @@ function StatDisplay(props: any) {
     }
     
     const critShow = Stats["Crit Chance"] > 10 && !props.dish["Euen name"].includes("Dubious Food");
+    const monstExt = props.data.map((x: Mats) => x["Name"]).includes("Monster Extract");
     return (
         <div className="StatDisplay">
             <div className="StatDisplayContainer">
@@ -533,7 +534,10 @@ function StatDisplay(props: any) {
                     <p>{Stats["Price"]}</p>
                 </div>}
             </div>
-            {critShow && <p className='CritChance' style={{ marginTop: "0.5rem" }}>Crit Chance: {Stats["Crit Chance"]}%</p>}
+            {
+                monstExt ? <p className='MonsterExtract' style={{ marginTop: "0.5rem" }}>Dish Stats may change due to Monster Extract</p> :
+            critShow && <p className='CritChance' style={{ marginTop: "0.5rem" }}>Crit Chance: {Stats["Crit Chance"]}%</p>
+            }
             
         </div>
     );
