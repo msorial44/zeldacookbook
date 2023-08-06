@@ -16,8 +16,6 @@ function App() {
   const isTablet = useMediaQuery({ minWidth: 800, maxWidth: 1279 })
   const isLaptop = useMediaQuery({ minWidth: 1280 })
 
- 
-
   function handleAdd(mats: Mats, index: number): void {
     if (Ingredients.length >= 5) {
       return;
@@ -32,18 +30,25 @@ function App() {
     ]);
   }
 
+  function importAll(r: __WebpackModuleApi.RequireContext) {
+    let images = {};
+    //@ts-ignore
+    r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+  }
+  
+  const items = importAll(require.context('./Images/Items', false, /\.(webp|jpe?g|svg)$/));
+  const icons = importAll(require.context('./Images/icons', false, /\.(webp|jpe?g|svg)$/));
+
   return (
     <div className={`App ${isLaptop && 'isLaptop'} ${isTablet && 'isTablet'} ${isMobile && 'isMobile'} ${isMobileSmall && 'isMobileSmall'} ${isMobileLarge && 'isMobileLarge'}` }>
-      <MaterialSelect handleClick={handleAdd} />
+      <MaterialSelect items={items} icons={icons} handleClick={handleAdd} />
       <div className="Result">
-        <MaterialDisplay key={Ingredients} data={Ingredients} handleClick={handleRemove}/>
-        <DishSelect data={Ingredients}/>
+        <MaterialDisplay items={items} icons={icons} key={Ingredients} data={Ingredients} handleClick={handleRemove}/>
+        <DishSelect items={items} icons={icons} data={Ingredients}/>
       </div>
-      <div className="background-image">
-
-      </div>
+      <div className="background-image"/>
     </div>
-    
   );
 }
 

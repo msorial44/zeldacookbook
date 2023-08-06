@@ -256,9 +256,9 @@ function DishSelect(props: any) {
 
     return (
         <div className="DishSelect">
-            <img src={Dish.Icon} alt={Dish["Euen name"]}/>
+            <img src={props.items[Dish.Icon.split("Items/")[1]]} alt={Dish["Euen name"]}/>
             <div className='Dish-Text'>{Effect + Dish['Euen name']}</div>
-            <StatDisplay effect={EffectVal} dish={Dish} data={props.data}/>
+            <StatDisplay items={props.items} icons={props.icons} effect={EffectVal} dish={Dish} data={props.data}/>
         </div>
     );
 

@@ -1,12 +1,9 @@
 import React from 'react';
-import { lazy } from 'react';
 import materials from '../../data/materials.json';
 import { Input } from 'antd';
 import { useState } from 'react';
 import './MaterialSelect.scss';
-
-const Material = lazy(() => import('../Material/Material'));
-
+import Material from '../Material/Material';
 
 export type Mats = typeof materials[0];
 
@@ -14,7 +11,12 @@ function MaterialSelect(props: any) {
   const [materialList, setMaterialList] = useState(materials);
 
   const filteredMaterialList = materialList.map((material) => {
-    return <Material key={material['Inventory Order (By type)']} data={material} {...props}/>
+    return (
+      <>
+      {/* @ts-ignore */}
+      <Material effect={props.icons[material["Cooking Effect"] + ".svg"]} image={props.items[material['Inventory Icon'].split("Items/")[1]]} key={material['Inventory Order (By type)']} data={material} {...props}/>
+      </>
+      );
   });
 
   const onChange = (e: any) => {

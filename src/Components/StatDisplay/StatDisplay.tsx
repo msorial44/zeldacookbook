@@ -87,6 +87,7 @@ function StatDisplay(props: any) {
     }
 
     function findStats(data: Mats[], effect: string, dish: Recipe) {
+        const MatCat = data.map((x: Mats) => x["Cooking Tag 1"]);
         //Effect Tier Level
         let tierLevel = 0;
         if (effect !== "None") {
@@ -213,7 +214,6 @@ function StatDisplay(props: any) {
             duration = 0;
         } else {
             duration += data.length*30;
-            const MatCat = data.map((x: Mats) => x["Cooking Tag 1"]);
             if (MatCat.includes("CookLowPrice")) {
                 let dataLow = data.filter((x: Mats) => x["Cooking Tag 1"] === "CookLowPrice");
                 let dataNorm = data.filter((x: Mats) => x["Cooking Tag 1"] !== "CookLowPrice");
@@ -270,7 +270,6 @@ function StatDisplay(props: any) {
                     const newData = data.filter(function(item, pos, self) {
                         return self.indexOf(item) === pos;
                     });
-                    const MatCat = newData.map((x: Mats) => x.MaterialCategory);
                     const newMatCats = MatCat.filter(function(item, pos, self) {
                         return self.indexOf(item) === pos;
                     });
@@ -383,26 +382,26 @@ function StatDisplay(props: any) {
             if ((Stats["HP"] === 30) || (Stats["Effect"] === "LifeMaxUp")) {
                 return (
                     <div className="HPDisplay LifeMaxUp">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/Heart.svg"} alt={"Heart"}/>
+                        <img src={props.icons["Heart.svg"]} alt={"Heart"}/>
                         <p>Full Recovery</p>
                     </div>
                 )
             } else if (Stats["HP"] === 0.25) {
                 return (
                     <div className="HPDisplay">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/Heart Quarter.svg"} alt={"Heart"}/>
+                        <img src={props.icons["Heart Quarter.svg"]} alt={"Heart"}/>
                     </div>
                 )
             } else if (Stats["HP"] === 0.5) {
                 return (
                     <div className="HPDisplay">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/Heart Half.svg"} alt={"Heart"}/>
+                        <img src={props.icons["Heart Half.svg"]} alt={"Heart"}/>
                     </div>
                 )
             } else {
                 return (
                     <div className="HPDisplay">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/Heart.svg"} alt={"Heart"}/>
+                        <img src={props.icons["Heart.svg"]} alt={"Heart"}/>
                         <p>{Stats["HP"]}</p>
                     </div>
                 )
@@ -417,14 +416,14 @@ function StatDisplay(props: any) {
             if (Stats["Effect"] === "LifeMaxUp") {
                 return (
                     <div className="EffectDisplay LifeMaxUp">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/LifeMaxUp.svg"} alt={"Heart Extra"}/>
+                        <img src={props.icons["LifeMaxUp.svg"]} alt={"Heart Extra"}/>
                         <p>+{Stats["Max HP"]/4}</p>
                     </div>
                 )
             } else if (Stats["Effect"] === "GloomHeal") {
                 return (
                     <div className="EffectDisplay GloomHeal">
-                        <img src={process.env.PUBLIC_URL + "/Images/icons/GloomHeal.svg"} alt={"GloomHeal Heart"}/>
+                        <img src={props.icons["GloomHeal.svg"]} alt={"GloomHeal Heart"}/>
                         <p>+{Stats["Effect Tier Level"]/4}</p>
                     </div>
                 )
@@ -435,14 +434,14 @@ function StatDisplay(props: any) {
                 const wheels = function (full_wheels: number) {
                     let list = [];
                     for (let i = 0; i < full_wheels; i++) {
-                        list.push(<img src={process.env.PUBLIC_URL + "/Images/icons/Stamina5.svg"} alt={"Stamina Wheel Full"}/>);
+                        list.push(<img src={props.icons["Stamina5.svg"]} alt={"Stamina Wheel Full"}/>);
                     }
                     return list;
                 }
                 return (
                     <div className="EffectDisplay StaminaRegen">
                         {wheels(full_wheels)}
-                        {remaining !== 0 && <img src={process.env.PUBLIC_URL + "/Images/icons/Stamina" + remaining + ".svg"} alt={"Stamina Wheel " + remaining}/>}
+                        {remaining !== 0 && <img src={props.icons["Stamina" + remaining + ".svg"]} alt={"Stamina Wheel " + remaining}/>}
                     </div>
                 )
             } else if (Stats["Effect"] === "StaminaUp") {
@@ -452,14 +451,14 @@ function StatDisplay(props: any) {
                 const wheels = function (full_wheels: number) {
                     let list = [];
                     for (let i = 0; i < full_wheels; i++) {
-                        list.push(<img src={process.env.PUBLIC_URL + "/Images/icons/StaminaUp5.svg"} alt={"Stamina Wheel Full"}/>);
+                        list.push(<img src={props.icons["StaminaUp5.svg"]} alt={"Stamina Wheel Full"}/>);
                     }
                     return list;
                 }
                 return (
                     <div className="EffectDisplay StaminaUp">
                         {wheels(full_wheels)}
-                        {remaining !== 0 && <img src={process.env.PUBLIC_URL + "/Images/icons/StaminaUp" + remaining + ".svg"} alt={"Stamina Wheel " + remaining}/>}
+                        {remaining !== 0 && <img src={props.icons["StaminaUp" + remaining + ".svg"]} alt={"Stamina Wheel " + remaining}/>}
                     </div>
                 )
             } else {
@@ -469,7 +468,7 @@ function StatDisplay(props: any) {
             const icons = function (tier: number) {
                 let list = [];
                 for (let i = 0; i < tier; i++) {
-                    list.push(<img src={process.env.PUBLIC_URL + "/Images/icons/" + Stats["Effect"] + ".svg"} alt={Stats["Effect"]}/>);
+                    list.push(<img src={props.icons[Stats["Effect"] + ".svg"]} alt={Stats["Effect"]}/>);
                 }
                 return list;
             }
@@ -530,7 +529,7 @@ function StatDisplay(props: any) {
                 {hpDisplay(Stats)}
                 {effectDisplay(Stats)}
                 {Stats['Price'] > 0 && <div className='price'> 
-                    <img src={process.env.PUBLIC_URL + "/Images/icons/Rupee.svg"} alt={"Rupee"}/>
+                    <img src={props.icons["Rupee.svg"]} alt={"Rupee"}/>
                     <p>{Stats["Price"]}</p>
                 </div>}
             </div>
