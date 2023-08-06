@@ -1,9 +1,11 @@
 import React from 'react';
 import materials from '../../data/materials.json';
+import {lazy, Suspense} from 'react';
 import { Input } from 'antd';
 import { useState } from 'react';
 import './MaterialSelect.scss';
-import Material from '../Material/Material';
+
+const Material = lazy(() => import('../Material/Material'));
 
 export type Mats = typeof materials[0];
 
@@ -12,10 +14,10 @@ function MaterialSelect(props: any) {
 
   const filteredMaterialList = materialList.map((material) => {
     return (
-      <>
+      <Suspense>
       {/* @ts-ignore */}
       <Material effect={props.icons[material["Cooking Effect"] + ".svg"]} image={props.items[material['Inventory Icon'].split("Items/")[1]]} key={material['Inventory Order (By type)']} data={material} {...props}/>
-      </>
+      </Suspense>
       );
   });
 
