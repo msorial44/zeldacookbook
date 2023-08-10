@@ -218,11 +218,16 @@
 
   background-image: url(./Images/background.webp);
   filter: saturate(1.5) blur(0.6rem);
-  
 
   background-position: center;
   background-repeat: repeat;
   background-size: 102%;
+
+  @media (max-width: 800px) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   margin-left: -1%;
   margin-top: -1%;
