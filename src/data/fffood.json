@@ -2137,7 +2137,7 @@
    "ActorName": "Item_Cook_R_10",
    "Euen name": "Cheesy Baked Fish",
    "Recipe n°": 111,
-   "Recipe": "\"CookFish\" && \"Hateno Cheese\" && \"Oil Jar\"",
+   "Recipe": "\"CookFish\" && \"Hateno Cheese\"",
    "BonusHeart": 0,
    "BonusLevel": 0,
    "BonusTime": 0,
