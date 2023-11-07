@@ -2124,7 +2124,7 @@
    "ActorName": "Item_Cook_R_09",
    "Euen name": "Melty Cheesy Bread",
    "Recipe n°": 106,
-   "Recipe": "\"Tabantha Wheat\" && \"Oil Jar\" && \"Hateno Cheese\"",
+   "Recipe": "\"Tabantha Wheat\" && \"Hateno Cheese\"",
    "BonusHeart": 0,
    "BonusLevel": 0,
    "BonusTime": 0,
