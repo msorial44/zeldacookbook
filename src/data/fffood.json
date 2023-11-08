@@ -1667,7 +1667,7 @@
    "FIELD1": 153,
    "Icon": "/Images/Items/Item_Cook_L_04.webp",
    "ActorName": "Item_Cook_L_04",
-   "Euen name": "Monster Rice Ball",
+   "Euen name": "Monster Rice Balls",
    "Recipe n°": 138,
    "Recipe": "\"Hylian Rice\" && \"Rock Salt\" && \"Monster Extract\"",
    "BonusHeart": 0,
