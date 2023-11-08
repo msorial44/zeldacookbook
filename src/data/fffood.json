@@ -1807,6 +1807,19 @@
    "priority": 6
  },
  {
+  "FIELD1": 163.1,
+  "Icon": "/Images/Items/Item_Cook_O_01.webp",
+  "ActorName": "Item_Cook_O_01",
+  "Euen name": "Dubious Food",
+  "Recipe n°": 145,
+  "Recipe": "(\"Acorn\" || \"Chickaloo Tree Nut\") && \"Courser Bee Honey\"",
+  "BonusHeart": 0,
+  "BonusLevel": 0,
+  "BonusTime": 0,
+  "ReqIngredients": 1,
+  "priority": 6
+},
+ {
    "FIELD1": 164,
    "Icon": "/Images/Items/Item_Cook_O_02.webp",
    "ActorName": "Item_Cook_O_02",
