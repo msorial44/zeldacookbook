@@ -6,6 +6,11 @@
     background-color: rgba(0, 0, 0, 0.504);
     border-width: 0.15rem;
 
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(80, 80, 80, 0.504);
+    }
+
     &.isLaptopBig {
         width: 12vmin;
         height: 12vmin;
