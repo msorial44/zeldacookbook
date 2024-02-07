@@ -162,6 +162,12 @@ function StatDisplay(props: any) {
                 case "LifeMaxUp":
                     break;
                 case "NotSlippy":
+                    if (tierLevel >= 5) {
+                        tier = 2;
+                    }
+                    if (tierLevel >= 7) {
+                        tier = 3;
+                    }
                     break;
                 case "ResistCold":
                     if (tierLevel >= 6) {
