@@ -131,10 +131,28 @@ function StatDisplay(props: any) {
                     }
                     break;
                 case "AttackUpCold":
+                    if (tierLevel >= 6) {
+                        tier = 2;
+                    }
+                    if (tierLevel >= 9) {
+                        tier = 3;
+                    }
                     break;
                 case "AttackUpHot":
+                    if (tierLevel >= 6) {
+                        tier = 2;
+                    }
+                    if (tierLevel >= 9) {
+                        tier = 3;
+                    }
                     break;
                 case "AttackUpThunderstorm":
+                    if (tierLevel >= 6) {
+                        tier = 2;
+                    }
+                    if (tierLevel >= 9) {
+                        tier = 3;
+                    }
                     break;
                 case "DefenseUp":
                     if (tierLevel >= 5) {
@@ -208,6 +226,12 @@ function StatDisplay(props: any) {
                     }
                     break;
                 case "SwimSpeedUp":
+                    if (tierLevel >= 6) {
+                        tier = 2;
+                    }
+                    if (tierLevel >= 9) {
+                        tier = 3;
+                    }
                     break;
                 default:
                     break;
