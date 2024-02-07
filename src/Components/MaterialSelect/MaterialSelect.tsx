@@ -3,6 +3,7 @@ import materials from '../../data/materials.json';
 import {lazy, Suspense} from 'react';
 import { Input } from 'antd';
 import { useState } from 'react';
+import { CloseCircleOutlined } from '@ant-design/icons';
 import './MaterialSelect.scss';
 
 const Material = lazy(() => import('../Material/Material'));
@@ -27,7 +28,9 @@ function MaterialSelect(props: any) {
 
   return (
     <div className="MaterialSelect">
-      <Input placeholder="Search Materials..." onChange={onChange} size='large' bordered={false}/>
+      <div className='input-cont'>
+        <Input placeholder="Search Materials..." onChange={onChange} allowClear={{ clearIcon: <CloseCircleOutlined  style={{ fontSize: '1.25rem'}}/> }} size='large' bordered={false}/>
+      </div>
       <div className='MaterialList'>
         {filteredMaterialList}
       </div>
