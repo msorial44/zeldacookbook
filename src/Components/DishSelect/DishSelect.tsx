@@ -51,7 +51,7 @@ function DishSelect(props: any) {
 
         const MatCat = newData.map((x: Mats) => x.MaterialCategory);
         
-        if ((MatCat.includes("Enemy") && !MatCat.includes("Critter")) || (MatCat.includes("Critter") && !MatCat.includes("Enemy"))) {
+        if (((MatCat.includes("Enemy") && !MatCat.includes("Critter")) || (MatCat.includes("Critter") && !MatCat.includes("Enemy"))) && !MatCat.includes("Fairy")) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
                 setDish(x);
@@ -81,7 +81,6 @@ function DishSelect(props: any) {
         let finalRecipes: Recipe[] = [];
 
         localRecipes.forEach((recipe: Recipe) => {
-            console.log("-------------------");
             let localRecipe = recipeCleanup(recipe);
             let localIng = Ing;
             for (let i = localIng.length -1; i >= 0; i--) {
@@ -110,11 +109,9 @@ function DishSelect(props: any) {
             }
         });
         let finalRecipe: Recipe = undefRecipe;
-        console.log(finalRecipes)
         finalRecipes.sort((a, b) => {
             return a["priority"] - b["priority"];
         });
-        console.log(finalRecipes);
         if (finalRecipes.length === 0) {
             let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
             if ((x !== undefined) && (x !== null)) { //Null Guard
@@ -128,7 +125,6 @@ function DishSelect(props: any) {
                     elixir_count++;
                 }
             });
-            console.log(elixir_count)
             if (elixir_count > 1) {
                 let x: any = recipes.find((x: Recipe) => x["Euen name"] === "Dubious Food");
                 if ((x !== undefined) && (x !== null)) { //Null Guard
