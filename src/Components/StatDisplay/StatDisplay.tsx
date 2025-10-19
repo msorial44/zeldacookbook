@@ -305,7 +305,8 @@ function StatDisplay(props: any) {
                     });
                     if (!(newMatCats.length === 1 && newMatCats[0] === "Boost")) {
                         newData.forEach((x: Mats) => {
-                            if (x["CookingHitPointBoost"] !== 0) {
+                            console.log(x);
+                            if (x["CookingHitPointBoost"] !== 0 && dish["Euen name"] !== "Sautéed Nuts") {
                                 hp += x["CookingHitPointBoost"]/4;
                             }
                         });
